@@ -1,0 +1,6 @@
+# The argument for the short form is all characters after the option (including the white space)
+-a arg1
+# The argument for the long form is the next line
+--an_other_option
+arg2
+pos_1

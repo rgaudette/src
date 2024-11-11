@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3aed50b3-0872-4e9d-a30f-7427087fed4c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/scientific.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/Python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/other.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GaussianModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../GaussianModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/plot_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/plot_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TV Min Chambolle Conversion/C++/IrpLib/TotalVariationMinimizationChambolle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TV Min Chambolle Conversion/C++/IrpLib/TotalVariationMinimizationChambolle.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TV Min Chambolle Conversion/C++/IrpLib/TotalVariationMinimizationChambolle.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TV Min Chambolle Conversion/C++/IrpLib/TotalVariationMinimizationChambolle.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TV Min Chambolle Conversion/C++/Unit Tests/Test TotalVariationMiniminzationChambolle/Test TotalVariationMiniminzationChambolle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TV Min Chambolle Conversion/C++/Unit Tests/Test TotalVariationMiniminzationChambolle/Test TotalVariationMiniminzationChambolle.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TV Min Chambolle Conversion/Python/.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TV Min Chambolle Conversion/Python/.idea/Python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TV Min Chambolle Conversion/Python/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TV Min Chambolle Conversion/Python/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TV Min Chambolle Conversion/Python/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TV Min Chambolle Conversion/Python/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TV Min Chambolle Conversion/Python/3D example.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TV Min Chambolle Conversion/Python/3D example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/C++11 Meyers/Counting Words Across Files 11/Counting Words Across Files 11.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cpp/C++11 Meyers/Counting Words Across Files 11/Counting Words Across Files 11.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/C++11 Meyers/Counting Words Across Files 98/Counting Words Across Files 98.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cpp/C++11 Meyers/Counting Words Across Files 98/Counting Words Across Files 98.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/C++11 Meyers/Counting Words Across Files My Style/Counting Words Across Files My Style.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cpp/C++11 Meyers/Counting Words Across Files My Style/Counting Words Across Files My Style.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/C++11/Copy and move/Copy and move.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cpp/C++11/Copy and move/Copy and move.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/C++11/Copy and move/Copy and move.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cpp/C++11/Copy and move/Copy and move.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/C++11/Copy and move/Copy and move.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cpp/C++11/Copy and move/Copy and move.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/CUDA/Clip Vector/Clip Vector/Clip Vector.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cpp/CUDA/Clip Vector/Clip Vector/Clip Vector.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/CUDA/cusparse_csr2csc/cusparse_csr2csc.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cpp/CUDA/cusparse_csr2csc/cusparse_csr2csc.vcxproj" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/requirements.txt" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/main.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="1rGIlO5S1DZu0Ndhpetxp56eFAE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../Program Files/Python35/python.exe" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="scientific" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="scientific" type="PythonConfigurationType" factoryName="Python">
+      <module name="scientific" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3aed50b3-0872-4e9d-a30f-7427087fed4c" name="Default Changelist" comment="" />
+      <created>1618596149550</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618596149550</updated>
+      <workItem from="1618596150833" duration="3896000" />
+      <workItem from="1618602467106" duration="3518000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="hg4idea.settings">
+    <option name="CHECK_INCOMING_OUTGOING" value="true" />
+    <option name="RECENT_HG_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+</project>

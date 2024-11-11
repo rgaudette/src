@@ -1,0 +1,10 @@
+class ClassA
+!!!128898.cpp!!!	ClassA(in  : void)
+
+!!!129026.cpp!!!	~ClassA(in  : void)
+
+!!!129154.cpp!!!	a_method(in param : int) : int
+
+	inst_b.b_method(param);
+
+	return 0;

@@ -1,0 +1,11 @@
+#!/bin/sh
+#
+#  stalkinit startup script
+
+source ${PARTICLE_DIR}/particle.cfg
+
+unset DISPLAY
+
+echo -n "Starting stalkinit_mce ..."
+stalkinit_mce $@  2>&1 | tee ${1}.log
+echo "done."

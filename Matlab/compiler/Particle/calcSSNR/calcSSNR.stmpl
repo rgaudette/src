@@ -1,0 +1,11 @@
+fnVolume = 'my_tomogram.rec'
+fnModParticle = 'my_particles.mod'
+fnMotiveList = 'my_MOTL_4.em'
+fnParticles = 'particle_AvgVol_*mrc'
+thresholds = [10:10:60]
+freqShells = [0.025:0.025:0.5]
+windowName = 'gaussian'
+windowParams = [0.4 0.05]
+windowCenter = [ ]
+fnOutput = 'SSNR_out'
+debugLevel = 2

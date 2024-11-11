@@ -1,0 +1,4 @@
+file2.txt modified for the second time on trunk
+modified in the first patch
+updated first patch
+patch complete

@@ -1,0 +1,3 @@
+added subdir file2.txt
+modified in the second patch
+the second patch also captured the first patch, how

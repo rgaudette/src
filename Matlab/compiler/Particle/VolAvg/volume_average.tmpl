@@ -1,0 +1,116 @@
+% fnVolume: The file name of the MRC image stack containing the particles
+fnVolume = 'my_tomogram.rec'
+
+% fnModParticle: The file name of the IMOD model indicating approximate
+%                 locations of the particles to average in the volume
+fnModParticle = 'my_particles.mod'
+
+% reference   Reference identifier.
+%              * If it is a single value it should be the index into particle
+%                model of the particle to use as an initial reference.
+%
+%              * If it is a string it should specify the name of an
+%                MRC Image stack that contains the reference volume.
+%
+%              * If it is an ImodModel object then the first point of the
+%                first contour of the first object is used as the center
+%                of the reference location.
+reference = 4
+
+% refOrient     The orientation of the reference or [] to use its
+%               specfied orientation in the initial motive list.  The
+%               reference is inverse order Euler rotated by this amount
+%               before being used (radians).
+refOrient = []
+
+% initMOTL: A string to specify the filename to load or an integer
+% code specifying how to contstruct the initial motive list:
+%             0: Set all rotational values to zero
+%
+%             1: Use the particle model and reference index to
+%                intialize phi (rotation around the z axis), be sure
+%                the points are sorted along a direction of interest
+%
+%             2: Use the particle model and reference index to intialize
+%                phi and theta (rotation around the z axis and x axis)
+initMOTL = 0
+
+% szVol: The size of the volume around each particle to average
+szVol = [64 64 64]
+
+% fnOutput: The base name of the output files for the average volumes, the
+%           reference volumes, and the transformation parameters
+fnOutput = 'my_volume'
+
+% dPhi:   The euler angle search space, Phi is around the Z-axis, Theta is
+% dTheta: around the X-axis, and Psi is around the Z-axis again. 
+% dPsi:
+dPhi =   {[-4:2:4], [-4:2:4], [-2:1:2]}
+dTheta = {[-4:2:4], [-4:2:4], [-2:1:2]}
+dPsi =   {[0],      [0],      [0]}
+
+% searchRadius: The number of pixels to search in each dimension
+searchRadius = {10, 10 10}
+
+% lowCutoff: The frequency domain cutoff parameters for prefiltering the
+% hiCutoff:  particles and reference lowCutoff =< 0 prevents low frequency
+%            filtering, hiCutoff >= 0.866 prevents high frequency filtering.
+%            An optional second parameter defines the transition width.
+lowCutoff = {0, 0, 0}
+hiCutoff = {[0.866 0.05], [0.866 0.05], [0.866 0.05]}
+
+% CCMode:    The cross correlation measure to use.
+%              0: Local energy normalized cross correlation (default)
+%              1: True local correlation coefficient
+CCMode = 0
+
+% refThreshold: The threshold to generate the reference particle at each stage
+%               If this is less than 1 it specifies a cross correlation
+%               coefficient threshold, if it is greater than 1 it specfies the
+%               number of particles to use 
+refThreshold = {4, 4, 4}
+
+% tiltRange:  The tilt range used to acquire the tilt series [min max].
+%             This will compenstate  for the missing wedge in generating
+%             the alignment and the averages.  A empty array, [], specifies
+%             not to account for the missing wedge (and use more efficient
+%             space domain averaging).
+tiltRange = [ ]
+
+% edgeShift:  The number of pixels shift the edge of the wedge mask to ensure
+%             that all of the frequency info is included.
+edgeShift = 0
+
+% flgWedgeWeight:  Apply missing wedge compensation to the alignment search
+flgWedgeWeight = 0
+
+% lstThresholds: The list of thresholds to use for computing the final volumes.
+%                An average volume is generated for each value in this vector.
+%                The format of the average volume file name is
+%                fnOutout_AvgVol_navg_thresh_iteration.mrc
+lstThresholds = [2:10]
+
+%flgOutAllIter: Write out averages at the end of each iteration instead of just
+%               the last
+flgOutAllIter = 0;
+% flgMeanFill: If any particles are partially out of the volume fill with the
+%            mean of the existant data (default: 0).
+%
+flgMeanFill = 0
+
+% flgLargeRef: Force the reference to be large enough so that etrapolation
+%              will not be induced by rotation.  1 - large ref, 0 - szVol
+%              size reference (default: [ ], let the algorithm decide).
+flgLargeRef = [ ]
+
+% alignedBaseName The basename for the aligned particle MRC files (default: '').
+alignedBaseName = ''
+
+%ssnr.freqShells = [0.025:0.025:0.5];
+%ssnr.windowName = 'gaussian';
+%ssnr.windowParams = [0.35 0.05];
+%ssnr.windowCenter = [ ];
+
+% debugLevel:  How much junk to print {0|1|2|3}
+%
+debugLevel = 3

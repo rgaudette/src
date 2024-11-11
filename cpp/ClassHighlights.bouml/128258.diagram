@@ -1,0 +1,27 @@
+format 66
+
+classinstance 128002 class_ref 128514 // ClassA
+  name ""   xyz 84 4 2000 life_line_z 2000
+classinstance 128130 class_ref 128642 // ClassB
+  name ""   xyz 234 4 2000 life_line_z 2000
+durationcanvas 128258 classinstance_ref 128002 // :ClassA
+  xyzwh 103 125 2010 11 40
+end
+durationcanvas 128386 classinstance_ref 128130 // :ClassB
+  xyzwh 253 125 2010 11 25
+end
+durationcanvas 128642 classinstance_ref 128002 // :ClassA
+  xyzwh 103 217 2010 11 40
+end
+msg 128514 synchronous
+  from durationcanvas_ref 128258
+  to durationcanvas_ref 128386
+  yz 125 2015 explicitmsg "callSomething"
+  show_full_operations_definition default drawing_language default
+  label_xy 150 111
+reflexivemsg 128770 synchronous
+  to durationcanvas_ref 128642
+  yz 217 2015 msg operation_ref 129154 // "a_method(in param : int) : int"
+  show_full_operations_definition default drawing_language default
+  label_xy 96 203
+end

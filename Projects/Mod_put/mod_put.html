@@ -1,0 +1,218 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Author" content="Lyonel VINCENT">
+   <meta name="GENERATOR" content="Mozilla/4.51 [en] (X11; I; HP-UX B.10.20 9000/780) [Netscape]">
+   <title>Module mod_put</title>
+</head>
+<body text="#000000" bgcolor="#FFFFFF" link="#0000EE" vlink="#551A8B" alink="#FF0000">
+&nbsp;
+<table CELLSPACING=0 CELLPADDING=0 WIDTH="100%" >
+<tr>
+<td></td>
+
+<td>
+<hr NOSHADE WIDTH="100%"></td>
+
+<td></td>
+</tr>
+
+<tr>
+<td COLSPAN="2">
+<h1>
+Module <tt>mod_put</tt></h1>
+<tt><font face="Arial, Helvetica"><font size=-2>RD-LV-005-051199</font></font></tt></td>
+
+<td ALIGN=RIGHT><!-- IMG SRC="hp.gif" HEIGHT=31 WIDTH=50 ALIGN=CENTER --></td>
+</tr>
+
+<tr>
+<td WIDTH="14%">
+<hr ALIGN=LEFT SIZE=6 NOSHADE WIDTH="100%"></td>
+
+<td></td>
+
+<td VALIGN=BOTTOM WIDTH="30%">
+<hr SIZE=4 NOSHADE WIDTH="100%"></td>
+</tr>
+</table>
+
+<h2>
+Introduction</h2>
+
+<ul>This small module implements the HTTP/1.1 <tt>PUT</tt> and <tt>DELETE</tt>
+methods. Please notice that it can be a big security hole to activate them
+without securing the web server.</ul>
+
+<h1>
+<a href="mod_put.tar.gz">Download mod_put.tar.gz</a></h1>
+
+<h2>
+Configuration</h2>
+
+<blockquote>
+<h3>
+Integration with Apache 1.3.x - compiling and linking</h3>
+</blockquote>
+
+<blockquote>To link <tt>mod_put</tt> into Apache (recommended for best
+performance), just add a <tt>add-module</tt> clause to your <tt>configure</tt>
+call:
+<br><tt>./configure --add-module=/path/to/mod_put.c</tt>
+<h3>
+Integrating into Apache 1.2.x - compiling and linking</h3>
+To link the put module with Apache, you must rebuild Apache from its sources
+with adding mod_put in the configuration file:
+<ol>
+<li>
+Untar <tt>mod_put.tar.gz</tt> in Apache sources' directory</li>
+
+<li>
+Edit <tt>Configuration</tt> file according your installation</li>
+
+<li>
+Run the <tt>Configure</tt> script to rebuild the makefile</li>
+
+<li>
+Build Apache by typing <tt>make</tt></li>
+
+<li>
+Install the brand new <tt>httpd</tt> program</li>
+
+<li>
+Edit the web server configuration files (typically <tt>httpd.con</tt>f
+and <tt>access.conf</tt>)</li>
+
+<li>
+Restart the web daemon</li>
+</ol>
+
+<h4>
+Example of a <tt>Configuration</tt> file</h4>
+
+<pre>...
+
+Module mime_module&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mod_mime.o
+
+Module access_module&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mod_access.o
+Module auth_module&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mod_auth.o
+Module negotiation_module&nbsp; mod_negotiation.o
+Module includes_module&nbsp;&nbsp;&nbsp;&nbsp; mod_include.o
+Module dir_module&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mod_dir.o
+Module cgi_module&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mod_cgi.o
+
+...
+
+#
+# Miscellaneous modules
+#
+
+Module put_module&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mod_put.o</pre>
+
+<h3>
+<tt>httpd.conf</tt> Directives</h3>
+
+<ul>
+<dt>
+EnablePut <i>On</i>|<i>Off</i></dt>
+
+<dd>
+<b>default value</b>: Off</dd>
+
+<dd>
+<b>context</b>: <tt>Directory</tt> or <tt>Location</tt></dd>
+
+<dd>
+<b>effect</b>: Enables (or disables) the <tt>PUT</tt> method.</dd>
+
+<dd>
+<b>remarks</b>: Before enabling the <tt>PUT</tt> method, be sure your server
+is secure.</dd>
+
+<br>Documents will be created with the rights of the user running <tt>httpd</tt>,
+be sure to adjust the access rights accordingly.
+<dt>
+EnableDelete <i>On</i>|<i>Off</i></dt>
+
+<dd>
+<b>default value</b>: Off</dd>
+
+<dd>
+<b>context</b>: <tt>Directory</tt> or <tt>Location</tt></dd>
+
+<dd>
+<b>effect</b>: Enables (or disables) the <tt>DELETE</tt> method.</dd>
+
+<dd>
+<b>remarks</b>: Before enabling the <tt>DELETE</tt> method, be sure your
+server is secure.</dd>
+
+<dt>
+umask <i>octal_value</i></dt>
+
+<dd>
+<b>default value</b>: 007</dd>
+
+<dd>
+<b>context</b>: <tt>Directory</tt> or <tt>Location</tt></dd>
+
+<dd>
+<b>effect</b>: sets the umask for a whole directory (see <tt>umask</tt>(1)).</dd>
+
+<table BORDER CELLSPACING=0 CELLPADDING=20 BGCOLOR="#FFF8DC" >
+<tr>
+<td>Allways ensure that write access is limited to trusted users: a malicious
+user could upload huge files to freeze the file system. In particular,
+never allow an anonymous write access if your web server is on the same
+filesystem as your system or your users.</td>
+</tr>
+</table>
+</ul>
+
+<h3>
+Example</h3>
+
+<pre>&lt;Location /pub>
+EnablePut On
+AuthType Basic
+AuthName Web publishing
+AuthUserFile /www/etc/passwd
+AuthGroupFile /www/etc/group
+&lt;Limit PUT>
+require valid-user
+&lt;/Limit>
+&lt;/Location></pre>
+</blockquote>
+
+<h2>
+Remarks</h2>
+
+<ul>
+<ol>
+<li>
+The <i>Publish</i> function of Netscape Gold 3.01 sometimes doesn't work:
+it returns quickly without any error message nor access to server.</li>
+
+<li>
+Depending on the rights you assigned to webuser (the user owning the <tt>httpd</tt>
+process), uploaded files can be inaccessible for local users (quite benefic),
+including the web administrator (definitely not a good idea), so adjust
+the umask adequately.</li>
+
+<li>
+I've not personnaly tested the EBCDIC support (thanks to <a href="mailto:cweiss@us.ibm.com">Carolyn
+Weiss</a> for EBCDIC patch), so if you experience problems with it, I'd
+be happy to ear about it.</li>
+
+<center>Even if this software seems to be quite stable now, please do not
+hesitate to send any comment, remark to</center>
+</ol>
+</ul>
+
+<center>
+<address>
+<a href="mailto:vincent@hpwww.ec-lyon.fr">vincent@hpwww.ec-lyon.fr</a></address></center>
+
+</body>
+</html>

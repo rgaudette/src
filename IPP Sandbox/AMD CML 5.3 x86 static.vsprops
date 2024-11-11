@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="AMD CML 5.3 dll ifort64"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories="D:\Libraries\AMD\acml5.3.1\ifort64\include"
+	/>
+	<Tool
+		Name="VCLinkerTool"
+		AdditionalDependencies="libacml_dll.lib"
+		AdditionalLibraryDirectories="D:\Libraries\AMD\acml5.3.1\ifort64\lib"
+		EmbedManagedResourceFile=""
+	/>
+</VisualStudioPropertySheet>

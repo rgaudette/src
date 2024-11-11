@@ -1,0 +1,9 @@
+class Derived3
+!!!130434.cpp!!!	Derived3(in  : void)
+
+!!!130562.cpp!!!	~Derived3(in  : void)
+
+!!!130690.cpp!!!	method3(in arg1 : int) : int
+
+	cout << "I'm in Derived3::method3" << endl;
+	return 0;

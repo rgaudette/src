@@ -1,0 +1,62 @@
+In fctLoopA
+In fctLoopD
+In fctLoopB
+In fctLoopC
+Sequential inconsistency found
+Loop index: 39280
+flgWhoFirst: 0
+Sequential inconsistency found
+Loop index: 94089
+flgWhoFirst: 0
+Sequential inconsistency found
+Loop index: 757416
+flgWhoFirst: 0
+Sequential inconsistency found
+Loop index: 759938
+flgWhoFirst: 0
+Sequential inconsistency found
+Loop index: 538442
+flgWhoFirst: 0
+Sequential inconsistency found
+Loop index: 538445
+flgWhoFirst: 0
+Sequential inconsistency found
+Loop index: 538447
+flgWhoFirst: 0
+Sequential inconsistency found
+Loop index: 540886
+flgWhoFirst: 0
+Sequential inconsistency found
+Loop index: 540888
+flgWhoFirst: 0
+Sequential inconsistency found
+Loop index: 540889
+flgWhoFirst: 0
+Sequential inconsistency found
+Loop index: 540890
+flgWhoFirst: 0
+Sequential inconsistency found
+Loop index: 543317
+flgWhoFirst: 0
+Sequential inconsistency found
+Loop index: 543320
+flgWhoFirst: 0
+Sequential inconsistency found
+Loop index: 550992
+flgWhoFirst: 0
+Sequential inconsistency found
+Loop index: 550995
+flgWhoFirst: 0
+Sequential inconsistency found
+Loop index: 550998
+flgWhoFirst: 0
+Sequential inconsistency found
+Loop index: 553588
+flgWhoFirst: 0
+Sequential inconsistency found
+Loop index: 566898
+flgWhoFirst: 0
+Leaving fctLoopD
+Leaving fctLoopB
+Leaving fctLoopA
+Leaving fctLoopC

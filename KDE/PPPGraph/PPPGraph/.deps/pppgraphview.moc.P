@@ -1,0 +1,47 @@
+pppgraphview.moc.o: pppgraphview.moc.cpp pppgraphview.h ../config.h \
+ /usr/include/qt/qwidget.h /usr/include/qt/qwindowdefs.h \
+ /usr/include/qt/qobjectdefs.h /usr/include/qt/qglobal.h \
+ /usr/include/qt/qobject.h /usr/include/qt/qstring.h \
+ /usr/include/qt/qarray.h /usr/include/qt/qgarray.h \
+ /usr/include/qt/qshared.h /usr/include/qt/qgeneric.h \
+ /usr/include/string.h /usr/include/features.h \
+ /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h \
+ /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h \
+ /usr/include/qt/qevent.h /usr/include/qt/qrect.h \
+ /usr/include/qt/qsize.h /usr/include/qt/qpoint.h \
+ /usr/include/qt/qpaintdevice.h /usr/include/qt/qpalette.h \
+ /usr/include/qt/qcolor.h /usr/include/qt/qcursor.h \
+ /usr/include/qt/qfont.h /usr/include/qt/qfontmetrics.h \
+ /usr/include/qt/qfontinfo.h /usr/include/qt/qmetaobject.h \
+ /usr/include/qt/qconnection.h
+pppgraphview.moc.cpp :
+pppgraphview.h :
+../config.h :
+/usr/include/qt/qwidget.h :
+/usr/include/qt/qwindowdefs.h :
+/usr/include/qt/qobjectdefs.h :
+/usr/include/qt/qglobal.h :
+/usr/include/qt/qobject.h :
+/usr/include/qt/qstring.h :
+/usr/include/qt/qarray.h :
+/usr/include/qt/qgarray.h :
+/usr/include/qt/qshared.h :
+/usr/include/qt/qgeneric.h :
+/usr/include/string.h :
+/usr/include/features.h :
+/usr/include/sys/cdefs.h :
+/usr/include/gnu/stubs.h :
+/usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h :
+/usr/include/qt/qevent.h :
+/usr/include/qt/qrect.h :
+/usr/include/qt/qsize.h :
+/usr/include/qt/qpoint.h :
+/usr/include/qt/qpaintdevice.h :
+/usr/include/qt/qpalette.h :
+/usr/include/qt/qcolor.h :
+/usr/include/qt/qcursor.h :
+/usr/include/qt/qfont.h :
+/usr/include/qt/qfontmetrics.h :
+/usr/include/qt/qfontinfo.h :
+/usr/include/qt/qmetaobject.h :
+/usr/include/qt/qconnection.h :

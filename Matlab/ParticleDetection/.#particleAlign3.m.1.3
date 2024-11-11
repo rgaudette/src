@@ -1,0 +1,413 @@
+%particleAlign3  Align a series of particles with a reference
+%
+%   [motiveList, peakParams] = particleAlign3(...
+%              volume, reference, modParticle, szVol, motiveList, ...
+%              vDeltaPhi, vDeltaTheta, vDeltaPsi, searchRadius,  ...
+%              lowCutoff, hiCutoff)
+%
+%   motiveList  The input and output motive lists.
+%
+%   peakParams  The full CCC results from the search (for debugging).
+%
+%   volume      The MRCImage object containing the full volume.
+%
+%   reference   Reference identifyer.  If it is an ImodModel object
+%               then the first point of the first contour of the first object
+%               is used as the center of the reference location.  If it is
+%               a double or single array it is assumed to contain the reference
+%               volume.
+%
+%   modParticle The ImodObject contain the particle points.
+%
+%   vDeltaPhi   The offsets (degrees) to rotate the particle to search for the
+%   vDeltaTheta peak cross correlation coefficient.
+%   vDeltaPsi
+%
+%   srchRadius  Specify the search radius (pixels in each dimension) to limit
+%               the cross-correlation function search.  This specifies spatial
+%               masks on the data and the cross-correlation coefficient
+%               function.
+%
+%   lowCutoff   The low frequency cutoff for frequency domain filtering, set to
+%               zero or less to not use any high pass filtering.  Supply a two
+%               element vector to also specify the transition width.  For
+%               example, [0.1 0.03] would specify a cutoff of 0.1 and
+%               transition width of 0.03.  All units are in cycles per sample.
+%               The default transition width is 0.1.
+%
+%   hiCuttoff   The high frequency cutoff for the frequency domain filtering,
+%               set to 0.866 or greater to not use any low pass filtering. This
+%               has the same argument structure and defaults as lowCutoff.
+%
+%   flgDebugText
+%
+%   This function follows the same idea behind the TOM/av3 function
+%   av3_scan_angles_exact only without the bugs.
+%
+%   Calls: genMasks genBandpass, eulerRotateSum, volumeRotate,
+%          arraymax
+%
+%   Bugs: none known
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  $Author: rickg $
+%
+%  $Date: 2004/11/02 00:37:19 $
+%
+%  $Revision: 1.3 $
+%
+%  $Log: particleAlign3.m,v $
+%  Revision 1.3  2004/11/02 00:37:19  rickg
+%  Rotate reference if specified in the initial motive list
+%
+%  Revision 1.2  2004/10/05 20:37:03  rickg
+%  Enhanced particle model scanning
+%
+%  Revision 1.1  2004/09/27 23:51:12  rickg
+%  Initial revision
+%
+%  Revision 1.15  2004/09/22 03:55:30  rickg
+%  Now only handles a single alignment iteration and does not compute
+%  or save a next reference
+%
+%  Revision 1.14  2004/09/18 00:05:08  rickg
+%  Comment clean up
+%
+%  Revision 1.13  2004/09/10 23:08:14  rickg
+%  Switched to using single precision volumes
+%
+%  Revision 1.12  2004/09/10 04:34:55  rickg
+%  Use peakInterp3
+%  Print out shift indices for peak CCC
+%
+%  Revision 1.11  2004/09/07 23:29:38  rickg
+%  Interpolated shift development
+%
+%  Revision 1.10  2004/09/04 05:22:03  rickg
+%  rotate around specified orgin
+%
+%  Revision 1.9  2004/08/20 16:36:44  rickg
+%  Added flag to control wedge masking
+%
+%  Revision 1.8  2004/08/20 03:55:27  rickg
+%  Moved functions out, added indirect ref to particles
+%
+%  Revision 1.7  2004/08/18 23:38:15  rickg
+%  Converted code sections to functions
+%  Freq domain data now capitalized
+%
+%  Revision 1.6  2004/08/17 23:39:41  rickg
+%  Switched to direct specification of the Euler angles
+%
+%  Revision 1.5  2004/08/17 22:59:16  rickg
+%  Added flag to write out aligned particles
+%  Fixed flgDebugText check
+%  Handle non cubic volumes by selecting the center cube
+%  Remove mean from reference before rotating!
+%  Switched to using volumeRotate
+%
+%  Revision 1.4  2004/08/06 22:17:15  rickg
+%  Comments continued...
+%  added text and graphics debug reporting
+%  Fixed all normalizations including actually calculating the local
+%  cross correlation coefficient
+%  Fixed major bugs with respect to av3_scan_angles_exact
+%  * mask reference AFTER removing the mean
+%  * correct calculationg for euler sum
+%  * don't mask the particle
+%  * don't use the interpolated CCC to select best angles
+%
+%  Revision 1.3  2004/08/06 22:07:46  rickg
+%  Changed from a spatial mask to a correlation search radius
+%  Finished reference updating
+%
+%  Revision 1.2  2004/08/04 02:23:43  rickg
+%  Initial revision
+%
+%  Revision 1.1  2004/07/30 03:53:52  rickg
+%  In development
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+function [motiveList, peakParams] = ...
+  particleAlign3(volume, reference, modParticle, szVol, ...
+  motiveList, vDeltaPhi, vDeltaTheta, vDeltaPsi, ...
+  searchRadius, lowCutoff, hiCutoff, flgDebugText, flgDebugGraphics)
+
+% Hard coded parameters
+interpMethod = 'linear';
+
+if nargin < 12
+  flgDebugText = 0;
+end
+
+if nargin < 13
+  flgDebugGraphics = 0;
+end
+
+peakParams = [];
+
+% Get the particle centers from the point model and convert to a MATLAB
+% array indices
+ptsParticles = getPoints(modParticle, 1, 1);
+ptsParticles = ptsParticles + repmat([0.5 0.5 1]', 1, size(ptsParticles, 2));
+nParticles = size(motiveList, 2);
+
+% Test the particle model to see if all of the to be examine particles are
+% in the volume
+flgOutOfVolume = 0;
+for iParticle=1:nParticles
+  idParticle = motiveList(4, iParticle);
+  center = ptsParticles(:, idParticle);
+  if ~ extractSubVolume(volume, center, szVol, 1)
+    flgOutOfVolume = 1;
+    fprintf('Particle %d at (%f,%f,%f) is out of the volume\n\n', ...
+      idParticle, center(1), center(2), center(3));
+  end
+end
+if flgOutOfVolume
+  error('There are particles out of the volume');
+end
+
+% Extract the reference particle if necessary
+if isa(reference, 'ImodModel')
+  ptsReference = getPoints(reference, 1, 1);
+  cntReference = ptsReference(:, 1);
+  reference = single(extractSubVolume(volume, center, szVol));
+
+elseif isa(reference, 'double')
+  if length(reference) > 1
+    reference = single(reference);
+  else
+    % The reference parameter is the index into the point model of the
+    % particle to use as an initial reference
+    idxReference = reference;
+    cntReference = ptsParticles(:, idxReference);
+    reference = single(extractSubVolume(volume, cntReference, szVol));
+    % Rotate the reference by the initial motive list euler angles
+    reference = volumeRotateInv(reference, ...
+      motiveList([17 19 18], idxReference)' * -pi / 180, floor(szVol / 2) + 1);
+  end
+
+elseif isa(reference, 'single')
+
+else
+  error('Unknown reference type %s\n', class(reference))
+end
+
+% Use only the central cube if the volume is not cubic, 
+zmReference = centerCube(reference);
+
+% Remove the mean from the particle.  We want to do this before any
+% rotation is applied to the particle
+zmReference = zmReference - mean(zmReference(:));
+szRef = size(zmReference);
+flgResizeParticle = ~all(szRef == size(reference));
+
+% Select an index at center of the volume or near it (even case) to
+% represent the origin for rotation
+idxOrigin = floor(szRef / 2) + 1;
+
+% Construct the correlation search radius mask
+% ASSUME reference and test volumes are the same size as is the resulting
+% cross correlation coefficient function
+if length(searchRadius) == 1
+  searchRadius = [1 1 1] * searchRadius;
+end
+[imageMask xcfMask] = genMasks(szRef, searchRadius, idxOrigin, 'single');
+
+% Create the frequency domain filter if requested
+if lowCutoff > 0 | hiCutoff < 0.866
+  flgFreqFilt = 1;
+  fltBandpass = genBandpass(szRef, lowCutoff, hiCutoff);
+else
+  flgFreqFilt = 0;
+end
+
+% Loop over the particles to be analyzed
+for iParticle = 1:nParticles
+  idParticle = motiveList(4, iParticle);
+
+  % Load in the particle of interest
+  if flgDebugText
+    fprintf('\nLoading particle %d\n', idParticle);
+  end
+  center = ptsParticles(:, idParticle);
+  particle = single(extractSubVolume(volume, center, szVol));
+
+  % Resize the particle if the reference was resized
+  if flgResizeParticle
+    particle = centerCube(particle);
+  end
+
+  % Frequency domain filter it if required
+  PARTICLE = fftshift(fftn(particle));
+  if flgFreqFilt
+    PARTICLE = PARTICLE .* fltBandpass;
+  end
+
+  % Zero out any DC in the particle
+  PARTICLE = ifftshift(PARTICLE);
+  PARTICLE(1, 1, 1) = 0;
+
+  % Compute the energy scaling due to the masked region of the particle
+  nrgParticleMap = real(...
+    ifftn(fftn(ifftn(PARTICLE) .^ 2) .* conj(fftn(imageMask))));
+
+  % Scan over the Euler angles
+  centerRotation = [ motiveList(17, iParticle) ...
+    motiveList(19, iParticle) ...
+    motiveList(18, iParticle) ] * pi / 180;
+  peakCCC = -1;
+  iRotation = 0;
+
+  %    phi_old = 5;
+  %    angiter = ceil(length(vDeltaPhi) / 2);
+  %    angincr = vDeltaPhi(2) - vDeltaPhi(1);
+  %    for delPhi = [phi_old-angiter*angincr:angincr:phi_old+angiter*angincr]
+  %      for delTheta = [0:ceil(angiter/2)]*angincr
+  %        if delTheta == 0
+  %          npsi=1;
+  %          dpsi=0;
+  %        else
+  %          %sampling for psi and the on unit sphere in rings
+  %          dpsi= angincr / sin(delTheta / 180 * pi);
+  %          npsi = ceil(360/dpsi);
+  %        end
+  %        for delPsi = [0:(npsi-1)]*dpsi
+
+  for delPhi = vDeltaPhi
+    for delTheta = vDeltaTheta
+      for delPsi = vDeltaPsi
+        iRotation = iRotation + 1;
+
+        % Find the total rotation required converting the offset into radians
+        delRotate = [delPhi delTheta delPsi] * pi / 180;
+        totalRotation = eulerRotateSum(centerRotation, delRotate);
+
+        % Rotate the reference particle
+        rotRef = volumeRotate(zmReference, totalRotation, idxOrigin, interpMethod);
+
+        % Correlation shift range masking
+        % DO NOT DO ANYTHING TO CHANGE THE DC VALUE AFTER THIS
+        % The imageMask provides correlation anti-aliasing protection
+        rotRef = rotRef .* imageMask;
+
+        % Bandpass filter the reference particle
+
+        REFERENCE = fftn(rotRef);
+        if flgFreqFilt
+          REFERENCE = ifftshift(fftshift(REFERENCE) .* fltBandpass);
+        end
+
+        % Compute the energy in the modified reference
+        nrgReference = sum(REFERENCE(:) .* conj(REFERENCE(:))) ...
+          ./ prod(size(REFERENCE));
+
+        % Compute the cross-correlation coefficient function
+        CCC = real(ifftn(PARTICLE .* conj(REFERENCE))) ...
+          ./ sqrt(nrgParticleMap .* nrgReference);
+
+        % Quadrant shift to mask and find the cross correlation coeficient
+        % peak
+        CCC = fftshift(CCC) .* xcfMask;
+
+        % Find the peak cross-correlation coefficient
+        [maxCCC indices] = arraymax(CCC);
+
+        if nargout > 0
+          peakParams(iRotation, 1, iParticle) = maxCCC;
+          peakParams(iRotation, 2:4, iParticle) = totalRotation ...
+            * 180 / pi;
+          peakParams(iRotation, 5:7, iParticle) = indices - idxOrigin;
+        end
+
+        if flgDebugText > 1
+          fprintf('phi: %6.2f  theta: %6.2f  psi: %6.2f', ...
+            totalRotation * 180 / pi);
+          fprintf('  peak CCC %f @ indices %6.2f %6.2f %6.2f\n', ...
+            maxCCC, indices(1), indices(2), indices(3))
+        end
+
+        if maxCCC > peakCCC
+          peakCCC = maxCCC;
+          peakPhi = totalRotation(1) * 180 / pi;
+          peakTheta = totalRotation(2) * 180 / pi;
+          peakPsi = totalRotation(3) * 180 / pi;
+          peakDelRotate = delRotate * 180 /pi;
+
+          idxPeak = indices - idxOrigin;
+          idxShiftX = -searchRadius(1):searchRadius(1);
+          idxValidXCFX = idxOrigin(1) + idxShiftX;
+          idxShiftY = -searchRadius(2):searchRadius(2);
+          idxValidXCFY = idxOrigin(2) + idxShiftY;
+          idxShiftZ = -searchRadius(3):searchRadius(3);
+          idxValidXCFZ = idxOrigin(3) + idxShiftZ;
+          validXCF = CCC(idxValidXCFX,idxValidXCFY,idxValidXCFZ);
+          [peakValue loc] = ...
+            peakInterp3(idxShiftX, idxShiftY, idxShiftZ, ...
+            validXCF, idxPeak, 1, 0.02);
+          tshift = loc;
+        end
+
+      end % psi loop
+    end % theta loop
+  end % phi loop
+
+  if flgDebugText
+    fprintf('Peak del  phi: %6.2f  theta: %6.2f  psi: %6.2f\n', ...
+            peakDelRotate(1), peakDelRotate(2), peakDelRotate(3))
+    fprintf('Max CCC @ phi: %6.2f  theta: %6.2f  psi: %6.2f', ...
+            peakPhi, peakTheta, peakPsi)
+    fprintf('  CCC %f @ indices %6.2f %6.2f %6.2f\n', ...
+            peakCCC, idxPeak(1), idxPeak(2), idxPeak(3))
+    fprintf(' Interpolated shift %6.2f %6.2f %6.2f\n', ...
+            tshift(1), tshift(2), tshift(3));
+  end
+
+  % Update the motive list
+  motiveList(17, iParticle) = peakPhi;
+  motiveList(18, iParticle) = peakPsi;
+  motiveList(19, iParticle) = peakTheta;
+  motiveList(11, iParticle) = tshift(1);
+  motiveList(12, iParticle) = tshift(2);
+  motiveList(13, iParticle) = tshift(3);
+  motiveList(1, iParticle) = peakCCC;
+
+end
+  
+
+% Extract the largest cube from the center of the volume
+function cube = centerCube(volume)
+szVol = size(volume);
+
+if szVol(1) ~= szVol(2) | szVol(2) ~= szVol(3)
+  szMin = min(szVol);
+  if szVol(1) ~= szMin
+    nDel = szVol(1) - szMin;
+    idxRStart = floor(nDel / 2);
+    idxR = idxRStart:idxRStart+szMin-1;
+  else
+    idxR = 1:szMin;
+  end
+  if szVol(2) ~= szMin
+    nDel = szVol(2) - szMin;
+    idxCStart = floor(nDel / 2);
+    idxC = idxCStart:idxCStart+szMin-1;
+  else
+    idxC = 1:szMin;
+  end
+  if szVol(3) ~= szMin
+    nDel = szVol(3) - szMin;
+    idxPStart = floor(nDel / 2);
+    idxP = idxPStart:idxPStart+szMin-1;
+  else
+    idxP = 1:szMin;
+  end
+  cube = volume(idxR, idxC, idxP);
+else
+  cube = volume;
+end

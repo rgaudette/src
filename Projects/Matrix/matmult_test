@@ -1,0 +1,27 @@
+#!/bin/sh
+
+MMIN=100
+MMAX=300
+MSTEP=1
+
+CMATMULT=CMatrixMult/Release/CMatrixMult.exe
+IPPMATMULT=IPPMatrixMult/Release/IPPMatrixMult.exe
+BLASMATMULT=BLASMatrixMult/Release/BLASMatrixMult.exe
+JAVAMATMULT=matmult
+JAVAPATH="/d/Program Files/IBM/Java13/bin"
+#CLASSPATH="d:\Projects\Matrix\JavaMatMult"
+PATH=`pwd`:$JAVAPATH:${PATH}
+type java
+#
+#  Execute each program to measure performance
+#
+echo Executing C test
+${CMATMULT} c_float.dat ${MMIN} ${MMAX} $MSTEP}
+echo Executing IPP test
+${IPPMATMULT} ipp_float.dat ${MMIN} ${MMAX} $MSTEP}
+echo Executing BLAS test
+${BLASMATMULT} blas_float.dat ${MMIN} ${MMAX} $MSTEP}
+#echo Executing Java test
+#cd JavaMatMult
+#java ${JAVAMATMULT} ../java_float.dat ${MMIN} ${MMAX} $MSTEP}
+#cd ..

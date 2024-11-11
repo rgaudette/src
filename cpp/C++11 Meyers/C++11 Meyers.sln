@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Counting Words Across Files 98", "Counting Words Across Files 98\Counting Words Across Files 98.vcxproj", "{2DB138E2-96B5-45E0-A357-BBFD8D448B8B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Counting Words Across Files 11", "Counting Words Across Files 11\Counting Words Across Files 11.vcxproj", "{7CC7323E-DF88-456C-8DEA-8062AEB25BA5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Counting Words Across Files My Style", "Counting Words Across Files My Style\Counting Words Across Files My Style.vcxproj", "{9D174561-B349-44C5-BA06-D367070B18B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DB138E2-96B5-45E0-A357-BBFD8D448B8B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2DB138E2-96B5-45E0-A357-BBFD8D448B8B}.Debug|Win32.Build.0 = Debug|Win32
+		{2DB138E2-96B5-45E0-A357-BBFD8D448B8B}.Release|Win32.ActiveCfg = Release|Win32
+		{2DB138E2-96B5-45E0-A357-BBFD8D448B8B}.Release|Win32.Build.0 = Release|Win32
+		{7CC7323E-DF88-456C-8DEA-8062AEB25BA5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7CC7323E-DF88-456C-8DEA-8062AEB25BA5}.Debug|Win32.Build.0 = Debug|Win32
+		{7CC7323E-DF88-456C-8DEA-8062AEB25BA5}.Release|Win32.ActiveCfg = Release|Win32
+		{7CC7323E-DF88-456C-8DEA-8062AEB25BA5}.Release|Win32.Build.0 = Release|Win32
+		{9D174561-B349-44C5-BA06-D367070B18B1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9D174561-B349-44C5-BA06-D367070B18B1}.Debug|Win32.Build.0 = Debug|Win32
+		{9D174561-B349-44C5-BA06-D367070B18B1}.Release|Win32.ActiveCfg = Release|Win32
+		{9D174561-B349-44C5-BA06-D367070B18B1}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

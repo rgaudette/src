@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="Libpng.Debug"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories="D:\AXI\Source\v810\SVN\5.4_Dev\axi\cpp64\ThirdParty\Libpng\lpng163\include\"
+	/>
+	<Tool
+		Name="VCLinkerTool"
+		AdditionalDependencies="libpng16.lib zlib.lib"
+		AdditionalLibraryDirectories="&quot;D:\AXI\Source\v810\SVN\5.4_Dev\axi\cpp64\ThirdParty\Libpng\lpng163\lib\x64\Debug&quot;"
+	/>
+</VisualStudioPropertySheet>

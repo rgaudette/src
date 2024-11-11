@@ -1,0 +1,10 @@
+%print_stack    Display a stack trace structure (from lasterror)
+%
+%  print_stack(stack)
+
+function print_stack(stack)
+for func = stack
+  printf('File: %s\n', func.file);
+  printf('Name: %s\n', func.file);
+  printf('File: %s\n', func.file);
+end

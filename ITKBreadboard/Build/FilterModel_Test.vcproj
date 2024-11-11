@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding = "Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="FilterModel_Test"
+	ProjectGUID="{D15978DC-7283-47F8-B8EE-2154A5B9F16E}"
+	SccProjectName=""
+	SccLocalPath=""
+	Keyword="Win32Proj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="Debug"
+			IntermediateDirectory="FilterModel_Test.dir\Debug"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="H:\Libraries\x86\ITK\include\InsightToolkit\gdcm\src;H:\Libraries\x86\ITK\include\InsightToolkit\gdcm;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\vxl\core;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\vxl\vcl;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\vxl\v3p\netlib;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\itkExtHdrs;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\nifti\znzlib;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\nifti\niftilib;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\expat;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\DICOMParser;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\NrrdIO;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\MetaIO;H:\Libraries\x86\ITK\include\InsightToolkit\SpatialObject;H:\Libraries\x86\ITK\include\InsightToolkit\Numerics\NeuralNetworks;H:\Libraries\x86\ITK\include\InsightToolkit\Numerics\Statistics;H:\Libraries\x86\ITK\include\InsightToolkit\Numerics\FEM;H:\Libraries\x86\ITK\include\InsightToolkit\IO;H:\Libraries\x86\ITK\include\InsightToolkit\Numerics;H:\Libraries\x86\ITK\include\InsightToolkit\Common;H:\Libraries\x86\ITK\include\InsightToolkit\BasicFilters;H:\Libraries\x86\ITK\include\InsightToolkit\Algorithms;H:\Libraries\x86\ITK\include\InsightToolkit;H:\Src\ITKBreadboard\Source\before;H:\Libraries\x86\boost-1_38\include;"
+				BasicRuntimeChecks="3"
+				CompileAs="2"
+				DebugInformationFormat="3"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="0"
+				Optimization="0"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NOMINMAX,_DEBUG,CMAKE_INTDIR=\&quot;Debug\&quot;"
+				AssemblerListingLocation="Debug"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="H:/Src/ITKBreadboard/Build/Debug/FilterModel_Test.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="H:\Libraries\x86\ITK\include\InsightToolkit\gdcm\src;H:\Libraries\x86\ITK\include\InsightToolkit\gdcm;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\vxl\core;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\vxl\vcl;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\vxl\v3p\netlib;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\itkExtHdrs;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\nifti\znzlib;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\nifti\niftilib;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\expat;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\DICOMParser;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\NrrdIO;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\MetaIO;H:\Libraries\x86\ITK\include\InsightToolkit\SpatialObject;H:\Libraries\x86\ITK\include\InsightToolkit\Numerics\NeuralNetworks;H:\Libraries\x86\ITK\include\InsightToolkit\Numerics\Statistics;H:\Libraries\x86\ITK\include\InsightToolkit\Numerics\FEM;H:\Libraries\x86\ITK\include\InsightToolkit\IO;H:\Libraries\x86\ITK\include\InsightToolkit\Numerics;H:\Libraries\x86\ITK\include\InsightToolkit\Common;H:\Libraries\x86\ITK\include\InsightToolkit\BasicFilters;H:\Libraries\x86\ITK\include\InsightToolkit\Algorithms;H:\Libraries\x86\ITK\include\InsightToolkit;H:\Src\ITKBreadboard\Source\before;H:\Libraries\x86\boost-1_38\include;"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NOMINMAX,_DEBUG,CMAKE_INTDIR=\&quot;Debug\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NOMINMAX,_DEBUG,CMAKE_INTDIR=\&quot;Debug\&quot;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalOptions=" /STACK:10000000 /machine:I386 /debug"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  H:\Libraries\x86\boost-1_38\lib\boost_unit_test_framework-vc90-mt-gd-1_38.lib "
+				OutputFile="H:\Src\ITKBreadboard\Build\Debug\FilterModel_Test.exe"
+				Version="0.0"
+				GenerateManifest="TRUE"
+				LinkIncremental="2"
+				AdditionalLibraryDirectories="H:\Libraries\x86\ITK\lib\InsightToolkit\$(OutDir),H:\Libraries\x86\ITK\lib\InsightToolkit,optimized\$(OutDir),optimized,H:\Libraries\x86\boost-1_38\lib\boost_unit_test_framework-vc90-mt-1_38.lib\$(OutDir),H:\Libraries\x86\boost-1_38\lib\boost_unit_test_framework-vc90-mt-1_38.lib,debug\$(OutDir),debug,H:\Libraries\x86\boost-1_38\lib\$(OutDir),H:\Libraries\x86\boost-1_38\lib"
+				ProgramDataBaseFile="H:/Src/ITKBreadboard/Build/Debug/FilterModel_Test.pdb"
+				GenerateDebugInformation="TRUE"
+				SubSystem="1"
+				ImportLibrary="H:\Src\ITKBreadboard\Build\Debug\FilterModel_Test.lib"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="Release"
+			IntermediateDirectory="FilterModel_Test.dir\Release"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="H:\Libraries\x86\ITK\include\InsightToolkit\gdcm\src;H:\Libraries\x86\ITK\include\InsightToolkit\gdcm;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\vxl\core;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\vxl\vcl;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\vxl\v3p\netlib;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\itkExtHdrs;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\nifti\znzlib;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\nifti\niftilib;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\expat;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\DICOMParser;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\NrrdIO;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\MetaIO;H:\Libraries\x86\ITK\include\InsightToolkit\SpatialObject;H:\Libraries\x86\ITK\include\InsightToolkit\Numerics\NeuralNetworks;H:\Libraries\x86\ITK\include\InsightToolkit\Numerics\Statistics;H:\Libraries\x86\ITK\include\InsightToolkit\Numerics\FEM;H:\Libraries\x86\ITK\include\InsightToolkit\IO;H:\Libraries\x86\ITK\include\InsightToolkit\Numerics;H:\Libraries\x86\ITK\include\InsightToolkit\Common;H:\Libraries\x86\ITK\include\InsightToolkit\BasicFilters;H:\Libraries\x86\ITK\include\InsightToolkit\Algorithms;H:\Libraries\x86\ITK\include\InsightToolkit;H:\Src\ITKBreadboard\Source\before;H:\Libraries\x86\boost-1_38\include;"
+				CompileAs="2"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="2"
+				Optimization="2"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NOMINMAX,NDEBUG,CMAKE_INTDIR=\&quot;Release\&quot;"
+				AssemblerListingLocation="Release"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="H:/Src/ITKBreadboard/Build/Release/FilterModel_Test.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="H:\Libraries\x86\ITK\include\InsightToolkit\gdcm\src;H:\Libraries\x86\ITK\include\InsightToolkit\gdcm;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\vxl\core;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\vxl\vcl;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\vxl\v3p\netlib;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\itkExtHdrs;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\nifti\znzlib;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\nifti\niftilib;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\expat;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\DICOMParser;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\NrrdIO;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\MetaIO;H:\Libraries\x86\ITK\include\InsightToolkit\SpatialObject;H:\Libraries\x86\ITK\include\InsightToolkit\Numerics\NeuralNetworks;H:\Libraries\x86\ITK\include\InsightToolkit\Numerics\Statistics;H:\Libraries\x86\ITK\include\InsightToolkit\Numerics\FEM;H:\Libraries\x86\ITK\include\InsightToolkit\IO;H:\Libraries\x86\ITK\include\InsightToolkit\Numerics;H:\Libraries\x86\ITK\include\InsightToolkit\Common;H:\Libraries\x86\ITK\include\InsightToolkit\BasicFilters;H:\Libraries\x86\ITK\include\InsightToolkit\Algorithms;H:\Libraries\x86\ITK\include\InsightToolkit;H:\Src\ITKBreadboard\Source\before;H:\Libraries\x86\boost-1_38\include;"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NOMINMAX,NDEBUG,CMAKE_INTDIR=\&quot;Release\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NOMINMAX,NDEBUG,CMAKE_INTDIR=\&quot;Release\&quot;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalOptions=" /STACK:10000000 /machine:I386"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  H:\Libraries\x86\boost-1_38\lib\boost_unit_test_framework-vc90-mt-1_38.lib "
+				OutputFile="H:\Src\ITKBreadboard\Build\Release\FilterModel_Test.exe"
+				Version="0.0"
+				GenerateManifest="TRUE"
+				LinkIncremental="1"
+				AdditionalLibraryDirectories="H:\Libraries\x86\ITK\lib\InsightToolkit\$(OutDir),H:\Libraries\x86\ITK\lib\InsightToolkit,optimized\$(OutDir),optimized,H:\Libraries\x86\boost-1_38\lib\boost_unit_test_framework-vc90-mt-1_38.lib\$(OutDir),H:\Libraries\x86\boost-1_38\lib\boost_unit_test_framework-vc90-mt-1_38.lib,debug\$(OutDir),debug,H:\Libraries\x86\boost-1_38\lib\$(OutDir),H:\Libraries\x86\boost-1_38\lib"
+				ProgramDataBaseFile="H:/Src/ITKBreadboard/Build/Release/FilterModel_Test.pdb"
+				SubSystem="1"
+				ImportLibrary="H:\Src\ITKBreadboard\Build\Release\FilterModel_Test.lib"/>
+		</Configuration>
+		<Configuration
+			Name="MinSizeRel|Win32"
+			OutputDirectory="MinSizeRel"
+			IntermediateDirectory="FilterModel_Test.dir\MinSizeRel"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="H:\Libraries\x86\ITK\include\InsightToolkit\gdcm\src;H:\Libraries\x86\ITK\include\InsightToolkit\gdcm;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\vxl\core;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\vxl\vcl;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\vxl\v3p\netlib;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\itkExtHdrs;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\nifti\znzlib;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\nifti\niftilib;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\expat;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\DICOMParser;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\NrrdIO;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\MetaIO;H:\Libraries\x86\ITK\include\InsightToolkit\SpatialObject;H:\Libraries\x86\ITK\include\InsightToolkit\Numerics\NeuralNetworks;H:\Libraries\x86\ITK\include\InsightToolkit\Numerics\Statistics;H:\Libraries\x86\ITK\include\InsightToolkit\Numerics\FEM;H:\Libraries\x86\ITK\include\InsightToolkit\IO;H:\Libraries\x86\ITK\include\InsightToolkit\Numerics;H:\Libraries\x86\ITK\include\InsightToolkit\Common;H:\Libraries\x86\ITK\include\InsightToolkit\BasicFilters;H:\Libraries\x86\ITK\include\InsightToolkit\Algorithms;H:\Libraries\x86\ITK\include\InsightToolkit;H:\Src\ITKBreadboard\Source\before;H:\Libraries\x86\boost-1_38\include;"
+				CompileAs="2"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="1"
+				Optimization="1"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NOMINMAX,NDEBUG,CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				AssemblerListingLocation="MinSizeRel"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="H:/Src/ITKBreadboard/Build/MinSizeRel/FilterModel_Test.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="H:\Libraries\x86\ITK\include\InsightToolkit\gdcm\src;H:\Libraries\x86\ITK\include\InsightToolkit\gdcm;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\vxl\core;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\vxl\vcl;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\vxl\v3p\netlib;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\itkExtHdrs;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\nifti\znzlib;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\nifti\niftilib;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\expat;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\DICOMParser;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\NrrdIO;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\MetaIO;H:\Libraries\x86\ITK\include\InsightToolkit\SpatialObject;H:\Libraries\x86\ITK\include\InsightToolkit\Numerics\NeuralNetworks;H:\Libraries\x86\ITK\include\InsightToolkit\Numerics\Statistics;H:\Libraries\x86\ITK\include\InsightToolkit\Numerics\FEM;H:\Libraries\x86\ITK\include\InsightToolkit\IO;H:\Libraries\x86\ITK\include\InsightToolkit\Numerics;H:\Libraries\x86\ITK\include\InsightToolkit\Common;H:\Libraries\x86\ITK\include\InsightToolkit\BasicFilters;H:\Libraries\x86\ITK\include\InsightToolkit\Algorithms;H:\Libraries\x86\ITK\include\InsightToolkit;H:\Src\ITKBreadboard\Source\before;H:\Libraries\x86\boost-1_38\include;"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NOMINMAX,NDEBUG,CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NOMINMAX,NDEBUG,CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalOptions=" /STACK:10000000 /machine:I386"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  H:\Libraries\x86\boost-1_38\lib\boost_unit_test_framework-vc90-mt-1_38.lib "
+				OutputFile="H:\Src\ITKBreadboard\Build\MinSizeRel\FilterModel_Test.exe"
+				Version="0.0"
+				GenerateManifest="TRUE"
+				LinkIncremental="1"
+				AdditionalLibraryDirectories="H:\Libraries\x86\ITK\lib\InsightToolkit\$(OutDir),H:\Libraries\x86\ITK\lib\InsightToolkit,optimized\$(OutDir),optimized,H:\Libraries\x86\boost-1_38\lib\boost_unit_test_framework-vc90-mt-1_38.lib\$(OutDir),H:\Libraries\x86\boost-1_38\lib\boost_unit_test_framework-vc90-mt-1_38.lib,debug\$(OutDir),debug,H:\Libraries\x86\boost-1_38\lib\$(OutDir),H:\Libraries\x86\boost-1_38\lib"
+				ProgramDataBaseFile="H:/Src/ITKBreadboard/Build/MinSizeRel/FilterModel_Test.pdb"
+				SubSystem="1"
+				ImportLibrary="H:\Src\ITKBreadboard\Build\MinSizeRel\FilterModel_Test.lib"/>
+		</Configuration>
+		<Configuration
+			Name="RelWithDebInfo|Win32"
+			OutputDirectory="RelWithDebInfo"
+			IntermediateDirectory="FilterModel_Test.dir\RelWithDebInfo"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="H:\Libraries\x86\ITK\include\InsightToolkit\gdcm\src;H:\Libraries\x86\ITK\include\InsightToolkit\gdcm;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\vxl\core;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\vxl\vcl;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\vxl\v3p\netlib;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\itkExtHdrs;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\nifti\znzlib;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\nifti\niftilib;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\expat;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\DICOMParser;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\NrrdIO;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\MetaIO;H:\Libraries\x86\ITK\include\InsightToolkit\SpatialObject;H:\Libraries\x86\ITK\include\InsightToolkit\Numerics\NeuralNetworks;H:\Libraries\x86\ITK\include\InsightToolkit\Numerics\Statistics;H:\Libraries\x86\ITK\include\InsightToolkit\Numerics\FEM;H:\Libraries\x86\ITK\include\InsightToolkit\IO;H:\Libraries\x86\ITK\include\InsightToolkit\Numerics;H:\Libraries\x86\ITK\include\InsightToolkit\Common;H:\Libraries\x86\ITK\include\InsightToolkit\BasicFilters;H:\Libraries\x86\ITK\include\InsightToolkit\Algorithms;H:\Libraries\x86\ITK\include\InsightToolkit;H:\Src\ITKBreadboard\Source\before;H:\Libraries\x86\boost-1_38\include;"
+				CompileAs="2"
+				DebugInformationFormat="3"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="1"
+				Optimization="2"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NOMINMAX,NDEBUG,CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				AssemblerListingLocation="RelWithDebInfo"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="H:/Src/ITKBreadboard/Build/RelWithDebInfo/FilterModel_Test.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="H:\Libraries\x86\ITK\include\InsightToolkit\gdcm\src;H:\Libraries\x86\ITK\include\InsightToolkit\gdcm;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\vxl\core;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\vxl\vcl;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\vxl\v3p\netlib;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\itkExtHdrs;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\nifti\znzlib;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\nifti\niftilib;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\expat;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\DICOMParser;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\NrrdIO;H:\Libraries\x86\ITK\include\InsightToolkit\Utilities\MetaIO;H:\Libraries\x86\ITK\include\InsightToolkit\SpatialObject;H:\Libraries\x86\ITK\include\InsightToolkit\Numerics\NeuralNetworks;H:\Libraries\x86\ITK\include\InsightToolkit\Numerics\Statistics;H:\Libraries\x86\ITK\include\InsightToolkit\Numerics\FEM;H:\Libraries\x86\ITK\include\InsightToolkit\IO;H:\Libraries\x86\ITK\include\InsightToolkit\Numerics;H:\Libraries\x86\ITK\include\InsightToolkit\Common;H:\Libraries\x86\ITK\include\InsightToolkit\BasicFilters;H:\Libraries\x86\ITK\include\InsightToolkit\Algorithms;H:\Libraries\x86\ITK\include\InsightToolkit;H:\Src\ITKBreadboard\Source\before;H:\Libraries\x86\boost-1_38\include;"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NOMINMAX,NDEBUG,CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NOMINMAX,NDEBUG,CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalOptions=" /STACK:10000000 /machine:I386 /debug"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  H:\Libraries\x86\boost-1_38\lib\boost_unit_test_framework-vc90-mt-1_38.lib "
+				OutputFile="H:\Src\ITKBreadboard\Build\RelWithDebInfo\FilterModel_Test.exe"
+				Version="0.0"
+				GenerateManifest="TRUE"
+				LinkIncremental="2"
+				AdditionalLibraryDirectories="H:\Libraries\x86\ITK\lib\InsightToolkit\$(OutDir),H:\Libraries\x86\ITK\lib\InsightToolkit,optimized\$(OutDir),optimized,H:\Libraries\x86\boost-1_38\lib\boost_unit_test_framework-vc90-mt-1_38.lib\$(OutDir),H:\Libraries\x86\boost-1_38\lib\boost_unit_test_framework-vc90-mt-1_38.lib,debug\$(OutDir),debug,H:\Libraries\x86\boost-1_38\lib\$(OutDir),H:\Libraries\x86\boost-1_38\lib"
+				ProgramDataBaseFile="H:/Src/ITKBreadboard/Build/RelWithDebInfo/FilterModel_Test.pdb"
+				GenerateDebugInformation="TRUE"
+				SubSystem="1"
+				ImportLibrary="H:\Src\ITKBreadboard\Build\RelWithDebInfo\FilterModel_Test.lib"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+			<File
+				RelativePath="H:\Src\ITKBreadboard\Source\CMakeLists.txt">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule H:/Src/ITKBreadboard/Source/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake 2.6\bin\cmake.exe&quot; -HH:/Src/ITKBreadboard/Source -BH:/Src/ITKBreadboard/Build --check-stamp-file CMakeFiles/generate.stamp"
+					AdditionalDependencies="H:\Src\ITKBreadboard\Source\CMakeLists.txt;H:\Src\ITKBreadboard\Build\CMakeFiles\CMakeSystem.cmake;H:\Src\ITKBreadboard\Build\CMakeFiles\CMakeCCompiler.cmake;H:\Src\ITKBreadboard\Build\CMakeFiles\CMakeCXXCompiler.cmake;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\gcc.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\Windows-cl.cmake&quot;;H:\Src\ITKBreadboard\Build\CMakeFiles\CMakeCPlatform.cmake;H:\Src\ITKBreadboard\Build\CMakeFiles\CMakeCXXPlatform.cmake;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\cl.cmake&quot;;H:\Src\ITKBreadboard\Build\CMakeFiles\CMakeRCCompiler.cmake;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\Windows-cl.cmake&quot;;H:\Src\ITKBreadboard\Build\CMakeFiles\CMakeCPlatform.cmake;H:\Src\ITKBreadboard\Build\CMakeFiles\CMakeCXXPlatform.cmake;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\cl.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\FindITK.cmake&quot;;H:\Libraries\x86\ITK\lib\InsightToolkit\ITKConfig.cmake;H:\Libraries\x86\ITK\lib\InsightToolkit\ITKLibraryDepends.cmake;H:\Libraries\x86\ITK\lib\InsightToolkit\UseITK.cmake;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeImportBuildSettings.cmake&quot;;H:\Libraries\x86\ITK\lib\InsightToolkit\ITKBuildSettings.cmake;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\FindBoost.cmake&quot;;H:\Src\ITKBreadboard\Source\CMakeLists.txt;"
+					Outputs="CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule H:/Src/ITKBreadboard/Source/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake 2.6\bin\cmake.exe&quot; -HH:/Src/ITKBreadboard/Source -BH:/Src/ITKBreadboard/Build --check-stamp-file CMakeFiles/generate.stamp"
+					AdditionalDependencies="H:\Src\ITKBreadboard\Source\CMakeLists.txt;H:\Src\ITKBreadboard\Build\CMakeFiles\CMakeSystem.cmake;H:\Src\ITKBreadboard\Build\CMakeFiles\CMakeCCompiler.cmake;H:\Src\ITKBreadboard\Build\CMakeFiles\CMakeCXXCompiler.cmake;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\gcc.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\Windows-cl.cmake&quot;;H:\Src\ITKBreadboard\Build\CMakeFiles\CMakeCPlatform.cmake;H:\Src\ITKBreadboard\Build\CMakeFiles\CMakeCXXPlatform.cmake;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\cl.cmake&quot;;H:\Src\ITKBreadboard\Build\CMakeFiles\CMakeRCCompiler.cmake;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\Windows-cl.cmake&quot;;H:\Src\ITKBreadboard\Build\CMakeFiles\CMakeCPlatform.cmake;H:\Src\ITKBreadboard\Build\CMakeFiles\CMakeCXXPlatform.cmake;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\cl.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\FindITK.cmake&quot;;H:\Libraries\x86\ITK\lib\InsightToolkit\ITKConfig.cmake;H:\Libraries\x86\ITK\lib\InsightToolkit\ITKLibraryDepends.cmake;H:\Libraries\x86\ITK\lib\InsightToolkit\UseITK.cmake;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeImportBuildSettings.cmake&quot;;H:\Libraries\x86\ITK\lib\InsightToolkit\ITKBuildSettings.cmake;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\FindBoost.cmake&quot;;H:\Src\ITKBreadboard\Source\CMakeLists.txt;"
+					Outputs="CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule H:/Src/ITKBreadboard/Source/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake 2.6\bin\cmake.exe&quot; -HH:/Src/ITKBreadboard/Source -BH:/Src/ITKBreadboard/Build --check-stamp-file CMakeFiles/generate.stamp"
+					AdditionalDependencies="H:\Src\ITKBreadboard\Source\CMakeLists.txt;H:\Src\ITKBreadboard\Build\CMakeFiles\CMakeSystem.cmake;H:\Src\ITKBreadboard\Build\CMakeFiles\CMakeCCompiler.cmake;H:\Src\ITKBreadboard\Build\CMakeFiles\CMakeCXXCompiler.cmake;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\gcc.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\Windows-cl.cmake&quot;;H:\Src\ITKBreadboard\Build\CMakeFiles\CMakeCPlatform.cmake;H:\Src\ITKBreadboard\Build\CMakeFiles\CMakeCXXPlatform.cmake;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\cl.cmake&quot;;H:\Src\ITKBreadboard\Build\CMakeFiles\CMakeRCCompiler.cmake;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\Windows-cl.cmake&quot;;H:\Src\ITKBreadboard\Build\CMakeFiles\CMakeCPlatform.cmake;H:\Src\ITKBreadboard\Build\CMakeFiles\CMakeCXXPlatform.cmake;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\cl.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\FindITK.cmake&quot;;H:\Libraries\x86\ITK\lib\InsightToolkit\ITKConfig.cmake;H:\Libraries\x86\ITK\lib\InsightToolkit\ITKLibraryDepends.cmake;H:\Libraries\x86\ITK\lib\InsightToolkit\UseITK.cmake;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeImportBuildSettings.cmake&quot;;H:\Libraries\x86\ITK\lib\InsightToolkit\ITKBuildSettings.cmake;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\FindBoost.cmake&quot;;H:\Src\ITKBreadboard\Source\CMakeLists.txt;"
+					Outputs="CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule H:/Src/ITKBreadboard/Source/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake 2.6\bin\cmake.exe&quot; -HH:/Src/ITKBreadboard/Source -BH:/Src/ITKBreadboard/Build --check-stamp-file CMakeFiles/generate.stamp"
+					AdditionalDependencies="H:\Src\ITKBreadboard\Source\CMakeLists.txt;H:\Src\ITKBreadboard\Build\CMakeFiles\CMakeSystem.cmake;H:\Src\ITKBreadboard\Build\CMakeFiles\CMakeCCompiler.cmake;H:\Src\ITKBreadboard\Build\CMakeFiles\CMakeCXXCompiler.cmake;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\gcc.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\Windows-cl.cmake&quot;;H:\Src\ITKBreadboard\Build\CMakeFiles\CMakeCPlatform.cmake;H:\Src\ITKBreadboard\Build\CMakeFiles\CMakeCXXPlatform.cmake;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\cl.cmake&quot;;H:\Src\ITKBreadboard\Build\CMakeFiles\CMakeRCCompiler.cmake;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\Windows-cl.cmake&quot;;H:\Src\ITKBreadboard\Build\CMakeFiles\CMakeCPlatform.cmake;H:\Src\ITKBreadboard\Build\CMakeFiles\CMakeCXXPlatform.cmake;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\cl.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\FindITK.cmake&quot;;H:\Libraries\x86\ITK\lib\InsightToolkit\ITKConfig.cmake;H:\Libraries\x86\ITK\lib\InsightToolkit\ITKLibraryDepends.cmake;H:\Libraries\x86\ITK\lib\InsightToolkit\UseITK.cmake;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeImportBuildSettings.cmake&quot;;H:\Libraries\x86\ITK\lib\InsightToolkit\ITKBuildSettings.cmake;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\FindBoost.cmake&quot;;H:\Src\ITKBreadboard\Source\CMakeLists.txt;"
+					Outputs="CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+			</File>
+		<Filter
+			Name="Source Files"
+			Filter="">
+			<File
+				RelativePath="H:\Src\ITKBreadboard\Source\FilterModel_Test.cpp">
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

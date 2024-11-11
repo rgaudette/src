@@ -1,0 +1,120 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice.org 1.9.117  (Linux)">
+	<META NAME="CREATED" CONTENT="20050809;20225500">
+	<META NAME="CHANGED" CONTENT="20050812;16444400">
+	<STYLE>
+	<!--
+		@page { size: 8.5in 11in; margin: 0.79in }
+		P { margin-bottom: 0.08in }
+		P.western { font-size: 11pt }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="en-US" DIR="LTR">
+<P CLASS="western" STYLE="margin-bottom: 0in">PEET testing structure</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<UL>
+	<LI><P CLASS="western" STYLE="margin-bottom: 0in">All test
+	parameters should be stored in a matlab file</P>
+	<UL>
+		<LI><P CLASS="western" STYLE="margin-bottom: 0in">create a template
+		generator</P>
+	</UL>
+	<LI><P CLASS="western" STYLE="margin-bottom: 0in">That should be an
+	argument to the</P>
+	<UL>
+		<LI><P CLASS="western" STYLE="margin-bottom: 0in">volume generator
+		init functions</P>
+		<LI><P CLASS="western" STYLE="margin-bottom: 0in">test / simulation
+		driver</P>
+	</UL>
+	<LI><P CLASS="western">Parameters to specify</P>
+	<UL>
+		<LI><P CLASS="western">testName</P>
+		<LI><P CLASS="western">volume size 
+		</P>
+		<LI><P CLASS="western">type of particle</P>
+		<UL>
+			<LI><P CLASS="western">step-ramp-sine</P>
+			<LI><P CLASS="western">random</P>
+			<LI><P CLASS="western">geometric structures</P>
+			<LI><P CLASS="western">biological approximations</P>
+		</UL>
+		<LI><P CLASS="western">number of particles in the volume</P>
+		<UL>
+			<LI><P CLASS="western">position of each particle or way it is
+			chosen</P>
+			<LI><P CLASS="western">orientation of each particle or way it is
+			chosen</P>
+		</UL>
+		<LI><P CLASS="western">particle volume extent</P>
+		<LI><P CLASS="western">CCD/intensity offset</P>
+		<LI><P CLASS="western">noise parameters</P>
+		<UL>
+			<LI><P CLASS="western">distribution</P>
+			<LI><P CLASS="western">distribution parameters</P>
+			<UL>
+				<LI><P CLASS="western">possibly specified in SNR</P>
+			</UL>
+			<LI><P CLASS="western">noise generation should be modular so it
+			can be added later as well</P>
+		</UL>
+		<LI><P CLASS="western">missing wedge range</P>
+		<LI><P CLASS="western" STYLE="margin-bottom: 0in"></P>
+	</UL>
+	<LI><P CLASS="western">Output files</P>
+	<UL>
+		<LI><P CLASS="western">MRC volume</P>
+		<LI><P CLASS="western">particle location model</P>
+		<LI><P CLASS="western">true alignment structure</P>
+		<LI><P CLASS="western">reference volume</P>
+	</UL>
+	<LI><P CLASS="western">Tests to run on the simulated volume</P>
+	<UL>
+		<LI><P CLASS="western">Validation</P>
+		<UL>
+			<LI><P CLASS="western">alignment structure modifications</P>
+			<LI><P CLASS="western"><A NAME="DDE_LINK1"></A>shift sign sense
+			(document)</P>
+			<LI><P CLASS="western">rotation order /direction (document)</P>
+			<LI><P CLASS="western">Averaging of particles using motlAverage*</P>
+		</UL>
+		<LI><P CLASS="western">Performance</P>
+		<UL>
+			<LI><P CLASS="western">full particle search and average</P>
+			<LI><P CLASS="western">particle search and compare alignment
+			structures</P>
+			<LI><P CLASS="western"></P>
+		</UL>
+	</UL>
+</UL>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">Running a simulation</P>
+<OL>
+	<LI><P CLASS="western">Create a test parameter data (matlab) file</P>
+	<OL>
+		<LI><P CLASS="western">copy, modify and execute the
+		simParticleVol_Template.m file</P>
+		<LI><P CLASS="western">the test parameter data file is named
+		<I>testName</I>.mat</P>
+	</OL>
+	<LI><P CLASS="western">Create the simulated volume, particle model
+	and alignment structure using 
+	</P>
+	<OL>
+		<LI><P CLASS="western">genSimParticleVol(‘<I>testName</I>’)</P>
+	</OL>
+	<LI><P CLASS="western">Run the test on the simulated volume</P>
+</OL>
+<P CLASS="western"><BR><BR>
+</P>
+</BODY>
+</HTML>

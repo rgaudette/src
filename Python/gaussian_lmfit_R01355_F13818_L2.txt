@@ -1,0 +1,5 @@
+-856606    % mean
+278563    % sigma
+2.1549    % amplitude
+4.91466    % left background
+1.80993    % right background

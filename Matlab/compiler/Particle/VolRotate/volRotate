@@ -1,0 +1,9 @@
+#!/bin/sh
+#
+#  volRotate startup script
+
+source ${PARTICLE_DIR}/particle.cfg
+
+unset DISPLAY
+
+volRotate_mce $@

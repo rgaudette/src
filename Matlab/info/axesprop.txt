@@ -1,0 +1,64 @@
+Axes Properties
+======================================================================
+        AspectRatio
+        Box: [ on | {off} ]
+        CLim
+        CLimMode: [ {auto} | manual ]
+        Color: [ {none} ] -or- a ColorSpec.
+        ColorOrder
+        DrawMode: [ {normal} | fast ]
+        FontAngle: [ {normal} | italic | oblique ]
+        FontName
+        FontSize
+        FontWeight: [ light | {normal} | demi | bold ]
+        GridLineStyle: [ - | -- | {:} | -. ]
+        LineStyleOrder
+        LineWidth
+        NextPlot: [ new | add | {replace} ]
+        Position
+        TickLength
+        TickDir: [ {in} | out ]
+        Title
+        Units: [ inches | centimeters | {normalized} | points | pixels ]
+        View
+        XColor
+        XDir: [ normal | {reverse} ]
+        Xform
+        XGrid: [ on | {off} ]
+        XLabel
+        XLim
+        XLimMode: [ {auto} | manual ]
+        XScale: [ {linear} | log ]
+        XTick
+        XTickLabels
+        XTickLabelMode: [ {auto} | manual ]
+        XTickMode: [ {auto} | manual ]
+        YColor
+        YDir: [ {normal} | reverse ]
+        YGrid: [ on | {off} ]
+        YLabel
+        YLim
+        YLimMode: [ {auto} | manual ]
+        YScale: [ {linear} | log ]
+        YTick
+        YTickLabels
+        YTickLabelMode: [ {auto} | manual ]
+        YTickMode: [ {auto} | manual ]
+        ZColor
+        ZDir: [ {normal} | reverse ]
+        ZGrid: [ on | {off} ]
+        ZLabel
+        ZLim
+        ZLimMode: [ {auto} | manual ]
+        ZScale: [ {linear} | log ]
+        ZTick
+        ZTickLabels
+        ZTickLabelMode: [ {auto} | manual ]
+        ZTickMode: [ {auto} | manual ]
+ 
+        ButtonDownFcn
+        Clipping: [ {on} | off ]
+        Interruptible: [ {no} | yes ]
+        Parent
+        UserData
+        Visible: [ {on} | off ]

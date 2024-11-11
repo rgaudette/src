@@ -1,0 +1,4 @@
+[deps]
+BlackBoxOptim = "a134a8b2-14d6-55f6-9291-3336d3ab0209"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"

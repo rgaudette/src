@@ -1,0 +1,67 @@
+ 
+HYBRID/
+MOTION/
+SCALAR_QUANT/
+TCQ/
+VECTOR_QUANT/
+WAVE_3D/
+all1_mask.m                 all1_mas.m
+bi_decomp1.m                bi_dec1.m
+bi_decompN.m                bi_decn.m
+bi_dwt.m
+bi_dwt_1D.m                 bi_dwt_1.m
+bi_hload.m
+bi_idwt.m
+bi_idwt_1D.m                bi_idwt1.m
+bi_reconst1.m               birecn1.m
+bi_reconst1_1D.m            birecn1d.m
+bi_reconstN.m               birecnn.m
+bit_alloc.m                 balloc.m
+bit_alloc2.m                balloc2.m
+bit_alloc2_2.dat            balloc22.dat
+bit_alloc2_2.m              balloc22.m
+bit_alloc2_JPEG.m           ba2_jpeg.m
+bit_alloc3.m                balloc3.m
+bit_alloc4.m                balloc4.m
+bit_alloc_JPEG.m            ba_jpeg.m
+decomp1.m
+decompN.m
+dwt.m
+hist_plot.m                 hist_plo.m
+histogram.m                 histogra.m
+hload12.m
+hload4.m
+hload6.m
+hload8.m
+idwt.m
+jt400.jpg
+jt400.mat
+jt400.pgm
+jt400.raw
+jt401.mat
+jt402.mat
+jt403.mat
+jt404.mat
+jt405.mat
+jt406.mat
+jt407.mat
+jt408.mat
+jt409.mat
+new_psnr.m
+normalize.m                 normaliz.m
+old_decomp1.m               old_deco.m
+old_dwt.m
+old_idwt1.m                 old_idwt.m
+old_reconst1.m              old_reco.m
+psnr.m
+qmf.m
+readfile.m
+reconst1.m
+reconstN.m
+snr.m
+startup.m
+startup.m~
+stdev.m
+test2.m
+thresh.m
+writefile.m

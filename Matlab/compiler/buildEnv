@@ -1,0 +1,43 @@
+# Figure out which architecture we are compiling for
+arch := $(shell arch)
+
+ifeq ($(arch), i686)
+    MATLABARCH := glnx86
+    MATLABJVM := jre1.5.0
+endif
+ifeq ($(arch), x86_64)
+    MATLABARCH := glnxa64
+    MATLABJVM := jre1.4.2
+endif
+
+export MATLABROOT = /usr/local/Matlab
+# Needed for building under FC3, gcc32 is available as a compat under FC4
+#export GCC_DIR = /usr/local/gcc-3.2.3
+#export CC = gcc
+#export GCC_DIR = /usr
+#  Note: this doesn't cary through need to edit ~/.matlab/R14/mbuildopts.sh
+#export CC = gcc32
+export PATH := ${WORKDIR}:${MATLABROOT}/bin:${MATLABROOT}/toolbox/compiler/deploy/${MATLABARCH}:${PATH}
+export LD_LIBRARY_PATH := ${WORKDIR}:${LD_LIBRARY_PATH}
+
+export LD_LIBRARY_PATH :=\
+${MATLABROOT}/bin/$(MATLABARCH):\
+${MATLABROOT}/sys/os/$(MATLABARCH):\
+${MATLABROOT}/sys/java/jre/$(MATLABARCH)/$(MATLABJVM)/lib/i386/native_threads:\
+${MATLABROOT}/sys/java/jre/$(MATLABARCH)/$(MATLABJVM)/lib/i386/client:\
+${MATLABROOT}/sys/java/jre/$(MATLABARCH)/$(MATLABJVM)/lib/i386:\
+${MATLABROOT}/sys/opengl/lib/$(MATLABARCH):\
+${LD_LIBRARY_PATH}
+
+export XAPPLRESDIR=${MATLABROOT}/X11/app-defaults
+
+MCCFLAGS = -c -v -m -R -nojvm
+MCC = mcc
+MBUILDFLAGS = -O -v 
+MBUILD = mbuild
+
+# define the rule for compiling a .m file
+% :: %.m
+	$(MCC) $(MCCFLAGS) $<
+	$(MBUILD) $(MBUILDFLAGS) -output $@ $@_main.c \
+      $@_mcc_component_data.c -link exe

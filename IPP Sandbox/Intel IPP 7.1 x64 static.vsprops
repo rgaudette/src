@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="Intel IPP 7.1 x64 static"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories="C:\Apps\Intel\Composer XE 2013\ipp\include"
+	/>
+	<Tool
+		Name="VCLinkerTool"
+		AdditionalDependencies="ippi_l.lib ipps_l.lib ippcore_l.lib"
+		AdditionalLibraryDirectories="C:\Apps\Intel\Composer XE 2013\ipp\lib\intel64"
+	/>
+</VisualStudioPropertySheet>

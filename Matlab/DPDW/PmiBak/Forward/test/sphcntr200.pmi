@@ -1,0 +1,33 @@
+#
+# Calculate the DPDW perturbed by an absorbing object embedded in a slab.
+# The source and
+# detector are fixed at one position.
+# Define the optical properties for the tissue and tumor
+DefineMedium Tissue 0.05 10 0 1.37
+DefineMedium Tumor  0.1 10 0 1.37
+
+# Set the background medium
+Background Tissue
+
+# Define the embedded spherical tumor at position x=y=0 z=3 cm.  The
+# radius is 0.5 cm.
+ObjectSphere Sphere Tumor 0 0 7.0 0.5
+
+# Define the boundaries of the medium.
+Geometry Planar
+BoundaryCondition Extrapolated
+Plane 0 0 1 0 1.0
+
+# Define the source-detector geometry.  Use the AddSDPair command in a
+# loop to create the source-detector pairs.  The initial amplitude and phase
+# of the source is set equal to 1 and 0 respectively.  The modulation 
+# frequency is set to 200 MHz.
+For &xd = -5.05 to 5.05 step 0.1
+  AddSDPair 0 0 5  &&xd 0 5  1 0  200
+Next
+
+# Do the exact calculation
+Exact
+
+# Save the results
+SaveData sphcntr200 SDposition TOTAL INC SCATT

@@ -1,0 +1,16 @@
+#!/bin/csh
+##
+##  8 element set
+##
+set nelems = 16
+set ncodes = 256
+set ntrain = 50000
+set nrates = 100
+set rate_start = 0.1
+set rate_step = -0.001
+set source = ../../Source/gg07_0a.mat
+set varname = data
+set codefile = gg${nelems}b
+set rdfile = rdgg${nelems}b
+
+ecvq $source $varname $codefile $rdfile $nelems $ncodes $ntrain $nrates $rate_start $rate_step

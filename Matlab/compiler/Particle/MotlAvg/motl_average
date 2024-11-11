@@ -1,0 +1,11 @@
+#!/bin/sh
+#
+#  motlavg startup script
+
+source ${PARTICLE_DIR}/particle.cfg
+
+unset DISPLAY
+
+echo -n "Starting motlavg_mce ..."
+nice -n ${PARTICLE_NICE} motlavg_mce $@ >${1}.log 2>&1 &
+echo "started as a background process."

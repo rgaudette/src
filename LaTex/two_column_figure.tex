@@ -1,0 +1,20 @@
+%%
+
+%%  Example of a two column figure in a one column document
+%%
+\begin {figure}[t]
+  \begin {minipage}[t]{3.0in}
+    \renewcommand{\baselinestretch}{1}
+    \begin {center}
+      \scalebox{0.4}{\includegraphics{file1.eps}}
+      \caption [List title 1] {\label{fig:file1}}
+    \end {center}
+  \end {minipage}\hfill
+  \begin {minipage}[t]{3.0in}
+    \renewcommand{\baselinestretch}{1}
+    \begin {center}
+      \scalebox{0.4}{\includegraphics{file2.eps}}
+      \caption [List title 2] {\label{fig:file2}}
+    \end {center}
+  \end {minipage}
+\end {figure}

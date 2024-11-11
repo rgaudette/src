@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_JffwwFXTEd6aRMdytK18lw">
+  <elementImport xmi:id="_JgRz4FXTEd6aRMdytK18lw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_JgRz4VXTEd6aRMdytK18lw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_JgRz4lXTEd6aRMdytK18lw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+  </elementImport>
+  <elementImport xmi:id="_JgRz41XTEd6aRMdytK18lw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_KtTyQFXUEd6aRMdytK18lw" name="reconstruction region"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_PIDfQFXUEd6aRMdytK18lw" name="projection available"/>
+</uml:Package>

@@ -1,0 +1,2620 @@
+File.FormProperties	
+Edit.ChangeBinding	
+Edit.Rebind01	
+Edit.Rebind02	
+Edit.Rebind03	
+Edit.Rebind04	
+Edit.Rebind05	
+Edit.Rebind06	
+Edit.Rebind07	
+Edit.Rebind08	
+Edit.Rebind09	
+Edit.Rebind10	
+Edit.More	
+View.PageWidthGuide	
+View.DesignTasks	
+View.DataSource	
+View.Views	
+View.DesignChecker	
+Data.AutomaticallyCreateDataSource	
+Data.ViewSampleData	
+Data.DefaultValues	
+Data.SecondaryDataSources	
+Data.ConvertMainDataSource	
+Insert.LoadingEvent	
+Insert.ViewSwitchedEvent	
+Insert.ContextChangedEvent	
+Insert.FormSignedEvent	
+Insert.ChangingEvent	
+Insert.ValidatingEvent	
+Insert.ChangedEvent	
+Insert.HorizontalLine	
+Insert.PageBreak	
+Insert.Symbol	
+Insert.Hyperlink	
+Insert.ClipArt	
+Insert.FromFile	
+Insert.Control	
+Insert.HeaderandFooter	
+Tools.SetLanguage	
+Tools.Spelling	
+Tools.SpellingOptions	
+Tools.FormOptions	
+Tools.FormSubmitOptions	
+Tools.UserRoles	
+Tools.ResourceFiles	
+Tools.LogicInspector	
+Tools.WordPrintViews	
+Tools.PrintMultipleViews	
+Format.Font	
+Format.Paragraph	
+Format.ApplyfonttoallXXXX	
+Format.ApplyfonttoallControls	
+Format.BulletsandNumbering	
+Format.BordersandShading	
+Format.Layout	
+Format.FormBackgroundColor	
+Format.ColorSchemes	
+Format.AsianTypography	
+Format.Grid	
+Format.DataFormatting	
+Format.ConditionalFormatting	
+Format.DataValidation	
+Format.ViewProperties	
+Format.ControlProperties	
+Table.DrawTable	
+Table.MergeCells	
+Table.SplitCells	
+Table.LayoutTable	
+Table.RepeatingTable	
+Table.ColumnstotheLeft	
+Table.ColumnstotheRight	
+Table.RowsAbove	
+Table.RowsBelow	
+Table.Table	
+Table.Columns	
+Table.Rows	
+Table.Table	
+Table.Column	
+Table.Row	
+Table.Cell	
+Table.Gridlines	
+Table.RepeatingTableProperties	
+Table.TableProperties	
+Help.MicrosoftOfficeInfoPathHelp	
+Help.MicrosoftOfficeOnline	
+Help.MicrosoftOfficeInfoPathDeveloperResources	
+Help.ContactMicrosoftOfficeOnline	
+Help.CheckforInfoPathUpdates	
+Help.ActivateInfoPath	
+Help.OfficeDiagnostics	
+Help.InfoPathCustomerFeedbackOptions	
+File.ExportTemplate	
+File.ExportFormTemplate	
+Edit.AddRow	
+Edit.RemoveRow	Managed Resources Editor::Ctrl+Del Settings Designer::Ctrl+Del
+Edit.EditCell	Managed Resources Editor::F2 Settings Designer::F2
+View.ViewDataGrid	
+Project.PublishasWebService	
+Project.NewSequentialWorkflow	
+Project.NewStateMachineWorkflow	
+Project.NewActivity	
+Tools.WCFServiceConfigurationEditor	
+Help.CustomerFeedbackOptions	
+View.ObjectTestBench	
+View.ClassDetails	
+DebuggerContextMenus.ScriptProject.EditWCFConfiguration	
+{A659F1B3-AD34-11D1-ABAD-0080C7B89C95}:221	
+{A659F1B3-AD34-11D1-ABAD-0080C7B89C95}:230	
+{A659F1B3-AD34-11D1-ABAD-0080C7B89C95}:232	
+{A659F1B3-AD34-11D1-ABAD-0080C7B89C95}:233	
+EditorContextMenus.CodeWindow.GenerateMethodStub	
+EditorContextMenus.CodeWindow.ImplementAbstractClass	
+Data.ShowDataSources	Global::Shift+Alt+D
+Data.AddNewDataSource	
+Data.Debug	
+Format.NewStyle	
+Format.AttachStyleSheet	
+Edit.UpdateJScriptIntellisense	HTML Editor Source View::Ctrl+Shift+J
+Table.RowsorColumns	
+Table.ColumntotheLeft	HTML Editor Design View::Ctrl+Alt+Left Arrow
+Table.ColumntotheRight	HTML Editor Design View::Ctrl+Alt+Right Arrow
+Table.RowAbove	HTML Editor Design View::Ctrl+Alt+Up Arrow
+Table.RowBelow	HTML Editor Design View::Ctrl+Alt+Down Arrow
+Table.CelltotheLeft	
+Table.CelltotheRight	
+Table.Caption	
+Table.DeleteTable	
+Table.DeleteColumns	
+Table.DeleteRows	
+Table.DeleteCells	
+Table.Table	
+Table.Column	
+Table.Row	
+Table.Cell	
+Table.MergeCells	
+Table.SplitCells	
+Table.SplitTable	
+Table.DistributeRowsEvenly	
+Table.DistributeColumnsEvenly	
+Table.AutofittoContents	
+Table.InsertTable	
+Format.ManageStyleSheetLinks	
+Format.Styles	
+Format.Font	
+Format.ManageStyleSheetLinks	
+Format.Paragraph	
+Format.BulletsandNumbering	
+Format.BordersandShading	
+Format.SharedBorders	
+Format.Position	
+Format.Properties	
+Format.FormatAutoShape	
+Format.RemoveFormatting	
+View.ShowRuler	
+View.ShowGrid	
+View.SnapToGrid	
+View.SetOriginFromSelection	
+View.ResetOrigin	
+View.Configure	
+View.ShowImage	
+View.Configure	
+View.Show	
+View.BlockSelection	
+View.VisibleBorders	
+View.EmptyContainers	
+View.MarginsandPadding	
+View.CSSDisplaynoneElements	
+View.CSSVisibilityhiddenElements	
+View.ASP.NETNonvisualControls	HTML Editor Design View::Ctrl+Shift+N
+View.TemplateRegionLabels	
+View.Show	
+View.TagMarks	
+View.ParagraphMarks	
+View.LineBreaks	
+View.Spaces	
+View.Comments	
+View.ScriptBlocks	
+View.PositionedAbsolute	
+View.AlignedElements	
+View.CSSDisplaynoneElements	
+View.HiddenFromFields	
+{29AAB322-2365-11D3-822F-006097DE50F5}:8448	
+OtherContextMenus.Context.EndTemplateEditing	
+{29AAB322-2365-11D3-822F-006097DE50F5}:8464	
+{D7E8C5E1-BDB8-11D0-9C88-0000F8040A53}:5050	
+{D7E8C5E1-BDB8-11D0-9C88-0000F8040A53}:5060	
+{D7E8C5E1-BDB8-11D0-9C88-0000F8040A53}:5070	
+{D7E8C5E1-BDB8-11D0-9C88-0000F8040A53}:5080	
+{D7E8C5E1-BDB8-11D0-9C88-0000F8040A53}:5090	
+{D7E8C5E1-BDB8-11D0-9C88-0000F8040A53}:6000	
+View.CSSProperties	
+View.ManageStyles	
+View.ApplyStyles	
+{D7E8C5E1-BDB8-11D0-9C88-0000F8040A53}:4404	
+{D7E8C5E1-BDB8-11D0-9C88-0000F8040A53}:4405	
+OtherContextMenus.TopicMenu.CopyShortcut	
+OtherContextMenus.TopicMenu.Open	
+OtherContextMenus.TopicMenu.ShowAbstract	
+OtherContextMenus.TopicMenu.OpenSource	
+OtherContextMenus.TopicMenu.OpeninNewWindow	
+OtherContextMenus.TopicMenu.OpenSourceinNewWindow	
+OtherContextMenus.FavoritesWindowContextMenu.MoveUp	
+OtherContextMenus.FavoritesWindowContextMenu.MoveDown	
+OtherContextMenus.FavoritesWindowContextMenu.Rename	
+Format.AlignBottoms	VC Dialog Editor::Ctrl+Shift+Down Arrow
+Format.AlignMiddles	VC Dialog Editor::F9
+Format.AlignLefts	VC Dialog Editor::Ctrl+Shift+Left Arrow
+Format.AlignRights	VC Dialog Editor::Ctrl+Shift+Right Arrow
+Format.AligntoGrid	
+Format.AlignTops	VC Dialog Editor::Ctrl+Shift+Up Arrow
+Format.AlignCenters	VC Dialog Editor::Shift+F9
+Format.BringtoFront	
+Format.CenterHorizontally	
+Format.CenterVertically	
+OtherContextMenus.MenuDesigner.ViewCode	
+Edit.Copy	Global::Ctrl+C Global::Ctrl+Ins
+Edit.Cut	Global::Ctrl+X Global::Shift+Del
+Edit.Delete	Class Diagram::Ctrl+Del Global::Del
+Format.RemoveHorizontalSpacing	
+Format.DecreaseHorizontalSpacing	
+Format.IncreaseHorizontalSpacing	
+Format.MakeHorizontalSpacingEqual	
+Edit.Paste	Global::Ctrl+V Global::Shift+Ins
+File.Print	Global::Ctrl+P
+Edit.Redo	Global::Ctrl+Y Global::Shift+Alt+Bkspce Global::Ctrl+Shift+Z
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:30	
+Edit.SelectAll	Global::Ctrl+A
+Format.SendtoBack	
+Format.MakeSameSize	
+Format.MakeSameHeight	
+Format.MakeSameWidth	
+Format.SizetoGrid	
+View.TabOrder	
+View.Toolbox	Global::Ctrl+Alt+X
+Edit.Undo	Global::Ctrl+Z Global::Alt+Bkspce
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:44	
+Format.RemoveVerticalSpacing	
+Format.DecreaseVerticalSpacing	
+Format.IncreaseVerticalSpacing	
+Format.MakeVerticalSpacingEqual	
+Format.BackgroundColor	
+Format.Bold	HTML Editor Design View::Ctrl+B
+Format.ForegroundColor	
+Format.Italic	HTML Editor Design View::Ctrl+I
+Format.JustifyCenter	
+Format.Justify	
+Format.JustifyLeft	
+Format.JustifyRight	
+Format.Underline	HTML Editor Design View::Ctrl+U
+Edit.Find	Global::Ctrl+F
+DatabaseDiagram.NewTable	
+QueryDesigner.VerifySQLSyntax	
+TableDesigner.SetPrimaryKey	
+QueryDesigner.SortAscending	
+QueryDesigner.SortDescending	
+QueryDesigner.InsertResults	
+QueryDesigner.Delete	
+QueryDesigner.MakeTable	
+QueryDesigner.Select	
+QueryDesigner.Update	
+QueryDesigner.AddGroupBy	
+TableDesigner.NameOnly	
+TableDesigner.ColumnNames	
+TableDesigner.Keys	
+TableDesigner.Standard	
+QueryDesigner.SQL	Query Designer::Ctrl+3 View Designer::Ctrl+3
+QueryDesigner.Diagram	Query Designer::Ctrl+1 View Designer::Ctrl+1
+QueryDesigner.Results	Query Designer::Ctrl+4 View Designer::Ctrl+4
+QueryDesigner.Criteria	Query Designer::Ctrl+2 View Designer::Ctrl+2
+OtherContextMenus.QueryDiagramTable.SelectAllColumns	
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:137	
+File.Rename	Global::F2
+QueryDesigner.RemoveFilter	
+Edit.Remove	Managed Resources Editor::Del
+QueryDesigner.SelectAllRowsFromTableA	
+QueryDesigner.SelectAllRowsFromTableB	
+QueryDesigner.AddtoSelect	
+TableDesigner.GenerateChangeScript	
+File.SaveSelection	
+Debug.StopDebugging	Global::Shift+F5
+Debug.BreakAll	Global::Ctrl+Alt+Break
+View.Refresh	
+View.OpenWith	
+QueryDesigner.ExecuteSQL	Query Designer::Ctrl+R View Designer::Ctrl+R
+QueryDesigner.ClearResults	
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:203	
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:204	
+QueryDesigner.GotoRow	Query Designer::Ctrl+G View Designer::Ctrl+G
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:208	
+Edit.InsertNew	
+Edit.InsertSeparator	
+Edit.EditNames	
+Debug.AttachtoProcess	
+Debug.Threads	Global::Ctrl+Alt+H
+File.NewProject	Global::Ctrl+Shift+N
+File.OpenProject	Global::Ctrl+Shift+O
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:218	
+File.CloseSolution	
+Project.AddNewItem	Global::Ctrl+Shift+A
+File.NewFile	Global::Ctrl+N
+File.OpenFile	Global::Ctrl+O
+File.Close	
+File.SaveAll	Global::Ctrl+Shift+S
+File.SaveSelectedItemsAs	
+File.PageSetup	
+File.PrintPreview	
+File.Exit	
+Edit.Replace	Global::Ctrl+H
+Edit.GoTo	Global::Ctrl+G
+View.PropertyPages	
+View.FullScreen	Global::Shift+Alt+Enter
+View.SolutionExplorer	Global::Ctrl+Alt+L
+View.PropertiesWindow	Global::Alt+Enter
+View.TaskList	Global::Ctrl+\, Ctrl+T Global::Ctrl+\, T
+View.Output	Global::Ctrl+Alt+O Global::Alt+2
+View.ObjectBrowser	Global::Ctrl+Alt+J
+View.DocumentOutline	Global::Ctrl+Alt+D
+Debug.Immediate	Global::Ctrl+Alt+I
+Debug.Locals	Global::Ctrl+Alt+V, L Global::Alt+4
+Debug.CallStack	Global::Ctrl+Alt+C Global::Alt+7
+Project.AddExistingItem	Global::Shift+Alt+A
+Project.NewFolder	
+Project.SetasStartUpProject	
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:247	
+Debug.StepInto	Global::F11
+Debug.StepOver	Global::F10
+Debug.StepOut	Global::Shift+F11
+Debug.RunToCursor	Global::Ctrl+F10
+Debug.AddWatch	
+Debug.QuickWatch	Global::Ctrl+Alt+Q Global::Shift+F9
+Debug.ToggleBreakpoint	Global::F9
+Debug.DeleteAllBreakpoints	Global::Ctrl+Shift+F9
+Debug.SetNextStatement	Global::Ctrl+Shift+F10
+Debug.ShowNextStatement	Global::Alt+Num *
+View.Open	
+Debug.DetachAll	
+Tools.CustomizeKeyboard	
+Tools.Options	
+Window.NewWindow	
+Window.Split	
+Window.Cascade	
+Window.TileHorizontally	
+Window.TileVertically	
+Help.TechnicalSupport	
+Help.About	
+DebuggerContextMenus.AutosWindow.DeleteWatch	
+DebuggerContextMenus.AutosWindow.CollapseParent	
+Edit.FindinFiles	Global::Ctrl+Shift+F
+Edit.ReplaceinFiles	Global::Ctrl+Shift+H
+Edit.GoToNextLocation	Global::F8 Global::F4
+Edit.GoToPrevLocation	Global::Shift+F8 Global::Shift+F4
+OtherContextMenus.PropertiesWindow.Description	
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:283	
+Window.Dockable	
+Window.Hide	
+Window.NextTab	Global::Ctrl+PgDn
+Window.PreviousTab	Global::Ctrl+PgUp HTML Editor Design View::Ctrl+PgUp HTML Editor Source View::Ctrl+PgUp
+Window.CloseToolWindow	Global::Shift+Esc
+Window.ActivateDocumentWindow	Global::Esc Global::Alt+0
+Window.TabbedDocument	
+Window.Floating	
+Window.AutoHide	
+Window.MovetoNavigationBar	Global::Ctrl+F8
+Debug.Start	Global::F5
+Debug.Restart	Global::Ctrl+Shift+F5
+Tools.AddinManager	
+Tools.AddTab	
+Tools.DeleteTab	
+Tools.RenameTab	
+Tools.MoveUp	
+Tools.MoveDown	
+OtherContextMenus.Toolbox.RenameItem	
+Tools.ListView	
+QueryDesigner.InsertValues	
+DebuggerContextMenus.ThreadsWindow.Freeze	
+DebuggerContextMenus.ThreadsWindow.Thaw	
+DebuggerContextMenus.ThreadsWindow.SwitchToThread	
+DebuggerContextMenus.AutosWindow.HexadecimalDisplay	
+Window.NextPane	Global::Alt+F6
+Window.PreviousPane	Global::Shift+Alt+F6
+Edit.ClearAll	
+OtherContextMenus.ResultsList.GoToLocation	
+View.ErrorList	Global::Ctrl+\, Ctrl+E Global::Ctrl+\, E
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:321	
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:322	
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:323	
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:324	
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:325	
+OtherContextMenus.EasyMDIDragging.Cancel	
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:327	
+Help.Samples	
+Tools.AddRemoveToolboxItems	
+Tools.ResetToolbox	
+File.SaveSelectedItems	Global::Ctrl+S
+View.ViewDesigner	HTML Editor Source View::Shift+F7 Global::Shift+F7
+View.ViewCode	Settings Designer::F7 Class Diagram::Enter Global::Ctrl+Alt+0
+File.ViewinBrowser	Global::Ctrl+Shift+W
+File.BrowseWith	
+View.EditLabel	
+Debug.Exceptions	Global::Ctrl+Alt+E
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:343	
+DebuggerContextMenus.AutosWindow.Elasticcolumn	
+View.ToggleDesigner	
+View.Zoom	
+Edit.StopSearch	Global::Alt+F3, S
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:367	
+Debug.StartWithoutDebugging	Global::Ctrl+F5
+Format.LockControls	
+Edit.FindNext	Global::F3
+Edit.FindPrevious	Global::Shift+F3
+Edit.FindNextSelected	Global::Ctrl+F3
+Edit.FindPreviousSelected	Global::Ctrl+Shift+F3
+EditorContextMenus.CodeWindow.Breakpoint.InsertBreakpoint	
+Debug.EnableBreakpoint	Global::Ctrl+F9
+Help.F1Help	Global::F1
+Window.MovetoNextTabGroup	
+Window.MovetoPreviousTabGroup	
+Project.Properties	Global::Alt+F7
+ClassViewContextMenus.ClassViewMultiselectProjectreferencesItems.Properties	
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:400	
+Project.ReloadProject	
+Project.UnloadProject	
+File.SelectProjectTemplate	
+OtherContextMenus.NoCommandsAvailable.NoCommandsAvailable	
+Tools.Alias	
+Tools.GoToCommandLine	Global::Ctrl+/
+Debug.Print	
+Tools.ImmediateMode	
+Debug.EvaluateStatement	
+View.FindResults1	
+View.FindResults2	
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:451	
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:570	
+Window.Windows	
+Window.AutoHideAll	
+View.ClassView	Global::Ctrl+Shift+C
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:600	
+Window.NextSplitPane	Global::F6
+Window.PreviousSplitPane	Global::Shift+F6
+Window.CloseAllDocuments	
+Window.NextDocumentWindow	Global::Ctrl+F6
+Window.PreviousDocumentWindow	Global::Ctrl+Shift+F6
+Tools.ExternalCommand1	
+Tools.ExternalCommand2	
+Tools.ExternalCommand3	
+Tools.ExternalCommand4	
+Tools.ExternalCommand5	
+Tools.ExternalCommand6	
+Tools.ExternalCommand7	
+Tools.ExternalCommand8	
+Tools.ExternalCommand9	
+Tools.ExternalCommand10	
+Tools.ExternalCommand11	
+Tools.ExternalCommand12	
+Tools.ExternalCommand13	
+Tools.ExternalCommand14	
+Tools.ExternalCommand15	
+Tools.ExternalCommand16	
+Tools.ExternalCommand17	
+Tools.ExternalCommand18	
+Tools.ExternalCommand19	
+Tools.ExternalCommand20	
+Tools.ExternalCommand21	
+Tools.ExternalCommand22	
+Tools.ExternalCommand23	
+Tools.ExternalCommand24	
+Tools.ExternalTools	
+Edit.CycleClipboardRing	Global::Ctrl+Shift+Ins
+Tools.ShowAll	
+Project.ProjectDependencies	
+Window.CloseDocumentWindow	Global::Ctrl+F4
+Tools.SortItemsAlphabetically	
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:728	
+View.CommandWindow	Global::Ctrl+Alt+A
+Tools.LogCommandWindowOutput	
+Tools.Shell	
+OtherContextMenus.FindRegularExpressionBuilder..Anysinglecharacter	
+OtherContextMenus.FindRegularExpressionBuilder.*Zeroormore	
+OtherContextMenus.FindRegularExpressionBuilder.+Oneormore	
+OtherContextMenus.FindRegularExpressionBuilder.^Beginningofline	
+OtherContextMenus.FindRegularExpressionBuilder.$Endofline	
+OtherContextMenus.FindRegularExpressionBuilder.Beginningofword	
+OtherContextMenus.FindRegularExpressionBuilder.Endofword	
+OtherContextMenus.FindRegularExpressionBuilder.[]Anyonecharacterintheset	
+OtherContextMenus.FindRegularExpressionBuilder.[^]Anyonecharacternotintheset	
+OtherContextMenus.FindRegularExpressionBuilder.Or	
+OtherContextMenus.FindRegularExpressionBuilder.EscapeSpecialCharacter	
+OtherContextMenus.FindRegularExpressionBuilder.{}Tagexpression	
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:745	
+OtherContextMenus.FindRegularExpressionBuilder.CompleteCharacterList	
+Debug.Autos	Global::Ctrl+Alt+V, A
+OtherContextMenus.WildCardExpressionBuilder.*Zeroormoreofanycharacter	
+OtherContextMenus.WildCardExpressionBuilder.?Anysinglecharacter	
+OtherContextMenus.WildCardExpressionBuilder.Anysingledigit	
+OtherContextMenus.WildCardExpressionBuilder.[]Anyonecharacterintheset	
+OtherContextMenus.WildCardExpressionBuilder.[!]Anyonecharacternotintheset	
+OtherContextMenus.ReplaceRegularExpressionBuilder.FindWhatText	
+OtherContextMenus.ReplaceRegularExpressionBuilder.TaggedExpression1	
+OtherContextMenus.ReplaceRegularExpressionBuilder.TaggedExpression2	
+OtherContextMenus.ReplaceRegularExpressionBuilder.TaggedExpression3	
+OtherContextMenus.ReplaceRegularExpressionBuilder.TaggedExpression4	
+OtherContextMenus.ReplaceRegularExpressionBuilder.TaggedExpression5	
+OtherContextMenus.ReplaceRegularExpressionBuilder.TaggedExpression6	
+OtherContextMenus.ReplaceRegularExpressionBuilder.TaggedExpression7	
+OtherContextMenus.ReplaceRegularExpressionBuilder.TaggedExpression8	
+OtherContextMenus.ReplaceRegularExpressionBuilder.TaggedExpression9	
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:769	
+Build.ConfigurationManager	
+File.AddNewProject	
+File.AddExistingProject	
+OtherContextMenus.WildCardExpressionBuilder.EscapeSpecialCharacter	
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:776	
+View.NavigateBackward	Global::Ctrl+-
+View.NavigateForward	Global::Ctrl+Shift+-
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:811	
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:844	
+Build.BuildSolution	Global::Ctrl+Shift+B Global::F7
+Build.RebuildSolution	Global::Ctrl+Alt+F7
+Build.DeploySolution	
+Build.CleanSolution	
+Build.BuildSelection	
+Build.RebuildSelection	
+Build.DeploySelection	
+Build.CleanSelection	
+Build.Cancel	Global::Ctrl+Break
+Build.BatchBuild	
+ClassViewContextMenus.ClassViewProject.Build	
+ClassViewContextMenus.ClassViewProject.Rebuild	
+ClassViewContextMenus.ClassViewProject.Deploy	
+ClassViewContextMenus.ClassViewProject.Clean	
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:900	
+Tools.ItemPath	
+Tools.ItemDirectory	
+Tools.ItemFileName	
+Tools.ItemExtension	
+Tools.ProjectDirectory	
+Tools.ProjectFileName	
+Tools.SolutionDirectory	
+Tools.SolutionFileName	
+Edit.GoToDefinition	Global::F12
+Edit.GoToDeclaration	Global::Ctrl+F12 Global::Ctrl+Alt+F12
+View.BrowseDefinition	
+View.SynchronizeClassView	
+View.ShowReferences	
+Project.AddClass	
+Project.AddNestedClass	
+Project.AddInterface	
+Project.AddMethod	
+Project.AddProperty	
+Project.AddEvent	
+Project.AddVariable	
+Project.ImplementInterface	
+Project.Override	Global::Ctrl+Alt+Ins
+Project.AddFunction	
+Project.AddConnectionPoint	
+Project.AddIndexer	
+Project.ProjectBuildOrder	
+File.AdvancedSaveOptions	
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:971	
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:972	
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:973	
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:974	
+View.NewClassViewFolder	
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:976	
+Edit.FindSymbol	Global::Alt+F12 Global::Ctrl+Shift+Y
+View.FindSymbolResults	Global::Ctrl+Alt+Y
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:979	
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:989	
+Build.ProjectPickerBuild	
+Build.ProjectPickerRebuild	
+View.ResourceView	Global::Ctrl+Shift+E
+Edit.EditIDs	
+OtherContextMenus.FindRegularExpressionBuilder.nLinebreak	
+OtherContextMenus.FindRegularExpressionBuilder.iCC++identifier	
+OtherContextMenus.FindRegularExpressionBuilder.qQuotedstring	
+OtherContextMenus.FindRegularExpressionBuilder.bSpaceorTab	
+OtherContextMenus.FindRegularExpressionBuilder.zInteger	
+Tools.Customize	
+ClassViewContextMenus.ClassViewFolder.MoveToTop	
+Help.WindowHelp	Global::Shift+F1
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:1041	
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:1042	
+View.NextView	HTML Editor Design View::Ctrl+PgDn HTML Editor Source View::Ctrl+PgDn
+Help.CheckforUpdates	
+Tools.Open	
+Tools.OpenWith	
+Tools.AttachtoProcess	Global::Ctrl+Alt+P
+Window.NextSubpane	
+Window.PreviousSubpane	
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:1070	
+File.ProjectPickerMoveInto	
+Tools.EditCustomComponentSet	
+View.PopBrowseContext	Global::Ctrl+Num *
+Edit.GoToReference	Global::Shift+F12
+Tools.TargetPath	
+Tools.TargetDirectory	
+Tools.TargetName	
+Tools.TargetExtension	
+Tools.CurrentLine	
+Tools.CurrentColumn	
+Tools.CurrentText	
+View.BrowseNext	Global::Ctrl+Shift+1 Global::Ctrl+Num +
+View.BrowsePrevious	Global::Ctrl+Shift+2 Global::Ctrl+Num -
+Tools.UnloadSourceBrowserFiles	
+Edit.QuickFindSymbol	Global::Shift+Alt+F12
+View.ExpandAll	
+Tools.BinaryDirectory	
+View.BookmarkWindow	Global::Ctrl+K, Ctrl+W
+Tools.CodeSnippetsManager	Global::Ctrl+K, Ctrl+B
+Window.NextDocumentWindowNav	Global::Ctrl+Tab
+Window.PreviousDocumentWindowNav	Global::Ctrl+Shift+Tab
+View.ForwardBrowseContext	Global::Ctrl+Shift+7
+OtherContextMenus.ResourceView.Properties	
+Window.ResetWindowLayout	
+View.ClassViewShowHiddenTypesAndMembers	
+View.ClassViewBack	
+View.ClassViewForward	
+View.ClassViewSortObjectsAlphabetically	
+View.ClassViewSortObjectsByType	
+View.ClassViewSortObjectsByAccess	
+View.ClassViewGroupObjectsByType	
+View.ClassViewSortMembersAlphabetically	
+View.ClassViewSortMembersByType	
+View.ClassViewSortMembersByAccess	
+View.ObjectBrowserShowHiddenTypesAndMembers	
+View.ObjectBrowserBack	
+View.ObjectBrowserForward	
+View.ObjectBrowserSortObjectsAlphabetically	
+View.ObjectBrowserSortObjectsByType	
+View.ObjectBrowserSortObjectsByAccess	
+View.ObjectBrowserGroupObjectsByType	
+View.ObjectBrowserSortMembersAlphabetically	
+View.ObjectBrowserSortMembersByType	
+View.ObjectBrowserSortMembersByAccess	
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:1775	
+Edit.FindAllReferences	
+Help.Contents	Global::Ctrl+Alt+F1
+Help.Index	Global::Ctrl+Alt+F2
+Help.Search	Global::Ctrl+Alt+F3
+Help.HelponHelp	
+Help.HowDoI	Global::Ctrl+F1
+Help.MSDNForums	
+Help.ReportaBug	
+Tools.PartnerProductsCatalog	
+Help.SearchResults	Global::Shift+Alt+F3
+Help.IndexResults	
+Help.HelpFavorites	
+Help.AddtoHelpFavorites	
+Help.SaveSearch	
+File.PrintSubtopics	
+OtherContextMenus.ResListContext.SortBy.Column1	
+OtherContextMenus.ResListContext.SortBy.Column2	
+OtherContextMenus.ResListContext.SortBy.Column3	
+OtherContextMenus.ResListContext.SortBy.Column4	
+OtherContextMenus.ResListContext.SortBy.Column5	
+OtherContextMenus.ResListContext.SortBy.Column6	
+OtherContextMenus.ResListContext.SortBy.Column7	
+OtherContextMenus.ResListContext.SortBy.Column8	
+OtherContextMenus.ResListContext.SortBy.Column9	
+OtherContextMenus.ResListContext.SortBy.Column10	
+{4A79114A-19E4-11D3-B86B-00C04F79F802}:512	
+{4A79114A-19E4-11D3-B86B-00C04F79F802}:513	
+{4A79114A-19E4-11D3-B86B-00C04F79F802}:514	
+{4A79114A-19E4-11D3-B86B-00C04F79F802}:515	
+{4A79114A-19E4-11D3-B86B-00C04F79F802}:516	
+{4A79114A-19E4-11D3-B86B-00C04F79F802}:517	
+{4A79114A-19E4-11D3-B86B-00C04F79F802}:518	
+{4A79114A-19E4-11D3-B86B-00C04F79F802}:519	
+{4A79114A-19E4-11D3-B86B-00C04F79F802}:520	
+{4A79114A-19E4-11D3-B86B-00C04F79F802}:521	
+{4A79114A-19E4-11D3-B86B-00C04F79F802}:522	
+{4A79114A-19E4-11D3-B86B-00C04F79F802}:523	
+{4A79114A-19E4-11D3-B86B-00C04F79F802}:524	
+{4A79114A-19E4-11D3-B86B-00C04F79F802}:525	
+{4A79114A-19E4-11D3-B86B-00C04F79F802}:526	
+{4A79114A-19E4-11D3-B86B-00C04F79F802}:527	
+{4A79114A-19E4-11D3-B86B-00C04F79F802}:528	
+{4A79114A-19E4-11D3-B86B-00C04F79F802}:529	
+{4A79114A-19E4-11D3-B86B-00C04F79F802}:530	
+{4A79114A-19E4-11D3-B86B-00C04F79F802}:531	
+{4A79114A-19E4-11D3-B86B-00C04F79F802}:532	
+{4A79114A-19E4-11D3-B86B-00C04F79F802}:533	
+{4A79114A-19E4-11D3-B86B-00C04F79F802}:534	
+{4A79114A-19E4-11D3-B86B-00C04F79F802}:535	
+{4A79114A-19E4-11D3-B86B-00C04F79F802}:768	
+Edit.DeleteBackwards	Text Editor::Shift+Bkspce Text Editor::Bkspce
+Edit.BreakLine	Windows Forms Designer::Enter Text Editor::Shift+Enter Text Editor::Enter Report Designer::Enter
+Edit.InsertTab	Windows Forms Designer::Tab Text Editor::Tab Report Designer::Tab
+Edit.TabLeft	Windows Forms Designer::Shift+Tab Text Editor::Shift+Tab Report Designer::Shift+Tab
+Edit.CharLeft	Windows Forms Designer::Left Arrow Text Editor::Left Arrow Report Designer::Left Arrow
+Edit.CharLeftExtend	Windows Forms Designer::Shift+Left Arrow Text Editor::Shift+Left Arrow Report Designer::Shift+Left Arrow
+Edit.CharRight	Windows Forms Designer::Right Arrow Text Editor::Right Arrow Report Designer::Right Arrow
+Edit.CharRightExtend	Windows Forms Designer::Shift+Right Arrow Text Editor::Shift+Right Arrow Report Designer::Shift+Right Arrow
+Edit.LineUp	Windows Forms Designer::Up Arrow Text Editor::Up Arrow Report Designer::Up Arrow
+Edit.LineUpExtend	Windows Forms Designer::Shift+Down Arrow Text Editor::Shift+Up Arrow Report Designer::Shift+Up Arrow
+Edit.LineDown	Windows Forms Designer::Down Arrow Text Editor::Down Arrow Report Designer::Down Arrow
+Edit.LineDownExtend	Windows Forms Designer::Shift+Up Arrow Text Editor::Shift+Down Arrow Report Designer::Shift+Down Arrow
+Edit.DocumentStart	Windows Forms Designer::Home Text Editor::Ctrl+Home
+Edit.DocumentStartExtend	Windows Forms Designer::Shift+Home Text Editor::Ctrl+Shift+Home
+Edit.DocumentEnd	Windows Forms Designer::End Text Editor::Ctrl+End
+Edit.DocumentEndExtend	Windows Forms Designer::Shift+End Text Editor::Ctrl+Shift+End
+Edit.LineStart	Text Editor::Home
+Edit.LineStartExtend	Text Editor::Shift+Home
+Edit.LineStartAfterIndentation	
+Edit.LineStartAfterIndentationExtend	
+Edit.LineEnd	Text Editor::End
+Edit.LineEndExtend	Text Editor::Shift+End
+Edit.LineLastChar	
+Edit.LineLastCharExtend	
+Edit.PageUp	Text Editor::PgUp
+Edit.PageUpExtend	Text Editor::Shift+PgUp
+Edit.PageDown	Text Editor::PgDn
+Edit.PageDownExtend	Text Editor::Shift+PgDn
+Edit.ViewTop	Text Editor::Ctrl+PgUp
+Edit.ViewTopExtend	Text Editor::Ctrl+Shift+PgUp
+Edit.ViewBottom	Text Editor::Ctrl+PgDn
+Edit.ViewBottomExtend	Text Editor::Ctrl+Shift+PgDn
+Edit.ScrollLineUp	VC Dialog Editor::Ctrl+Up Arrow Text Editor::Ctrl+Up Arrow
+Edit.ScrollLineDown	VC Dialog Editor::Ctrl+Down Arrow Text Editor::Ctrl+Down Arrow
+Edit.ScrollPageUp	
+Edit.ScrollPageDown	
+Edit.ScrollColumnLeft	VC Dialog Editor::Ctrl+Left Arrow
+Edit.ScrollColumnRight	VC Dialog Editor::Ctrl+Right Arrow
+Edit.ScrollLineBottom	
+Edit.ScrollLineCenter	
+Edit.ScrollLineTop	
+Edit.TabifySelectedLines	
+Edit.UntabifySelectedLines	
+Edit.MakeLowercase	Text Editor::Ctrl+U
+Edit.MakeUppercase	Text Editor::Ctrl+Shift+U
+Edit.ToggleCase	
+Edit.Capitalize	
+Edit.SwapAnchor	Text Editor::Ctrl+K, Ctrl+A
+Edit.GotoBrace	Text Editor::Ctrl+]
+Edit.GotoBraceExtend	Text Editor::Ctrl+Shift+]
+Edit.OvertypeMode	Text Editor::Ins
+Edit.LineCut	Text Editor::Ctrl+L Global::Shift+Alt+L
+Edit.LineDelete	Text Editor::Ctrl+Shift+L
+Edit.DeleteBlankLines	
+Edit.DeleteHorizontalWhiteSpace	Text Editor::Ctrl+K, Ctrl+\
+Edit.DeleteToEOL	
+Edit.DeleteToBOL	
+Edit.LineOpenAbove	Text Editor::Ctrl+Enter
+Edit.LineOpenBelow	Text Editor::Ctrl+Shift+Enter
+Edit.IncreaseLineIndent	
+Edit.DecreaseLineIndent	
+Edit.ClearBookmarks	Text Editor::Ctrl+K, Ctrl+L Global::Ctrl+Shift+F2
+Edit.ToggleBookmark	Text Editor::Ctrl+K, Ctrl+K Global::Ctrl+F2
+Edit.NextBookmark	Global::Ctrl+K, Ctrl+N Text Editor::F2
+Edit.PreviousBookmark	Global::Ctrl+K, Ctrl+P Global::Shift+F2
+Edit.CharTranspose	Text Editor::Ctrl+T
+Edit.WordTranspose	Text Editor::Ctrl+Shift+T
+Edit.LineTranspose	Text Editor::Shift+Alt+T
+Edit.SelectCurrentWord	Text Editor::Ctrl+W
+Edit.WordDeleteToEnd	Text Editor::Ctrl+Del
+Edit.WordDeleteToStart	Text Editor::Ctrl+Bkspce
+Edit.WordPrevious	Text Editor::Ctrl+Left Arrow
+Edit.WordPreviousExtend	Text Editor::Ctrl+Shift+Left Arrow
+Edit.WordNext	Text Editor::Ctrl+Right Arrow
+Edit.WordNextExtend	Text Editor::Ctrl+Shift+Right Arrow
+Edit.SelectionCancel	Managed Resources Editor::Esc Settings Designer::Esc Windows Forms Designer::Esc Text Editor::Esc Report Designer::Esc
+Edit.ParameterInfo	Text Editor::Ctrl+Shift+Space
+Edit.ViewWhiteSpace	Text Editor::Ctrl+R, Ctrl+W Global::Ctrl+Shift+8
+Edit.PasteMovesCaret	
+Edit.CompleteWord	Text Editor::Alt+Right Arrow Text Editor::Ctrl+Space
+Edit.ListMembers	Text Editor::Ctrl+J Global::Ctrl+Alt+T
+Edit.LineStartAfterIndentationPrev	
+Edit.LineStartAfterIndentationNext	
+Edit.FormatSelection	Text Editor::Ctrl+K, Ctrl+F Global::Alt+F8
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:113	
+Edit.InsertFileAsText	
+Edit.ToggleTaskListShortcut	Text Editor::Ctrl+K, Ctrl+H
+Edit.QuickInfo	Text Editor::Ctrl+K, Ctrl+I
+Edit.CharLeftExtendColumn	Text Editor::Shift+Alt+Left Arrow
+Edit.CharRightExtendColumn	Text Editor::Shift+Alt+Right Arrow
+Edit.LineUpExtendColumn	Text Editor::Shift+Alt+Up Arrow
+Edit.LineDownExtendColumn	Text Editor::Shift+Alt+Down Arrow
+Edit.ToggleWordWrap	Text Editor::Ctrl+E, Ctrl+W
+Edit.IncrementalSearch	Text Editor::Ctrl+I
+Edit.ReverseIncrementalSearch	Text Editor::Ctrl+Shift+I
+Edit.LineStartExtendColumn	Text Editor::Shift+Alt+Home
+Edit.LineEndExtendColumn	Text Editor::Shift+Alt+End
+Edit.WordPreviousExtendColumn	Text Editor::Ctrl+Shift+Alt+Left Arrow
+Edit.WordNextExtendColumn	Text Editor::Ctrl+Shift+Alt+Right Arrow
+Edit.HideSelection	Text Editor::Ctrl+M, Ctrl+H
+Edit.ToggleOutliningExpansion	Text Editor::Ctrl+M, Ctrl+M
+Edit.ToggleAllOutlining	Text Editor::Ctrl+M, Ctrl+L
+Edit.StopOutlining	Text Editor::Ctrl+M, Ctrl+P
+Edit.StopHidingCurrent	Text Editor::Ctrl+M, Ctrl+U
+Edit.CollapsetoDefinitions	Text Editor::Ctrl+M, Ctrl+O
+Edit.DoubleClick	
+Edit.CommentSelection	Text Editor::Ctrl+K, Ctrl+C
+Edit.UncommentSelection	Text Editor::Ctrl+K, Ctrl+U
+Edit.OpenFile	Global::Ctrl+Shift+G
+EditorContextMenus.CodeWindow.OpenURL	
+Edit.SelectToLastGoBack	Text Editor::Ctrl+=
+Edit.HideAdvancedCompletionMembers	
+Edit.FormatDocument	Text Editor::Ctrl+K, Ctrl+D
+Edit.StartAutomaticOutlining	
+Edit.IncreaseFilterLevel	Text Editor::Alt+.
+Edit.DecreaseFilterLevel	Text Editor::Alt+,
+View.ShowSmartTag	Global::Shift+Alt+F10 HTML Editor Design View::Shift+Alt+F10 Global::Ctrl+.
+Edit.CopyParameterTip	Text Editor::Ctrl+Shift+Alt+C
+Edit.PasteParameterTip	Text Editor::Ctrl+Shift+Alt+P
+Edit.NextBookmarkInDocument	
+Edit.PreviousBookmarkInDocument	
+Edit.InvokeSnippetFromShortcut	
+Edit.ClearAllBookmarksInDocument	
+Edit.ConvertTabsToSpaces	
+Edit.ConvertSpacesToTabs	
+View.Stop	
+Edit.ReverseCancel	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:222	
+File.SaveCopyofSelectedItemsAs	
+Edit.RemoveTagHandler	
+Edit.EditTagHandler	
+Edit.AddTagHandler	
+Edit.PasteAlternate	
+View.Details	
+Layout.MergeCells	
+Format.InsertBookmark	HTML Editor Design View::Ctrl+Shift+L
+Format.ConverttoHyperlink	HTML Editor Design View::Ctrl+L
+Edit.SwitchtoQuickFind	
+Edit.SwitchtoFindInFiles	
+Edit.SwitchtoFindSymbol	
+Edit.SwitchtoQuickReplace	
+Edit.SwitchtoReplaceInFiles	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:287	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:288	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:289	
+OtherContextMenus.Context.ViewCode	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:291	
+Format.Superscript	
+Format.Subscript	
+View.AutoCloseTagOverride	HTML Editor Source View::Ctrl+Shift+.
+Edit.ValidateDocument	
+View.EditMaster	HTML Editor Design View::Ctrl+M, Ctrl+M
+Edit.InsertSnippet	Global::Ctrl+K, Ctrl+X
+OtherContextMenus.HTMLContext.FormattingandValidation	
+Edit.CollapseTag	Text Editor::Ctrl+M, Ctrl+T
+Edit.SelectTag	
+Edit.SelectTagContent	
+Tools.CheckAccessibility	
+Edit.StopOutliningTag	
+Tools.GenerateLocalResource	
+Layout.Static	
+OtherContextMenus.Context.EditImage	
+Build.Compile	Global::Ctrl+F7
+Build.Link	
+ClassViewContextMenus.ClassViewProject.Debug.Startnewinstance	
+ClassViewContextMenus.ClassViewProject.Debug.StepIntonewinstance	
+Project.UpdateManagedResources	
+Project.AddResource	
+Project.ToolBuildOrder	
+Project.CustomBuildRules	
+Build.Instrument	
+Build.Optimize	
+Build.Update	
+Build.RunInstrumentedOptimizedApplication	
+File.NewProjectFromExistingCode	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:386	
+Project.AddModule	
+Project.AddWindowsForm	
+Project.AddUserControl	
+Project.AddContentPage	HTML Editor Design View::Ctrl+M, Ctrl+C
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:434	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:436	
+Project.AddComponent	
+Edit.NextMethod	
+Edit.PreviousMethod	
+EditorContextMenus.CodeWindow.Rename	
+EditorContextMenus.CodeWindow.CreateSnippet	
+EditorContextMenus.CodeWindow.CreateReplacement	
+EditorContextMenus.CodeWindow.InsertComment	
+EditorContextMenus.CodeWindow.GoToTypeDefinition	
+Edit.ShowSnippetHighlighting	
+Edit.HideSnippetHighlighting	
+OtherContextMenus.BookmarkWindow.Rename	
+Edit.EnableBookmark	
+OtherContextMenus.BookmarkWindow.DeleteBookmark	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:562	
+Edit.EnableAllBookmarks	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:565	Global::Ctrl+K, Ctrl+F
+Edit.NextBookmarkInFolder	Global::Ctrl+Shift+K, Ctrl+Shift+N
+Edit.PreviousBookmarkInFolder	Global::Ctrl+Shift+K, Ctrl+Shift+P
+Project.ShowAllFiles	
+Project.ProjectOutput	
+Project.File	
+Project.MergeModule	
+Project.Assembly	
+Project.Install	
+Project.Uninstall	
+View.FileSystem	
+View.Registry	
+View.FileTypes	
+View.UserInterface	
+View.CustomActions	
+View.LaunchConditions	
+View.FindinEditor	
+OtherContextMenus.Dep.filenodes.Exclude	
+Build.RefreshDependencies	
+View.Outputs	
+View.Dependencies	
+View.ExcludeFilter	
+Action.Key	
+Action.StringValue	
+Action.BinaryValue	
+Action.DWORDValue	
+Action.NewKey	
+Action.Import	
+Action.Folder	
+Action.ProjectOutput	
+Action.File	
+Action.CreateShortcuttoSelectedItems	
+Action.LargeIcons	
+Action.SmallIcons	
+Action.List	
+Action.Details	
+Action.AddFileType	
+Action.AddAction	
+Action.SetAsDefault	
+Action.MoveUp	
+Action.MoveDown	
+Action.AddDialog	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:771	
+Action.AddFileSearch	
+Action.AddRegistrySearch	
+Action.AddWindowsInstallerSearch	
+Action.AddLaunchCondition	
+Action.Add	
+Action.Outputs	
+Action.Dependencies	
+Action.ExcludeFilter	
+Action.Assembly	
+Action.EnvironmentStringValue	
+Action.CreateNewShortcut	
+Action.AddFileLaunchCondition	
+Action.AddRegistryLaunchCondition	
+Action.AddWindowsInstallerLaunchCondition	
+Action.Add.NETFrameworkLaunchCondition	
+Action.AddInternetInformationServicesLaunchCondition	
+Action.UsersApplicationDataFolder	
+Action.CommonFiles64bitFolder	
+Action.CommonFilesFolder	
+Action.CustomFolder	
+Action.UsersDesktop	
+Action.UsersFavoritesFolder	
+Action.FontsFolder	
+Action.GlobalAssemblyCacheFolder	
+Action.ModuleRetargetableFolder	
+Action.UsersPersonalDataFolder	
+Action.ProgramFiles64bitFolder	
+Action.ProgramFilesFolder	
+Action.UsersProgramsMenu	
+Action.UsersSendToMenu	
+Action.UsersStartMenu	
+Action.UsersStartupFolder	
+Action.System64bitFolder	
+Action.SystemFolder	
+Action.UsersTemplateFolder	
+Action.WebCustomFolder	
+Action.WindowsFolder	
+View.AddRemoveColumns	
+View.Sort	
+Project.SetAsStartPage	
+Project.RecalculateLinks	
+Project.WebPermissions	
+Project.SynchronizeFolder	
+Project.SynchronizeAllFolders	
+Project.CopyProject	
+Project.IncludeInProject	
+Project.ExcludeFromProject	
+View.BrokenLinksReport	
+Project.AddReference	
+Project.AddWebReference	
+ProjectandSolutionContextMenus.Project.AddWebReference	
+Project.UpdateWebReference	
+Project.RunCustomTool	
+Project.AddServiceReference	
+ProjectandSolutionContextMenus.Project.AddServiceReference	
+Project.UpdateServiceReference	
+Project.ConfigureServiceReference	
+OtherContextMenus.DragandDrop.MoveHere	
+OtherContextMenus.DragandDrop.CopyHere	
+OtherContextMenus.DragandDrop.Cancel	
+Format.TestDialog	VC Dialog Editor::Ctrl+T
+Format.SpaceAcross	VC Dialog Editor::Alt+Left Arrow VC Dialog Editor::Alt+Right Arrow
+Format.SpaceDown	VC Dialog Editor::Alt+Down Arrow VC Dialog Editor::Alt+Up Arrow
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1203	
+Format.ToggleGuides	VC Dialog Editor::Ctrl+G
+Format.SizetoContent	VC Dialog Editor::Shift+F7
+Format.CenterVertical	VC Dialog Editor::Ctrl+F9
+Format.CenterHorizontal	VC Dialog Editor::Ctrl+Shift+F9
+Format.Flip	
+Format.TabOrder	VC Dialog Editor::Ctrl+D
+Format.ButtonRight	VC Dialog Editor::Ctrl+R
+Format.ButtonBottom	VC Dialog Editor::Ctrl+B
+Format.Stretch	
+Format.FixedWidth	
+Format.Optimize	
+Format.GuideSettings	
+Edit.ResourceIncludes	
+Edit.ResourceSymbols	
+OtherContextMenus.ResourceView.OpenBinaryData	
+OtherContextMenus.ResourceView.Open	
+Edit.AddResource	
+OtherContextMenus.ResourceView.InsertCopy	
+OtherContextMenus.ResourceView.Insert	
+OtherContextMenus.ResourceView.Export	
+Edit.MoveControlLeft	Global::Ctrl+Left Arrow VC Dialog Editor::Left Arrow Windows Forms Designer::Ctrl+Left Arrow Report Designer::Ctrl+Left Arrow
+Edit.MoveControlDown	Global::Ctrl+Down Arrow VC Dialog Editor::Down Arrow HTML Editor Design View::Ctrl+Down Arrow Windows Forms Designer::Ctrl+Down Arrow Report Designer::Ctrl+Down Arrow
+Edit.MoveControlRight	Global::Ctrl+Right Arrow VC Dialog Editor::Right Arrow Windows Forms Designer::Ctrl+Right Arrow Report Designer::Ctrl+Right Arrow
+Edit.MoveControlUp	Global::Ctrl+Up Arrow VC Dialog Editor::Up Arrow HTML Editor Design View::Ctrl+Up Arrow Windows Forms Designer::Ctrl+Up Arrow Report Designer::Ctrl+Up Arrow
+Edit.SizeControlDown	Global::Ctrl+Shift+Down Arrow VC Dialog Editor::Shift+Down Arrow Windows Forms Designer::Ctrl+Shift+Down Arrow Report Designer::Ctrl+Shift+Down Arrow
+Edit.SizeControlUp	Global::Ctrl+Shift+Up Arrow VC Dialog Editor::Shift+Up Arrow Windows Forms Designer::Ctrl+Shift+Up Arrow Report Designer::Ctrl+Shift+Up Arrow
+Edit.SizeControlLeft	Global::Ctrl+Shift+Left Arrow VC Dialog Editor::Shift+Left Arrow Windows Forms Designer::Ctrl+Shift+Left Arrow Report Designer::Ctrl+Shift+Left Arrow
+Edit.SizeControlRight	Global::Ctrl+Shift+Right Arrow VC Dialog Editor::Shift+Right Arrow Windows Forms Designer::Ctrl+Shift+Right Arrow Report Designer::Ctrl+Shift+Right Arrow
+Edit.NewAccelerator	VC Accelerator Editor::Ins
+Edit.NextKeyTyped	VC Accelerator Editor::Ctrl+W
+OtherContextMenus.ResourceDialogEditors.InsertActiveXControl	
+Image.InvertColors	
+Image.FlipHorizontal	VC Image Editor::Ctrl+H
+Image.FlipVertical	VC Image Editor::Shift+Alt+H
+Image.Rotate90Degrees	VC Image Editor::Ctrl+Shift+H
+Image.ShowColorsWindow	
+Edit.NewString	VC String Editor::Ins
+Edit.NewVersionInfoBlock	
+Edit.DeleteVersionInfoBlock	
+Image.AdjustColors	
+Image.LoadPalette	
+Image.SavePalette	
+Format.CheckMnemonics	VC Dialog Editor::Ctrl+M
+Image.DrawOpaque	VC Image Editor::Ctrl+J
+Image.ToolbarEditor	
+Image.GridSettings	
+Image.NewImageType	VC Image Editor::Ins
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1251	
+Image.DeleteImageType	
+Edit.ViewAsPopup	
+Edit.CheckMnemonics	
+Image.ShowGrid	VC Image Editor::Ctrl+Alt+S
+Image.ShowTileGrid	VC Image Editor::Ctrl+Shift+Alt+S
+Image.Magnify	VC Image Editor::Ctrl+Shift+M
+Image.OpenExternalEditor	
+Image.RectangleSelectionTool	VC Image Editor::Shift+Alt+S
+Image.IrregularSelectionTool	
+Image.ColorSelectionTool	
+Image.EraseTool	VC Image Editor::Ctrl+Shift+I
+Image.FillTool	VC Image Editor::Ctrl+F
+Image.PencilTool	VC Image Editor::Ctrl+I
+Image.BrushTool	VC Image Editor::Ctrl+B
+Image.AirbrushTool	VC Image Editor::Ctrl+A
+Image.LineTool	VC Image Editor::Ctrl+L
+Image.CurveTool	
+Image.TextTool	VC Image Editor::Ctrl+T
+Image.RectangleTool	VC Image Editor::Alt+R
+Image.OutlinedRectangleTool	VC Image Editor::Shift+Alt+R
+Image.FilledRectangleTool	VC Image Editor::Ctrl+Shift+Alt+R
+Image.RoundedRectangleTool	VC Image Editor::Alt+W
+Image.OutlinedRoundedRectangleTool	VC Image Editor::Shift+Alt+W
+Image.FilledRoundedRectangleTool	VC Image Editor::Ctrl+Shift+Alt+W
+Image.EllipseTool	VC Image Editor::Alt+P
+Image.OutlinedEllipseTool	VC Image Editor::Shift+Alt+P
+Image.FilledEllipseTool	VC Image Editor::Ctrl+Shift+Alt+P
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1320	
+Image.MagnificationTool	VC Image Editor::Ctrl+M
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1322	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1323	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1324	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1325	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1326	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1327	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1328	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1329	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1330	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1331	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1332	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1333	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1334	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1335	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1336	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1337	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1338	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1339	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1340	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1341	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1342	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1343	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1344	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1345	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1346	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1347	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1348	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1349	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1350	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1351	
+Image.LargerBrush	VC Image Editor::Ctrl+=
+Image.SmallBrush	VC Image Editor::Ctrl+.
+Image.SmallerBrush	VC Image Editor::Ctrl+-
+Image.ZoomIn	VC Image Editor::Ctrl+Up Arrow VC Image Editor::Ctrl+Shift+.
+Image.ZoomOut	VC Image Editor::Ctrl+Down Arrow VC Image Editor::Ctrl+Shift+,
+Image.PreviousColor	VC Image Editor::Ctrl+Left Arrow VC Image Editor::Ctrl+[
+Image.PreviousRightColor	VC Image Editor::Ctrl+Shift+Left Arrow VC Image Editor::Ctrl+Shift+[
+Image.NextColor	VC Image Editor::Ctrl+Right Arrow VC Image Editor::Ctrl+]
+Image.NextRightColor	VC Image Editor::Ctrl+Shift+Right Arrow VC Image Editor::Ctrl+Shift+]
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1363	
+Edit.ShowGrid	
+Edit.ShowTileGrid	Global::Enter
+Edit.MoveControlUpGrid	Global::Up Arrow
+Edit.MoveControlDownGrid	Global::Down Arrow
+Edit.MoveControlLeftGrid	Global::Left Arrow
+Edit.MoveControlRightGrid	Global::Right Arrow
+Edit.SizeControlRightGrid	Global::Shift+Right Arrow
+Edit.SizeControlUpGrid	Global::Shift+Up Arrow
+Edit.SizeControlLeftGrid	Global::Shift+Left Arrow
+Edit.SizeControlDownGrid	Global::Shift+Down Arrow
+Edit.SelectNextControl	Global::Tab
+Edit.SelectPreviousControl	Global::Shift+Tab
+Refactor.Rename	Global::Ctrl+R, Ctrl+R
+Refactor.ExtractMethod	Global::Ctrl+R, Ctrl+M
+Refactor.EncapsulateField	Global::Ctrl+R, Ctrl+E
+Refactor.ExtractInterface	Global::Ctrl+R, Ctrl+I
+Refactor.PromoteLocalVariable	Global::Ctrl+R, Ctrl+P
+Refactor.RemoveParameters	Global::Ctrl+R, Ctrl+V
+Refactor.ReorderParameters	Global::Ctrl+R, Ctrl+O
+Edit.GenerateMethodStub	Global::Ctrl+K, Ctrl+M
+Edit.ImplementInterfaceStubsImplicitly	
+Edit.ImplementInterfaceStubsExplicitly	
+Edit.ImplementAbstractClassStubs	
+Edit.SurroundWith	Global::Ctrl+K, Ctrl+S
+ToggleOutputWindowWordWrap	
+Build.BuildOnlyProject	
+Build.RebuildOnlyProject	
+Build.CleanOnlyProject	
+View.BuildStartupProjectsOnlyOnRun	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1607	
+Project.HideFolder	
+Project.UnhideFolders	
+File.CopyFullPath	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1611	
+Tools.ImportandExportSettings	
+Project.AddNewSolutionFolder	
+View.TrackActivityinSolutionExplorer	
+Edit.ClearOutputWindow	
+Edit.GoToOutputWindowLocation	
+Edit.GoToOutputWindowNextLocation	
+Edit.GoToOutputWindowPrevLocation	
+Edit.ClearFindResults1	
+Edit.GoToFindResults1Location	
+Edit.GoToFindResults1NextLocation	
+Edit.GoToFindResults1PrevLocation	
+Edit.ClearFindResults2	
+Edit.GoToFindResults2Location	
+Edit.GoToFindResults2NextLocation	
+Edit.GoToFindResults2PrevLocation	
+OtherContextMenus.StubProject.EditProjectFile	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1633	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1634	
+ProjectandSolutionContextMenus.Project.OpenFolderinWindowsExplorer	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1638	
+Window.NextToolWindow	
+Window.PreviousToolWindow	
+File.OpenContainingFolder	
+Window.ShowEzMDIFileList	Global::Ctrl+Alt+Down Arrow
+Window.NextToolWindowNav	
+Window.PreviousToolWindowNav	
+Build.RunCodeAnalysisonOnlyProject	
+Build.RunCodeAnalysisonSelection	
+ClassViewContextMenus.ClassViewProject.RunCodeAnalysisonSelection	
+File.CloseAllButThis	
+View.ClassViewShowInheritedMembers	
+View.ClassViewShowBaseTypes	
+View.ClassViewShowDerivedTypes	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1658	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1666	
+View.ClassViewShowPrivateMembers	
+View.ClassViewShowProtectedMembers	
+View.ClassViewShowPublicMembers	
+View.ClassViewShowProjectReferences	
+View.ClassViewGroupMembersByType	
+View.ClassViewClearSearch	
+View.ClassViewFilterToType	
+View.ClassViewSortByBestMatch	
+View.ClassViewShowOtherMembers	
+View.ClassViewSearch	
+View.ClassViewGoToSearchCombo	Global::Ctrl+K, Ctrl+V
+View.ObjectBrowserShowInheritedMembers	
+View.ObjectBrowserShowBaseTypes	
+View.ObjectBrowserShowDerivedTypes	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1718	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1726	
+View.ObjectBrowserShowPrivateMembers	
+View.ObjectBrowserShowProtectedMembers	
+View.ObjectBrowserShowPublicMembers	
+View.ObjectBrowserViewObjectsbyNamespace	
+View.ObjectBrowserViewObjectsbyPhysicalContainer	
+View.ObjectBrowserGroupMembersByType	
+View.ObjectBrowserClearSearch	
+View.ObjectBrowserFilterToType	
+View.ObjectBrowserSortByBestMatch	
+View.ObjectBrowserShowOtherMembers	
+View.ObjectBrowserSearch	
+View.ObjectBrowserGoToSearchCombo	Global::Ctrl+K, Ctrl+R
+View.ObjectBrowserShowExtensionMembers	
+View.Backward	Global::Alt+Left Arrow
+View.Forward	Global::Alt+Right Arrow
+OtherContextMenus.ErrorCorrection.Correction1	
+OtherContextMenus.ErrorCorrection.Correction2	
+OtherContextMenus.ErrorCorrection.Correction3	
+OtherContextMenus.ErrorCorrection.Correction4	
+OtherContextMenus.ErrorCorrection.Correction5	
+OtherContextMenus.ErrorCorrection.Correction6	
+OtherContextMenus.ErrorCorrection.Correction7	
+OtherContextMenus.ErrorCorrection.Correction8	
+OtherContextMenus.ErrorCorrection.Correction9	
+OtherContextMenus.ErrorCorrection.Correction10	
+View.ObjectBrowserAddReference	
+View.CodeDefinitionWindow	Global::Ctrl+\, Ctrl+D Global::Ctrl+\, D Global::Ctrl+Shift+V
+EditorContextMenus.CodeWindow.GoToPrevious	
+EditorContextMenus.CodeWindow.GoToNext	
+View.EditDefinition	
+View.ChooseEncoding	
+ProjectandSolutionContextMenus.Project.ViewClassDiagram	
+Data.GenerateDataset	
+Data.PreviewData	
+Data.ConfigureDataAdapter	
+Data.ViewDatasetSchema	
+Data.AddQuery	
+Data.ConfigureMasterDetails	
+Data.Editkey	
+Data.Deletekey	
+Data.EditRelation	
+File.CloseProject	
+Data.TableAdapter	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2001	
+Data.Query	
+OtherContextMenus.FunctionContext.AddQuery	
+Build.PublishSelection	
+ClassViewContextMenus.ClassViewProject.Publish	
+EditorContextMenus.CodeWindow.CallBrowser.CallBrowserShowCallersGraph	
+EditorContextMenus.CodeWindow.CallBrowser.CallBrowserShowCallGraph	
+EditorContextMenus.CodeWindow.CallBrowser.CallBrowserShowCallersGraphInNewWindow	
+EditorContextMenus.CodeWindow.CallBrowser.CallBrowserShowCallGraphInNewWindow	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2014	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2015	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2016	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2017	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2018	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2019	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2020	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2021	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2022	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2023	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2024	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2025	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2026	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2027	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2028	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2029	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2030	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2031	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2032	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2033	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2034	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2035	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2036	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2037	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2038	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2039	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2040	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2041	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2042	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2043	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2044	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2045	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2046	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2047	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2048	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2049	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2050	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2051	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2052	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2053	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2054	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2055	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2056	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2057	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2058	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2059	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2060	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2061	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2062	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2063	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2064	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2065	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2066	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2067	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2068	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2069	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2070	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2071	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2072	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2073	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2074	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2075	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2076	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2077	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2078	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2079	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2080	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2081	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2082	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2083	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2084	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2085	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2086	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2087	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2088	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2089	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2090	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2091	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2092	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2093	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2094	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2095	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2096	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2097	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2098	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2099	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2100	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2101	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2102	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2103	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2104	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2105	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2106	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2107	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2108	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2109	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2121	
+Edit.UndoLastGlobalAction	
+Edit.RedoLastGlobalAction	
+View.CallBrowserCallersGraph	
+View.CallBrowserCallGraph	
+View.CallBrowserCallersGraphNewWindow	
+View.CallBrowserCallGraphNewWindow	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2145	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2146	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2147	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2148	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2149	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2150	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2151	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2152	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2153	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2154	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2155	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2156	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2157	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2158	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2159	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2160	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2161	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2162	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2163	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2164	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2165	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2166	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2167	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2168	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2169	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2170	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2171	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2172	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2173	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2174	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2175	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2176	
+CreateUserTask	
+Errors	
+Warnings	
+Messages	
+Help.RegisterProduct	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2240	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2241	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2242	
+View.StartPage	
+Edit.LineFirstColumn	
+Edit.LineFirstColumnExtend	
+View.ServerExplorer	Global::Ctrl+Alt+S
+Edit.AddEventHandler	
+OtherContextMenus.ResourceView.Import	
+OtherContextMenus.ResourceEditors.EditControl	
+Image.CopyandOutlineSelection	VC Image Editor::Ctrl+Shift+U
+Image.UseSelectionasBrush	VC Image Editor::Ctrl+U
+View.SynchronizeDocumentOutline	
+Project.AddWindow	
+Project.AddPage	
+Project.AddUserControl	
+Project.AddResourceDictionary	
+ProjectandSolutionContextMenus.Project.Add.AddWindow	
+ProjectandSolutionContextMenus.Project.Add.AddPage	
+ProjectandSolutionContextMenus.Project.Add.AddUserControl	
+ProjectandSolutionContextMenus.Project.Add.AddResourceDictionary	
+{489EE5BF-F001-41C9-91C7-6E89D9C111AD}:1	
+View.NextError	Global::Ctrl+Shift+F12
+View.PreviousError	
+OtherContextMenus.ErrorList.ShowColumns.Column1	
+OtherContextMenus.ErrorList.ShowColumns.Column2	
+OtherContextMenus.ErrorList.ShowColumns.Column3	
+OtherContextMenus.ErrorList.ShowColumns.Column4	
+OtherContextMenus.ErrorList.ShowColumns.Column5	
+OtherContextMenus.ErrorList.ShowColumns.Column6	
+OtherContextMenus.ErrorList.ShowColumns.Column7	
+OtherContextMenus.ErrorList.ShowColumns.Column8	
+OtherContextMenus.ErrorList.ShowColumns.Column9	
+OtherContextMenus.ErrorList.ShowColumns.Column10	
+OtherContextMenus.ErrorList.ShowColumns.Column11	
+OtherContextMenus.ErrorList.ShowColumns.Column12	
+OtherContextMenus.ErrorList.ShowColumns.Column13	
+OtherContextMenus.ErrorList.ShowColumns.Column14	
+OtherContextMenus.ErrorList.ShowColumns.Column15	
+OtherContextMenus.ErrorList.ShowColumns.Column16	
+OtherContextMenus.ErrorList.ShowColumns.Column17	
+OtherContextMenus.ErrorList.ShowColumns.Column18	
+OtherContextMenus.ErrorList.ShowColumns.Column19	
+OtherContextMenus.ErrorList.ShowColumns.Column20	
+OtherContextMenus.ErrorList.ShowColumns.Column21	
+OtherContextMenus.ErrorList.ShowColumns.Column22	
+OtherContextMenus.ErrorList.ShowColumns.Column23	
+OtherContextMenus.ErrorList.ShowColumns.Column24	
+OtherContextMenus.ErrorList.ShowColumns.Column25	
+OtherContextMenus.ErrorList.SortBy.Column1	
+OtherContextMenus.ErrorList.SortBy.Column2	
+OtherContextMenus.ErrorList.SortBy.Column3	
+OtherContextMenus.ErrorList.SortBy.Column4	
+OtherContextMenus.ErrorList.SortBy.Column5	
+OtherContextMenus.ErrorList.SortBy.Column6	
+OtherContextMenus.ErrorList.SortBy.Column7	
+OtherContextMenus.ErrorList.SortBy.Column8	
+OtherContextMenus.ErrorList.SortBy.Column9	
+OtherContextMenus.ErrorList.SortBy.Column10	
+OtherContextMenus.ErrorList.SortBy.Column11	
+OtherContextMenus.ErrorList.SortBy.Column12	
+OtherContextMenus.ErrorList.SortBy.Column13	
+OtherContextMenus.ErrorList.SortBy.Column14	
+OtherContextMenus.ErrorList.SortBy.Column15	
+OtherContextMenus.ErrorList.SortBy.Column16	
+OtherContextMenus.ErrorList.SortBy.Column17	
+OtherContextMenus.ErrorList.SortBy.Column18	
+OtherContextMenus.ErrorList.SortBy.Column19	
+OtherContextMenus.ErrorList.SortBy.Column20	
+OtherContextMenus.ErrorList.SortBy.Column21	
+OtherContextMenus.ErrorList.SortBy.Column22	
+OtherContextMenus.ErrorList.SortBy.Column23	
+OtherContextMenus.ErrorList.SortBy.Column24	
+OtherContextMenus.ErrorList.SortBy.Column25	
+View.NextTask	
+View.PreviousTask	
+Help.ShowTaskHelp	
+OtherContextMenus.Editor.SynchronizeScriptOutline	
+OtherContextMenus.ScriptOutline.GotoDefinition	
+OtherContextMenus.ScriptOutline.Sort.Alphabetically	
+OtherContextMenus.ScriptOutline.Sort.ByDeclaration	
+OtherContextMenus.ScriptOutline.ShowEvents	
+OtherContextMenus.DefaultContext.Properties	
+WebBrowserBack	
+WebBrowserForward	
+View.WebBrowserStop	
+View.WebBrowserRefresh	
+{E8B06F44-6D01-11D2-AA7D-00C04F990343}:205	
+{E8B06F44-6D01-11D2-AA7D-00C04F990343}:206	
+View.WebBrowserBack	
+View.WebBrowserForward	
+View.OnlineSearch	
+View.Home	
+OtherContextMenus.DefaultContext.TextSize.Smallest	
+OtherContextMenus.DefaultContext.TextSize.Smaller	
+OtherContextMenus.DefaultContext.TextSize.Medium	
+OtherContextMenus.DefaultContext.TextSize.Larger	
+OtherContextMenus.DefaultContext.TextSize.Largest	
+View.TextSize	
+OtherContextMenus.ImageContext.OpenLinkinNewWindow	
+Help.DynamicHelp	
+Help.SyncwithTableofContents	
+Help.Nexttopic	WebBrowser::Alt+Down Arrow
+Help.Previoustopic	WebBrowser::Alt+Up Arrow
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.ArabicASMO708	
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.ArabicDOS	
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.ArabicISO	
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.ArabicWindows	
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.BalticISO	
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.BalticWindows	
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.CentralEuropeanDOS	
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.CentralEuropeanISO	
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.CentralEuropeanWindows	
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.ChineseSimplifiedGB2312	
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.ChineseTraditional	
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.CyrillicDOS	
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.CyrillicISO	
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.CyrillicKOI8R	
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.CyrillicWindows	
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.GreekISO	
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.GreekWindows	
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.HebrewDOS	
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.HebrewISO	
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.HebrewWindows	
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.JapaneseAutoSelect	
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.JapaneseEUC	
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.JapaneseShiftJIS	
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.KoreanAutoSelect	
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.ThaiWindows	
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.TurkishWindows	
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.TurkishISO	
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.UkrainianKOI8RU	
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.UnicodeUTF8	
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.VietnameseWindows	
+OtherContextMenus.DefaultContext.Encoding.WesternEuropeanWindows	
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.WesternEuropeanISO	
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.UserDefined	
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.ChineseSimplifiedGB18030	
+OtherContextMenus.DefaultContext.Encoding.CpMRU1	
+OtherContextMenus.DefaultContext.Encoding.CpMRU2	
+OtherContextMenus.DefaultContext.Encoding.CpMRU3	
+OtherContextMenus.DefaultContext.Encoding.CpMRU4	
+OtherContextMenus.ImageContext.OpenLink	
+OtherContextMenus.ImageContext.OpenLinkinExternalWindow	
+OtherContextMenus.DefaultContext.ViewSource	
+OtherContextMenus.DefaultContext.SaveBackgroundAs	
+OtherContextMenus.DefaultContext.CopyBackground	
+OtherContextMenus.ImageContext.SaveTargetAs	
+OtherContextMenus.ImageContext.ShowPicture	
+OtherContextMenus.ImageContext.SavePictureAs	
+OtherContextMenus.ImageContext.PrintTarget	
+OtherContextMenus.DefaultContext.Encoding.AutoSelect	
+View.WebBrowser	Global::Ctrl+Alt+R
+{E8B06F44-6D01-11D2-AA7D-00C04F990343}:5001	
+Edit.EmacsCharLeft	
+Edit.EmacsCharRight	
+Edit.EmacsLineUp	
+Edit.EmacsLineDown	
+Edit.EmacsLineEnd	
+Edit.EmacsLineStart	
+Edit.EmacsDocumentEnd	
+Edit.EmacsDocumentStart	
+Edit.EmacsWordPrevious	
+Edit.EmacsWordNext	
+Edit.EmacsGoToLine	
+Edit.EmacsScrollPageUp	
+Edit.EmacsScrollPageDown	
+Edit.EmacsScrollLineCenter	
+Edit.EmacsTopOfWindow	
+Edit.EmacsBottomOfWindow	
+Edit.EmacsScrollLineTop	
+Edit.EmacsSplitVertical	
+Edit.EmacsOtherWindow	
+Edit.EmacsCloseOtherWindow	
+Edit.EmacsBreakLine	
+Edit.EmacsBreakLineIndent	
+Edit.EmacsLineOpen	
+Edit.EmacsCharTranspose	
+Edit.EmacsWordTranspose	
+Edit.EmacsWordUppercase	
+Edit.EmacsWordLowercase	
+Edit.EmacsWordCapitalize	
+Edit.EmacsWordDeleteToEnd	
+Edit.EmacsWordDeleteToStart	
+Edit.EmacsDeleteToEOL	
+Edit.EmacsPasteRotate	
+Edit.EmacsSetMark	
+Edit.EmacsPopMark	
+Edit.EmacsSwapPointAndMark	
+Edit.EmacsDeleteSelection	
+Edit.EmacsFileSaveDirty	
+Edit.EmacsFindReplace	
+Edit.EmacsQuit	
+Edit.EmacsUniversalArgument	
+Edit.EmacsExtendedCommand	
+Edit.EmacsQuotedInsert	
+Edit.EmacsActivateRegion	
+Edit.BriefSelectColumn	
+Edit.BriefLineIndent	
+Edit.BriefBookmarks	
+Edit.BriefSelectLine	
+Edit.BriefSelectChar	
+Edit.BriefSelectCharInclusive	
+Edit.BriefLineUnindent	
+Edit.BriefFilePrint	
+Edit.BriefSelectSwapAnchor	
+Edit.BriefInsertFile	
+Edit.BriefGoTo	
+Edit.BriefWindowLeftEdge	
+Edit.BriefWordRight	
+Edit.BriefWordLeft	
+Edit.BriefWindowRightEdge	
+Edit.BriefWindowScrollUp	
+Edit.BriefWindowScrollDown	
+Edit.BriefLineDelete	
+Edit.BriefWordDeleteToEnd	
+Edit.BriefWordDeleteToStart	
+Edit.BriefLineDeleteToStart	
+Edit.BriefLineDeleteToEnd	
+Edit.BriefLineOpenBelow	
+Edit.BriefQuotedInsert	
+Edit.BriefFileExit	
+Edit.BriefFindToggleCaseSensitivity	
+Edit.BriefFindToggleRegExpr	
+Edit.BriefFindRepeat	
+Edit.BriefFindPrev	
+Edit.BriefFind	
+Edit.BriefFindReplace	
+Edit.BriefBrowse	Global::Alt+G
+Edit.BriefGoToNextErrorTag	
+Edit.BriefSetRepeatCount	
+Edit.BriefWindowScrollToCenter	
+Edit.BriefWindowSwitchPane	
+Edit.BriefWindowSplit	
+Edit.BriefWindowScrollToBottom	
+Edit.BriefWindowScrollToTop	
+Edit.BriefWindowMaximize	
+Edit.BriefBreakLine	
+Edit.BriefBookmarkDrop0	
+Edit.BriefBookmarkDrop1	
+Edit.BriefBookmarkDrop2	
+Edit.BriefBookmarkDrop3	
+Edit.BriefBookmarkDrop4	
+Edit.BriefBookmarkDrop5	
+Edit.BriefBookmarkDrop6	
+Edit.BriefBookmarkDrop7	
+Edit.BriefBookmarkDrop8	
+Edit.BriefBookmarkDrop9	
+Project.Design	
+Project.DesignOn	
+Data.Design	
+Data.StepInto	Global::Alt+F5
+Project.AddQuery	
+OtherContextMenus.StaticNode.Refresh	
+Project.SetDefaultReference	
+Project.Run	
+Project.RunOn	
+Project.NewDatabaseReference	
+Project.SetasProjectDefault	
+Project.Cancel	
+Data.ModifyConnection	
+Data.CloseConnection	
+Edit.CopySQLScript	
+EditorContextMenus.CodeWindow.InsertSQL	
+Project.RunSelection	
+Data.GenerateCreateScripttoProject	
+Project.AddSQLScript	
+Data.Diagram	
+Data.Table	
+Data.View	
+Data.StoredProcedure	
+Data.ScalarvaluedFunction	
+Data.TablevaluedFunction	
+Data.InlineFunction	
+Data.Trigger	
+Data.RetrieveData	
+Data.Edit	
+Data.Execute	Global::Ctrl+Alt+F5
+EditorContextMenus.CodeWindow.RunSelection	Global::Ctrl+Q
+EditorContextMenus.CodeWindow.DesignSQLBlock	
+Data.NewQuery	
+OtherContextMenus.ServerExplorer.ApplicationDebugging	
+OtherContextMenus.ServerExplorer.AllowSQLCLRDebugging	
+Data.DetachDatabase	
+OtherContextMenus.StaticNode.AddNewTable	
+OtherContextMenus.StaticNode.AddNewView	
+OtherContextMenus.StaticNode.AddNewStoredProcedure	
+OtherContextMenus.StaticNode.AddNew.InlineFunction	
+OtherContextMenus.StaticNode.AddNew.TablevaluedFunction	
+OtherContextMenus.StaticNode.AddNew.ScalarvaluedFunction	
+OtherContextMenus.StaticNode.AddNewTrigger	
+OtherContextMenus.StaticNode.NewQuery	
+OtherContextMenus.StaticNode.AddNewDiagram	
+{501822E1-B5AF-11D0-B4DC-00A0C91506EF}:13840	
+DatabaseDiagram.AddRelatedTables	
+DatabaseDiagram.ArrangeTables	
+DatabaseDiagram.ArrangeSelection	
+TableDesigner.InsertColumn	
+TableDesigner.DeleteColumn	
+DatabaseDiagram.NewTextAnnotation	
+DatabaseDiagram.ShowRelationshipLabels	
+DatabaseDiagram.ViewPageBreaks	
+DatabaseDiagram.RecalculatePageBreaks	
+TableDesigner.Custom	
+Edit.DeletefromDatabase	
+DatabaseDiagram.AutosizeSelectedTables	
+TableDesigner.ModifyCustom	
+DatabaseDiagram.SetFont	
+DatabaseDiagram.200	
+DatabaseDiagram.150	
+DatabaseDiagram.100	
+DatabaseDiagram.75	
+DatabaseDiagram.50	
+DatabaseDiagram.25	
+DatabaseDiagram.10	
+DatabaseDiagram.ToFit	
+DatabaseDiagram.AddTable	
+QueryDesigner.AddTable	
+QueryDesigner.ColumnNames	
+QueryDesigner.NameOnly	
+Edit.CopyDiagramtoClipboard	
+DatabaseDiagram.RemovefromDiagram	
+TableDesigner.IndexesandKeys	
+TableDesigner.Relationships	
+TableDesigner.CheckConstraints	
+{732ABE75-CD80-11D0-A2DB-00AA00A3EFFF}:896	
+Project.AddUserDefinedFunction	
+Project.AddStoredProcedure	
+Project.AddAggregate	
+Project.AddTrigger	
+Project.AddUserDefinedType	
+DebuggerContextMenus.ScriptProject.SetasDefaultDebugScript	
+DebuggerContextMenus.ScriptProject.DebugScript	
+ProjectandSolutionContextMenus.Project.AddTestScript	
+DebuggerContextMenus.ThreadsWindow.UnflagAllThreads	
+EditorContextMenus.CodeWindow.Breakpoint.InsertTracepoint	
+Debug.Breakpoints	Global::Ctrl+Alt+B Global::Alt+F9
+Debug.Disassembly	Global::Alt+8
+Debug.Registers	Global::Ctrl+Alt+G Global::Alt+5
+Debug.Modules	Global::Ctrl+Alt+U
+Debug.ApplyCodeChanges	Global::Alt+F10
+Debug.StopApplyingCodeChanges	
+Debug.GoToDisassembly	
+Debug.Output	
+Debug.StepByLine	
+Debug.StepByStatement	
+Debug.StepByInstruction	
+Debug.SaveDumpAs	
+Debug.DisableAllBreakpoints	
+Debug.EnableAllBreakpoints	
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:292	
+Debug.TerminateAll	
+DebuggerContextMenus.CallStackWindow.SymbolSettings	
+DebuggerContextMenus.CallStackWindow.LoadSymbols	
+DebuggerContextMenus.CallStackWindow.SymbolLoadInformation	
+Debug.StopEvaluation	
+Debug.Processes	Global::Ctrl+Alt+Z Global::Ctrl+Shift+Alt+P
+Debug.LocationToolbar.ToggleFlaggedThreads	Global::Ctrl+9
+DebuggerContextMenus.ThreadsWindow.Flag	
+DebuggerContextMenus.ThreadsWindow.Unflag	
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:309	
+Debug.BreakInFile	
+Debug.BreakatFunction	Global::Ctrl+B
+Debug.BreakAtAddress	
+Debug.NewDataBreakpoint	
+EditorContextMenus.CodeWindow.Breakpoint.BreakpointLocation	
+EditorContextMenus.CodeWindow.Breakpoint.BreakpointCondition	
+EditorContextMenus.CodeWindow.Breakpoint.BreakpointHitCount	
+EditorContextMenus.CodeWindow.Breakpoint.BreakpointFilter	
+EditorContextMenus.CodeWindow.Breakpoint.BreakpointWhenHit	
+DebuggerContextMenus.AutosWindow.MakeObjectID	
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:328	
+DebuggerContextMenus.DataTipWindow.CopyExpression	
+DebuggerContextMenus.DataTipWindow.CopyValue	
+DebuggerContextMenus.AutosWindow.DeleteObjectID	
+DebuggerContextMenus.OutputWindow.ExceptionMessages	
+DebuggerContextMenus.OutputWindow.ModuleLoadMessages	
+DebuggerContextMenus.OutputWindow.ModuleUnloadMessages	
+DebuggerContextMenus.OutputWindow.ProcessExitMessages	
+DebuggerContextMenus.OutputWindow.ThreadExitMessages	
+DebuggerContextMenus.OutputWindow.ProgramOutput	
+Debug.StepIntoCurrentProcess	Global::Ctrl+Alt+F11
+Debug.StepOverCurrentProcess	Global::Ctrl+Alt+F10
+Debug.StepOutCurrentProcess	Global::Ctrl+Shift+Alt+F11
+Debug.LocationToolbar.ToggleCurrentThreadFlaggedState	Global::Ctrl+8
+DebuggerContextMenus.AutosWindow.Debug.LocationToolbar.ShowThreadIpIndicators	
+DebuggerContextMenus.BreakpointsWindow.Delete	
+DebuggerContextMenus.BreakpointsWindow.GoToSourceCode	
+DebuggerContextMenus.BreakpointsWindow.GoToDisassembly	
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:4104	
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:4352	
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:4353	
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:4354	
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:4355	
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:4356	
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:4357	
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:4358	
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:4359	
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:4360	
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:4361	
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:4362	
+DebuggerContextMenus.CallStackWindow.GoToSourceCode	
+DebuggerContextMenus.DisassemblyWindow.ShowAddress	
+DebuggerContextMenus.DisassemblyWindow.ShowSourceCode	
+DebuggerContextMenus.DisassemblyWindow.ShowCodeBytes	
+DebuggerContextMenus.DisassemblyWindow.ShowSymbolNames	
+DebuggerContextMenus.DisassemblyWindow.ShowLineNumbers	
+DebuggerContextMenus.DisassemblyWindow.ShowToolbar	
+Debug.ToggleDisassembly	Global::Ctrl+F11
+DebuggerContextMenus.MemoryWindow.ReevaluateAutomatically	
+DebuggerContextMenus.MemoryWindow.NoData	
+DebuggerContextMenus.MemoryWindow.1byteInteger	
+DebuggerContextMenus.MemoryWindow.2byteInteger	
+DebuggerContextMenus.MemoryWindow.4byteInteger	
+DebuggerContextMenus.MemoryWindow.8byteInteger	
+DebuggerContextMenus.MemoryWindow.32bitFloatingPoint	
+DebuggerContextMenus.MemoryWindow.64bitFloatingPoint	
+DebuggerContextMenus.MemoryWindow.HexadecimalDisplay	
+DebuggerContextMenus.MemoryWindow.SignedDisplay	
+DebuggerContextMenus.MemoryWindow.UnsignedDisplay	
+DebuggerContextMenus.MemoryWindow.BigEndian	
+DebuggerContextMenus.MemoryWindow.NoText	
+DebuggerContextMenus.MemoryWindow.ANSIText	
+DebuggerContextMenus.MemoryWindow.UnicodeText	
+DebuggerContextMenus.AutosWindow.EditValue	
+DebuggerContextMenus.MemoryWindow.ShowToolbar	
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:16385	
+DebuggerContextMenus.ModulesWindow.ShowModulesforallProcesses	
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:29184	
+DebuggerContextMenus.CallStackWindow.SwitchToFrame	
+DebuggerContextMenus.CallStackWindow.ShowParameterValues	
+DebuggerContextMenus.CallStackWindow.ShowParameterTypes	
+DebuggerContextMenus.CallStackWindow.ShowParameterNames	
+DebuggerContextMenus.CallStackWindow.ShowModuleNames	
+DebuggerContextMenus.CallStackWindow.ShowLineNumbers	
+DebuggerContextMenus.CallStackWindow.ShowByteOffsets	
+DebuggerContextMenus.CallStackWindow.IncludeCallsToFromOtherThreads	
+DebuggerContextMenus.CallStackWindow.ShowExternalCode	
+DebuggerContextMenus.CallStackWindow.UnwindToThisFrame	
+DebuggerContextMenus.ProcessesWindow.ContinueProcess	
+DebuggerContextMenus.ProcessesWindow.BreakProcess	
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:40963	
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:40964	
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:40965	
+DebuggerContextMenus.ProcessesWindow.DetachProcess	
+DebuggerContextMenus.ProcessesWindow.TerminateProcess	
+DebuggerContextMenus.ProcessesWindow.Detachwhendebuggingstopped	
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:40976	
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:40977	
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:40978	
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:40979	
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:40980	
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:40981	
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:40982	
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:40983	
+DebuggerContextMenus.ThreadIPMarker.SwitchtoThreadX	
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:45057	
+Debug.ListMemory	
+Debug.ListCallStack	
+Debug.ListDisassembly	
+Debug.ListRegisters	
+Debug.ListThreads	
+Debug.SetRadix	
+Debug.SetCurrentThread	
+Debug.SetCurrentStackFrame	
+Debug.ListSource	
+Debug.SymbolPath	
+Debug.ListModules	
+Debug.ListProcesses	
+Debug.SetCurrentProcess	
+Debug.Memory1	Global::Ctrl+Alt+M, 1 Global::Alt+6
+Debug.Watch	Global::Ctrl+Alt+W, 1 Global::Alt+3
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:16789506	
+Debug.Memory2	Global::Ctrl+Alt+M, 2
+Debug.Watch2	Global::Ctrl+Alt+W, 2
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:33566722	
+Debug.Memory3	Global::Ctrl+Alt+M, 3
+Debug.Watch3	Global::Ctrl+Alt+W, 3
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:50343938	
+Debug.Memory4	Global::Ctrl+Alt+M, 4
+Debug.Watch4	Global::Ctrl+Alt+W, 4
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:67121154	
+OtherContextMenus.ObjectNode.Open	
+OtherContextMenus.ServerExplorer.DatabaseProperties	
+OtherContextMenus.StaticNode.CreateTable	
+OtherContextMenus.ObjectNode.TableProperties	
+OtherContextMenus.ObjectNode.DropTable	
+OtherContextMenus.StaticNode.CreateIndex	
+OtherContextMenus.ObjectNode.IndexProperties	
+OtherContextMenus.ObjectNode.DropIndex	
+OtherContextMenus.ObjectNode.ColumnProperties	
+OtherContextMenus.ObjectNode.EditTableSchema	
+Edit.ConditionalDown	
+Edit.ConditionalUp	
+ClassViewContextMenus.ClassViewMultiselectProjectreferencesItems.GoToDialog	
+View.PropertyManager	
+{3A3E1789-3E35-47B0-8567-D2FB407CC63D}:12544	
+{3A3E1789-3E35-47B0-8567-D2FB407CC63D}:12800	
+{3A3E1789-3E35-47B0-8567-D2FB407CC63D}:13056	
+{3A3E1789-3E35-47B0-8567-D2FB407CC63D}:13312	
+{3A3E1789-3E35-47B0-8567-D2FB407CC63D}:13568	
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:49153	
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:53249	
+Project.SharePointDebugSettings	
+{74D21311-2AEE-11D1-8BFB-00A0C90F26F7}:12292	
+DebuggerContextMenus.ThreadIPMarker.FlagUnflagThreadX	
+{74D21311-2AEE-11D1-8BFB-00A0C90F26F7}:12293	
+OtherContextMenus.ServerExplorer.AddToDesigner	
+Data.DataTable	
+Data.Relation	
+Data.Configure	
+Data.Key	
+Data.Column	DataSet Editor::Ctrl+L
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1966	
+Data.SetPrimaryKey	
+Data.InsertColumn	DataSet Editor::Ins
+View.Autosize	
+Data.ShowRelationLabels	
+Tools.InstallCommunityControls	
+{746910DA-3A87-4255-A4AE-D1083B0572A0}:529	
+{746910DA-3A87-4255-A4AE-D1083B0572A0}:530	
+{746910DA-3A87-4255-A4AE-D1083B0572A0}:531	
+{746910DA-3A87-4255-A4AE-D1083B0572A0}:528	
+OtherContextMenus.DataSources.AddNewDataSource	
+OtherContextMenus.DataSources.EditDataSetwithDesigner	
+OtherContextMenus.DataSources.ConfigureDataSetwithWizard	
+OtherContextMenus.DataSources.Refresh	
+OtherContextMenus.DataSources.Copy	
+OtherContextMenus.DataSources.RemoveObject	
+OtherContextMenus.DataSources.RemoveWebReference	
+OtherContextMenus.DataSources.PreviewData	
+{74D21311-2AEE-11D1-8BFB-00A0C90F26F7}:8449	
+Tools.ConnecttoDatabase	
+Tools.ConnecttoServer	
+Edit.CollapseBlockcurrentblock	
+Edit.CollapseAllincurrentblock	
+EditorContextMenus.CodeWindow.GoToHeaderFile	
+OtherContextMenus.ManagedResourcesEditorContextMenu.ImportFromFile	
+OtherContextMenus.ManagedResourcesEditorContextMenu.ExportToFile	
+OtherContextMenus.ManagedResourcesEditorContextMenu.Play	
+Resources.AddPNGImage	
+Resources.AddBMPImage	
+Resources.AddGIFImage	
+Resources.AddJPEGImage	
+Resources.AddTIFFImage	
+Resources.Add	
+Resources.AddExistingFile	
+Resources.AddNewString	
+Resources.AddNewIcon	
+Resources.AddNewTextFile	
+Resources.Strings	Managed Resources Editor::Ctrl+1
+Resources.Images	Managed Resources Editor::Ctrl+2
+Resources.Icons	Managed Resources Editor::Ctrl+3
+Resources.Audio	Managed Resources Editor::Ctrl+4
+Resources.Files	Managed Resources Editor::Ctrl+5
+Resources.Other	Managed Resources Editor::Ctrl+6
+Resources.View	
+Resources.ViewInList	
+Resources.ViewDetails	
+Resources.ViewAsThumbnails	
+{66BD4C1D-3401-4BCC-A942-E4990827E6F7}:8288	
+{C2013470-51AC-4278-9AC5-389C72A1F926}:8453	
+{C2013470-51AC-4278-9AC5-389C72A1F926}:8452	
+{C2013470-51AC-4278-9AC5-389C72A1F926}:8456	
+OtherContextMenus.MyExtensibility.AddExtension	
+OtherContextMenus.MyExtensibility.RemoveExtension	
+OtherContextMenus.DiscoverServiceReferences.ServicesinSolution	
+Edit.ExpandCollapseBaseTypeList	Class Diagram::Shift+Alt+B
+Edit.NavigateToLollipop	Class Diagram::Shift+Alt+L
+ClassDiagram.ShowType	
+ClassDiagram.HideLine	
+ClassDiagram.LayoutDiagram	
+ClassDiagram.AdjustShapesWidth	
+ClassDiagram.DisplayName	
+ClassDiagram.DisplayNameandType	
+ClassDiagram.DisplayFullSignature	
+ClassDiagram.AddClass	
+ClassDiagram.AddEnum	
+ClassDiagram.AddInterface	
+ClassDiagram.AddAbstractClass	
+ClassDiagram.AddStruct	
+ClassDiagram.AddDelegate	
+ClassDiagram.AddModule	
+ClassDiagram.AddComment	
+Edit.OverrideMembers	
+{FB41A027-57C5-4F83-9508-C326DCE6D943}:8480	
+ClassDiagram.RelinkShapewithCode	
+ClassDiagram.ExportDiagramasImage	
+ClassDiagram.Zoom400	
+ClassDiagram.Zoom300	
+ClassDiagram.Zoom200	
+ClassDiagram.Zoom150	
+ClassDiagram.Zoom125	
+ClassDiagram.Zoom100	
+ClassDiagram.Zoom75	
+ClassDiagram.Zoom66	
+ClassDiagram.Zoom50	
+ClassDiagram.Zoom33	
+ClassDiagram.Zoom25	
+ClassDiagram.Zoom10	
+ClassDiagram.ZoomToFit	
+ClassViewContextMenus.ClassViewItem.ViewClassDiagram	
+ClassDiagram.ToggleLollipopExpandCollapse	
+ClassDiagram.ShowInterface	
+ClassDiagram.ImplementInterfaceStubsImplicitly	
+ClassDiagram.ImplementInterfaceStubsExplicitly	
+ClassDiagram.AddConstructor	
+ClassDiagram.AddDestructor	
+ClassDiagram.AddConstant	
+{FB41A027-57C5-4F83-9508-C326DCE6D943}:8305	
+{FB41A027-57C5-4F83-9508-C326DCE6D943}:8301	
+{FB41A027-57C5-4F83-9508-C326DCE6D943}:8302	
+ClassDiagram.Collapse	Class Diagram::Num -
+ClassDiagram.Expand	Class Diagram::Num +
+ClassDiagram.HideCompartment	
+ClassDiagram.ShowAllMembers	
+ClassDiagram.Hide	
+ClassDiagram.Unhide	
+ClassDiagram.Reroute	
+ClassDiagram.AddMethod	
+ClassDiagram.AddProperty	
+ClassDiagram.AddField	
+ClassDiagram.AddEvent	
+ClassDiagram.AddParameter	
+Edit.CopyImage	
+Edit.RemovefromDiagram	Class Diagram::Del
+ClassDiagram.GroupbyKind	
+ClassDiagram.GroupbyAccess	
+ClassDiagram.SortAlphabetically	
+ClassDiagram.ShowBaseType	
+ClassDiagram.ShowasAssociation	
+ClassDiagram.ShowasCollectionAssociation	
+ClassDiagram.ShowDerivedTypes	
+ClassDiagram.ShowasField	
+ClassDiagram.HideInheritanceLine	
+OtherContextMenus.ClassDesignerContextMenu.ClassDetails	
+ClassDiagram.MoveUp	
+ClassDiagram.MoveDown	
+ClassDiagram.Insert	
+ClassDiagram.NavigatetoMethods	
+ClassDiagram.NavigatetoProperties	
+ClassDiagram.NavigatetoFields	
+ClassDiagram.NavigatetoEvents	
+ClassDiagram.NewMethod	
+ClassDiagram.NewProperty	
+ClassDiagram.NewField	
+ClassDiagram.NewEvent	
+ClassDiagram.NewConstructor	
+ClassDiagram.NewDestructor	
+ClassDiagram.NewConstant	
+{499281F3-7DF8-41E2-8AC8-21550FD18EBC}:6	
+DSLTools.DeleteAll	
+DSLTools.Validate	
+DSLTools.ValidateAll	
+DSLTools.Expand	
+{24CEAC08-F085-4F65-9F8E-B5B990107D5D}:304	
+DSLTools.Edit	
+{24CEAC08-F085-4F65-9F8E-B5B990107D5D}:80	
+DSLTools.Reroute	
+{930FB0A6-83A8-4A5B-8755-45DEED779EB7}:16	
+{930FB0A6-83A8-4A5B-8755-45DEED779EB7}:4112	
+TextTransformation.TransformAllTemplates	
+{CCD03FEB-6B80-4CDB-AB3A-04702F6E7553}:8225	
+OtherContextMenus.Selection.Properties	
+Workflow.Expand	
+Workflow.Collapse	
+Workflow.Disable	
+Workflow.Enable	
+Workflow.CreateNewTheme	
+Workflow.SelectCustomTheme	
+Workflow.ShowExecutionState	
+{9AEB9524-82C6-40B9-9285-8D85D3DBD4C4}:16385	
+{9AEB9524-82C6-40B9-9285-8D85D3DBD4C4}:16386	
+Workflow.400	
+Workflow.300	
+Workflow.200	
+Workflow.150	
+Workflow.100	
+Workflow.75	
+Workflow.50	
+OtherContextMenus.PageLayout.DefaultView	
+OtherContextMenus.PageLayout.PrintPreview	
+Workflow.ZoomIn	
+Workflow.ZoomOut	
+Workflow.NavigationTool	
+Workflow.Default	
+Workflow.ShowAll	
+Workflow.SaveAsImage	
+Workflow.CopyToClipboard	
+{9AEB9524-82C6-40B9-9285-8D85D3DBD4C4}:8192	
+{9AEB9524-82C6-40B9-9285-8D85D3DBD4C4}:8217	
+{9AEB9524-82C6-40B9-9285-8D85D3DBD4C4}:8242	
+{9AEB9524-82C6-40B9-9285-8D85D3DBD4C4}:8267	
+{9AEB9524-82C6-40B9-9285-8D85D3DBD4C4}:8292	
+{9AEB9524-82C6-40B9-9285-8D85D3DBD4C4}:8342	
+{9AEB9524-82C6-40B9-9285-8D85D3DBD4C4}:8317	
+Workflow.Instance	
+Workflow.Branch	
+Image.MiscIcon1	
+Image.MiscIcon2	
+Image.MiscIcon3	
+Image.MiscIcon4	
+Image.MiscIcon5	
+Image.MiscIcon6	
+Image.MiscIcon7	
+Image.MiscIcon8	
+Image.MiscIcon9	
+Image.MoreIcons	
+Image.MiscCursor1	
+Image.MiscCursor2	
+Image.MiscCursor3	
+Image.MiscCursor4	
+Image.MiscCursor5	
+Image.MiscCursor6	
+Image.MiscCursor7	
+Image.MiscCursor8	
+Image.MiscCursor9	
+Image.MoreCursors	
+View.SynchronizeViews	HTML Editor Source View::Ctrl+Shift+Y
+Styles.AddStyleRule	
+Styles.BuildStyle	
+OtherContextMenus.CSSDocOutline.GotoDefinition	
+{5D7E7F65-A63F-46EE-84F1-990B2CAB23F9}:6144	Global::Ctrl+;
+{5D7E7F65-A63F-46EE-84F1-990B2CAB23F9}:6145	Global::Ctrl+'
+OtherContextMenus.SmartTag.Rename	
+OtherContextMenus.SmartTag.ImplementInterface	
+OtherContextMenus.SmartTag.Generateastubforthismethod	
+OtherContextMenus.SmartTag.Renamewithpreview	
+OtherContextMenus.SmartTag.ImplementInterfaceExplicitly	
+OtherContextMenus.SmartTag.RemoveParameters	
+OtherContextMenus.SmartTag.ImplementAbstractClass	
+OtherContextMenus.SmartTag.ReorderParameters	
+Edit.Addappropriateusingstatement	
+Edit.Addappropriateusingstatement	
+Edit.Addappropriateusingstatement	
+Edit.Addappropriateusingstatement	
+Edit.Addappropriateusingstatement	
+Edit.Addappropriateusingstatement	
+Edit.Addappropriateusingstatement	
+Edit.Addappropriateusingstatement	
+Edit.Addappropriateusingstatement	
+Edit.Addappropriateusingstatement	
+Edit.Fullyqualifyname	
+Edit.Fullyqualifyname	
+Edit.Fullyqualifyname	
+Edit.Fullyqualifyname	
+Edit.Fullyqualifyname	
+Edit.Fullyqualifyname	
+Edit.Fullyqualifyname	
+Edit.Fullyqualifyname	
+Edit.Fullyqualifyname	
+Edit.Fullyqualifyname	
+Edit.Foundapossiblematch	
+Edit.Foundapossiblematch	
+Edit.Foundapossiblematch	
+Edit.Foundapossiblematch	
+Edit.Foundapossiblematch	
+Edit.Foundapossiblematch	
+Edit.Foundapossiblematch	
+Edit.Foundapossiblematch	
+Edit.Foundapossiblematch	
+Edit.Foundapossiblematch	
+Edit.Foundapossiblematch	
+Edit.Foundapossiblematch	
+Edit.Foundapossiblematch	
+Edit.Foundapossiblematch	
+Edit.Foundapossiblematch	
+Edit.Foundapossiblematch	
+EditorContextMenus.CodeWindow.ImplementInterface.ImplementInterface	
+EditorContextMenus.CodeWindow.ImplementInterface.ImplementInterfaceExplicitly	
+Edit.SimplifyTypeNames	
+Edit.RemoveUnusedUsings	
+Edit.SortUsings	
+Edit.RemoveAndSort	
+Edit.SimplifyRemoveAndSort	
+EditorContextMenus.CodeWindow.OrganizeUsings.SimplifyTypeNames	
+EditorContextMenus.CodeWindow.OrganizeUsings.RemoveUnusedUsings	
+EditorContextMenus.CodeWindow.OrganizeUsings.SortUsings	
+EditorContextMenus.CodeWindow.OrganizeUsings.RemoveAndSort	
+EditorContextMenus.CodeWindow.OrganizeUsings.SimplifyRemoveAndSort	
+{F3192B88-EA73-480F-9471-04524118D767}:20481	
+{F3192B88-EA73-480F-9471-04524118D767}:20482	
+{F3192B88-EA73-480F-9471-04524118D767}:20483	
+{F3192B88-EA73-480F-9471-04524118D767}:20484	
+{F3192B88-EA73-480F-9471-04524118D767}:20485	
+{F3192B88-EA73-480F-9471-04524118D767}:20486	
+{F3192B88-EA73-480F-9471-04524118D767}:20487	
+{F3192B88-EA73-480F-9471-04524118D767}:24577	
+{F3192B88-EA73-480F-9471-04524118D767}:24578	
+{F3192B88-EA73-480F-9471-04524118D767}:24579	
+{F3192B88-EA73-480F-9471-04524118D767}:24580	
+{F3192B88-EA73-480F-9471-04524118D767}:24581	
+{F3192B88-EA73-480F-9471-04524118D767}:24582	
+{F3192B88-EA73-480F-9471-04524118D767}:24583	
+{F3192B88-EA73-480F-9471-04524118D767}:24584	
+{AA8EB8CD-7A51-11D0-92C3-00A0C9138C45}:21003	
+ClassViewContextMenus.ClassViewProject.AddSelectedProjectstoSourceControl	
+ClassViewContextMenus.ClassViewProject.UndoCheckout	
+ClassViewContextMenus.ClassViewItem.Compare	
+ClassViewContextMenus.ClassViewProject.ContextGetLatestVersion	
+ClassViewContextMenus.ClassViewProject.Get	
+ClassViewContextMenus.ClassViewProject.ViewPendingCheckins	
+{AA8EB8CD-7A51-11D0-92C3-00A0C9138C45}:21015	
+EditorContextMenus.CodeWindow.CheckOutforEdit	
+EditorContextMenus.CodeWindow.CheckIn	
+{AA8EB8CD-7A51-11D0-92C3-00A0C9138C45}:11054	
+{AA8EB8CD-7A51-11D0-92C3-00A0C9138C45}:11007	
+{AA8EB8CD-7A51-11D0-92C3-00A0C9138C45}:11043	
+{AA8EB8CD-7A51-11D0-92C3-00A0C9138C45}:11111	
+{AA8EB8CD-7A51-11D0-92C3-00A0C9138C45}:11041	
+{AA8EB8CD-7A51-11D0-92C3-00A0C9138C45}:11037	
+{AA8EB8CD-7A51-11D0-92C3-00A0C9138C45}:11094	
+{AA8EB8CD-7A51-11D0-92C3-00A0C9138C45}:11095	
+{AA8EB8CD-7A51-11D0-92C3-00A0C9138C45}:11096	
+{AA8EB8CD-7A51-11D0-92C3-00A0C9138C45}:11235	
+{AA8EB8CD-7A51-11D0-92C3-00A0C9138C45}:11097	
+{AA8EB8CD-7A51-11D0-92C3-00A0C9138C45}:11142	
+{AA8EB8CD-7A51-11D0-92C3-00A0C9138C45}:11143	
+OtherContextMenus.PendingCheckinWindowContextMenu.CompareVersions	
+OtherContextMenus.PendingCheckinWindowContextMenu.OpenwithEditor	
+OtherContextMenus.PendingCheckinWindowContextMenu.UndoCheckout	
+{AA8EB8CD-7A51-11D0-92C3-00A0C9138C45}:11144	
+{AA8EB8CD-7A51-11D0-92C3-00A0C9138C45}:11145	
+OtherContextMenus.GetVersionDialogContextMenu.CompareVersions	
+OtherContextMenus.GetVersionDialogContextMenu.Refresh	
+File.GetLatestVersion	
+File.GetLatestSolutionFiles	
+File.Get	
+File.CheckOutforEdit	
+File.CheckOutSilent	
+File.CheckIn	
+File.CheckInSilent	
+File.UndoCheckout	
+File.ViewHistory	
+File.ExcludeSelectionfromSourceControl	
+File.RefreshStatus	
+OtherContextMenus.CheckOutDialogContextMenu.Forceexclusive	
+OtherContextMenus.CheckOutDialogContextMenu.CompareVersions	
+{AA8EB8CD-7A51-11D0-92C3-00A0C9138C45}:11146	
+{AA8EB8CD-7A51-11D0-92C3-00A0C9138C45}:11147	
+File.AddSolutiontoSourceControl	
+File.AddSelectedProjectstoSourceControl	
+OtherContextMenus.CheckinDialogContextMenu.CompareVersions	
+View.PendingCheckins	
+{AA8EB8CD-7A51-11D0-92C3-00A0C9138C45}:11266	
+{AA8EB8CD-7A51-11D0-92C3-00A0C9138C45}:11267	
+{AA8EB8CD-7A51-11D0-92C3-00A0C9138C45}:11268	
+File.ChangeSourceControl	
+GetLatestVersionDynamicSilent	
+CheckoutDynamicSilent	
+CheckInDynamicSilent	
+File.Share	
+File.Compare	
+File.Properties	
+File.SourceControlManager	
+File.OpenfromSourceControl	
+File.AddProjectfromSourceControl	
+Tools.RunTemporaryMacro	Global::Ctrl+Shift+P
+Tools.PauseResumeRecording	
+Tools.RecordTemporaryMacro	Global::Ctrl+Shift+R
+Tools.SaveTemporaryMacro	
+Tools.CancelRecording	
+Tools.StartRecordingTemporaryMacro	
+Tools.StopRecordingTemporaryMacro	
+View.MacroExplorer	
+Tools.MacrosIDE	Global::Alt+F11
+Tools.LoadMacroProject	
+Tools.UnloadMacroProject	
+Tools.NewMacroProject	
+Tools.SetasRecordingProject	
+Tools.Newmodule	
+Tools.Newmacro	
+Tools.Run	
+Tools.Edit	
+MicrosoftXMLEditor.CreateSchema	
+MicrosoftXMLEditor.ShowXSLTOutput	
+MicrosoftXMLEditor.DebugXSLT	
+MicrosoftXMLEditor.CancelXSLTOutput	
+MicrosoftXMLEditor.Schemas	
+{FB87333B-16C8-400E-BC8F-F6B890410582}:2	
+EditorContextMenus.CodeWindow.Properties	
+QueryDesigner.AddNewDerivedTable	
+QueryDesigner.JoinMode	Query Designer::Ctrl+Shift+J View Designer::Ctrl+Shift+J
+QueryDesigner.CancelRetrievingData	Query Designer::Ctrl+T View Designer::Ctrl+T
+TableDesigner.FulltextIndex	
+TableDesigner.XMLIndexes	
+OtherContextMenus.PropertyBrowser.Reset	
+OtherContextMenus.PropertyBrowser.Commands	
+OtherContextMenus.PropertyBrowser.Description	
+Project.RefreshProjectToolboxItems	
+OtherContextMenus.Selection.Properties	
+OtherContextMenus.ComponentTray.LineUpIcons	
+OtherContextMenus.ComponentTray.ShowLargeIcons	
+{74D21313-2AEE-11D1-8BFB-00A0C90F26F7}:8192	
+{74D21313-2AEE-11D1-8BFB-00A0C90F26F7}:8449	
+{74D21313-2AEE-11D1-8BFB-00A0C90F26F7}:16385	Windows Forms Designer::Shift+Esc Report Designer::Shift+Esc
+{CB3675B8-701E-4F56-9167-2714E167FF3F}:12313	Report Designer::Shift+Space
+{CB3675B8-701E-4F56-9167-2714E167FF3F}:12314	Report Designer::Ctrl+Space
+OtherContextMenus.Selection.Expression	
+OtherContextMenus.Cell.MergeCells	
+OtherContextMenus.Cell.SplitCells	
+Report.PageHeader	
+Report.PageFooter	
+View.Datasets	Report Designer::Ctrl+Alt+D
+OtherContextMenus.Control.AddColumn	
+Report.GroupingSorting	
+OtherContextMenus.RowColumn.InsertGroup	
+OtherContextMenus.RowColumn.EditGroup	
+OtherContextMenus.RowColumn.DeleteGroups	
+OtherContextMenus.RowColumn.InsertColumntotheLeft	
+OtherContextMenus.RowColumn.InsertColumntotheRight	
+OtherContextMenus.RowColumn.DeleteColumns	
+OtherContextMenus.RowColumn.InsertRowAbove	
+OtherContextMenus.RowColumn.InsertRowBelow	
+OtherContextMenus.RowColumn.DeleteRows	
+OtherContextMenus.RowColumn.TableHeader	
+OtherContextMenus.RowColumn.TableDetails	
+OtherContextMenus.RowColumn.TableFooter	
+{CB3675B8-701E-4F56-9167-2714E167FF3F}:12296	
+OtherContextMenus.Control.AddColumnGroup	
+OtherContextMenus.Control.AddRowGroup	
+OtherContextMenus.Cell.InsertGroup	
+OtherContextMenus.Cell.InsertGroup	
+OtherContextMenus.Cell.EditGroup	
+OtherContextMenus.Cell.DeleteGroups	
+OtherContextMenus.Cell.AddColumn	
+OtherContextMenus.Cell.AddRow	
+OtherContextMenus.Cell.Subtotal	
+Report.ReportParameters	
+Report.EmbeddedImages	
+Report.ReportProperties	
+Report.DataSources	
+Report.Actions	
+Report.Parameters	
+Report.ChartData	
+OtherContextMenus.FieldChooser.Add	
+OtherContextMenus.FieldChooser.Edit	
+OtherContextMenus.FieldChooser.Delete	
+{CB3675B8-701E-4F56-9167-2714E167FF3F}:12341	
+{CB3675B8-701E-4F56-9167-2714E167FF3F}:12344	
+{CB3675B8-701E-4F56-9167-2714E167FF3F}:12345	
+{CB3675B8-701E-4F56-9167-2714E167FF3F}:12336	
+{CB3675B8-701E-4F56-9167-2714E167FF3F}:12337	
+{CB3675B8-701E-4F56-9167-2714E167FF3F}:12339	
+{CB3675B8-701E-4F56-9167-2714E167FF3F}:12338	
+{CB3675B8-701E-4F56-9167-2714E167FF3F}:12340	
+{CB3675B8-701E-4F56-9167-2714E167FF3F}:12342	
+{CB3675B8-701E-4F56-9167-2714E167FF3F}:12343	
+{CB3675B8-701E-4F56-9167-2714E167FF3F}:12346	
+{CB3675B8-701E-4F56-9167-2714E167FF3F}:12347	
+{CB3675B8-701E-4F56-9167-2714E167FF3F}:12348	
+{CB3675B8-701E-4F56-9167-2714E167FF3F}:12349	
+OtherContextMenus.Selection.ChartType.Column.SimpleColumn	
+OtherContextMenus.Selection.ChartType.Column.StackedColumn	
+OtherContextMenus.Selection.ChartType.Column.100StackedColumn	
+OtherContextMenus.Selection.ChartType.Bar.SimpleBar	
+OtherContextMenus.Selection.ChartType.Bar.StackedBar	
+OtherContextMenus.Selection.ChartType.Bar.100StackedBar	
+OtherContextMenus.Selection.ChartType.Area.SimpleArea	
+OtherContextMenus.Selection.ChartType.Area.StackedArea	
+OtherContextMenus.Selection.ChartType.Area.100StackedArea	
+OtherContextMenus.Selection.ChartType.Line.SimpleLine	
+OtherContextMenus.Selection.ChartType.Line.SmoothLine	
+OtherContextMenus.Selection.ChartType.Pie.SimplePie	
+OtherContextMenus.Selection.ChartType.Pie.ExplodedPie	
+OtherContextMenus.Selection.ChartType.Doughnut.SimpleDoughnut	
+OtherContextMenus.Selection.ChartType.Doughnut.ExplodedDoughnut	
+OtherContextMenus.Selection.ChartType.Scatter.SimpleScatter	
+OtherContextMenus.Selection.ChartType.Scatter.ScatterLines	
+OtherContextMenus.Selection.ChartType.Scatter.ScatterSmoothLines	
+OtherContextMenus.Selection.ChartType.Bubble.Bubble	
+OtherContextMenus.Selection.ChartType.Stock.HighLowClose	
+OtherContextMenus.Selection.ChartType.Stock.OpenHighLowClose	
+OtherContextMenus.Selection.ChartType.Stock.Candlestick	
+{66D6F801-B1EC-40A4-BB15-318617E96DAD}:5000	
+OtherContextMenus.ORDesignerContextMenu.LayoutDiagram	
+OtherContextMenus.ORDesignerContextMenu.ConfigureBehavior	
+OtherContextMenus.ORDesignerContextMenu.HideMethodsPane	VisualStudio::Ctrl+1
+OtherContextMenus.ORDesignerContextMenu.EditAssociation	
+OtherContextMenus.ORDesignerContextMenu.Add.Class	
+OtherContextMenus.ORDesignerContextMenu.Add.Property	
+OtherContextMenus.ORDesignerContextMenu.Add.Association	
+OtherContextMenus.ORDesignerContextMenu.Add.Inheritance	
+OtherContextMenus.ORDesignerContextMenu.Zoom.400	
+OtherContextMenus.ORDesignerContextMenu.Zoom.300	
+OtherContextMenus.ORDesignerContextMenu.Zoom.200	
+OtherContextMenus.ORDesignerContextMenu.Zoom.150	
+OtherContextMenus.ORDesignerContextMenu.Zoom.125	
+OtherContextMenus.ORDesignerContextMenu.Zoom.100	
+OtherContextMenus.ORDesignerContextMenu.Zoom.75	
+OtherContextMenus.ORDesignerContextMenu.Zoom.66	
+OtherContextMenus.ORDesignerContextMenu.Zoom.50	
+OtherContextMenus.ORDesignerContextMenu.Zoom.33	
+OtherContextMenus.ORDesignerContextMenu.Zoom.25	
+OtherContextMenus.ORDesignerContextMenu.Zoom.10	
+OtherContextMenus.ORDesignerContextMenu.Zoom.Fit	
+OtherContextMenus.OTBObjCtxtMenu.Remove	
+{FDFFCCF4-5F63-404F-86AD-33693F544948}:16384	
+{FDFFCCF4-5F63-404F-86AD-33693F544948}:17152	
+{FDFFCCF4-5F63-404F-86AD-33693F544948}:17920	
+{FDFFCCF4-5F63-404F-86AD-33693F544948}:18688	
+{FDFFCCF4-5F63-404F-86AD-33693F544948}:19456	
+{F14A3123-D6BF-43CD-8284-010EB3077126}:15	
+{F14A3123-D6BF-43CD-8284-010EB3077126}:17	
+{F14A3123-D6BF-43CD-8284-010EB3077126}:18	
+{F14A3123-D6BF-43CD-8284-010EB3077126}:19	
+{F14A3123-D6BF-43CD-8284-010EB3077126}:20	
+{F14A3123-D6BF-43CD-8284-010EB3077126}:21	
+{F14A3123-D6BF-43CD-8284-010EB3077126}:22	
+{F14A3123-D6BF-43CD-8284-010EB3077126}:16	
+OtherContextMenus.SIDELeftPaneContextMenu.ImportConfig	
+OtherContextMenus.SIDELeftPaneContextMenu.ExportConfig	
+OtherContextMenus.SIDELeftPaneContextMenu.AddCertificate	
+OtherContextMenus.SIDELeftPaneContextMenu.ConnecttoDevice	
+OtherContextMenus.SIDELeftPaneContextMenu.DeploytoDevice	
+OtherContextMenus.SIDELeftPaneContextMenu.Refresh	
+OtherContextMenus.SIDECertMgrContextMenu.RemoveCertificate	
+OtherContextMenus.SIDECertMgrContextMenu.Properties	
+OtherContextMenus.SIDECertMgrContextMenu.AddCertificate	
+Tools.DeviceSecurityManager	
+Tools.ConnecttoDevice	
+Tools.DeviceEmulatorManager	
+OtherContextMenus.FileSystem.AddSpecialFolder.CustomFolder	
+OtherContextMenus.FileSystem.AddSpecialFolder.FontsFolder	
+OtherContextMenus.FileSystem.AddSpecialFolder.GamesFolder	
+OtherContextMenus.FileSystem.AddSpecialFolder.GamesFilesFolder	
+OtherContextMenus.FileSystem.AddSpecialFolder.MyDocumentsFolder	
+OtherContextMenus.FileSystem.AddSpecialFolder.ProgramFilesFolder	
+OtherContextMenus.FileSystem.AddSpecialFolder.ProgramsFolder	
+OtherContextMenus.FileSystem.AddSpecialFolder.StartMenuFolder	
+OtherContextMenus.FileSystem.AddSpecialFolder.StartupFolder	
+OtherContextMenus.FileSystem.AddSpecialFolder.WindowsFolder	
+OtherContextMenus.FileSystem.AddSpecialFolder.GlobalAssemblyCacheFolder	
+OtherContextMenus.Registry.New.MultiStringValue	
+{62EC41C1-F366-40BF-8017-908C2E2F912F}:5000	
+Project.ChangeTargetPlatform	
+Project.UpgradeProject	
+{D245F356-3F45-4516-B1E6-04608DA126CC}:4101	
+{D245F356-3F45-4516-B1E6-04608DA126CC}:4096	
+Format.ShowSkin	
+Format.RotateRight	
+Format.RotateLeft	
+Format.InsertNew	
+Format.InsertSeparator	
+Format.EditNames	
+ProjectandSolutionContextMenus.Item.AddNewExcelWorksheet	
+ProjectandSolutionContextMenus.Item.AddNewExcelChart	
+{4332F19A-1567-4B20-96FA-41C32878C02A}:25	
+{4332F19A-1567-4B20-96FA-41C32878C02A}:24	
+{4332F19A-1567-4B20-96FA-41C32878C02A}:16	
+{4332F19A-1567-4B20-96FA-41C32878C02A}:17	
+{4332F19A-1567-4B20-96FA-41C32878C02A}:18	
+{4332F19A-1567-4B20-96FA-41C32878C02A}:19	
+{4332F19A-1567-4B20-96FA-41C32878C02A}:20	
+{4332F19A-1567-4B20-96FA-41C32878C02A}:21	
+{4332F19A-1567-4B20-96FA-41C32878C02A}:22	
+{4332F19A-1567-4B20-96FA-41C32878C02A}:23	
+ProjectandSolutionContextMenus.Item.AddNewExcelWorksheet	
+ProjectandSolutionContextMenus.Item.AddNewExcelChart	
+{AE97F291-448D-4F9F-93A8-B0D2B78475A4}:25	
+{AE97F291-448D-4F9F-93A8-B0D2B78475A4}:24	
+{AE97F291-448D-4F9F-93A8-B0D2B78475A4}:16	
+{AE97F291-448D-4F9F-93A8-B0D2B78475A4}:17	
+{AE97F291-448D-4F9F-93A8-B0D2B78475A4}:18	
+{AE97F291-448D-4F9F-93A8-B0D2B78475A4}:19	
+{AE97F291-448D-4F9F-93A8-B0D2B78475A4}:20	
+{AE97F291-448D-4F9F-93A8-B0D2B78475A4}:21	
+{AE97F291-448D-4F9F-93A8-B0D2B78475A4}:22	
+{AE97F291-448D-4F9F-93A8-B0D2B78475A4}:23	
+{31CB03B9-3739-4E4F-A7D7-B5407A1344CC}:25	
+{31CB03B9-3739-4E4F-A7D7-B5407A1344CC}:24	
+{31CB03B9-3739-4E4F-A7D7-B5407A1344CC}:1	
+{31CB03B9-3739-4E4F-A7D7-B5407A1344CC}:16	
+{31CB03B9-3739-4E4F-A7D7-B5407A1344CC}:17	
+{31CB03B9-3739-4E4F-A7D7-B5407A1344CC}:18	
+{31CB03B9-3739-4E4F-A7D7-B5407A1344CC}:19	
+{31CB03B9-3739-4E4F-A7D7-B5407A1344CC}:20	
+{31CB03B9-3739-4E4F-A7D7-B5407A1344CC}:21	
+{31CB03B9-3739-4E4F-A7D7-B5407A1344CC}:22	
+{31CB03B9-3739-4E4F-A7D7-B5407A1344CC}:23	
+{AE97F290-448D-4F9F-93A8-B0D2B78475A4}:25	
+{AE97F290-448D-4F9F-93A8-B0D2B78475A4}:24	
+{AE97F290-448D-4F9F-93A8-B0D2B78475A4}:1	
+{AE97F290-448D-4F9F-93A8-B0D2B78475A4}:16	
+{AE97F290-448D-4F9F-93A8-B0D2B78475A4}:17	
+{AE97F290-448D-4F9F-93A8-B0D2B78475A4}:18	
+{AE97F290-448D-4F9F-93A8-B0D2B78475A4}:19	
+{AE97F290-448D-4F9F-93A8-B0D2B78475A4}:20	
+{AE97F290-448D-4F9F-93A8-B0D2B78475A4}:21	
+{AE97F290-448D-4F9F-93A8-B0D2B78475A4}:22	
+{AE97F290-448D-4F9F-93A8-B0D2B78475A4}:23	
+Project.RegenerateClassesBehindDocuments	
+{F3192B90-EA73-480F-9471-04524118D767}:20480	
+{F3192B90-EA73-480F-9471-04524118D767}:20481	
+{F3192B90-EA73-480F-9471-04524118D767}:20482	
+{F3192B90-EA73-480F-9471-04524118D767}:20483	
+{F3192B90-EA73-480F-9471-04524118D767}:20484	
+{F3192B90-EA73-480F-9471-04524118D767}:20485	
+{F3192B90-EA73-480F-9471-04524118D767}:20486	
+{F3192B90-EA73-480F-9471-04524118D767}:20496	
+{F3192B90-EA73-480F-9471-04524118D767}:20497	
+{F3192B90-EA73-480F-9471-04524118D767}:20498	
+{F3192B90-EA73-480F-9471-04524118D767}:20499	
+{F3192B90-EA73-480F-9471-04524118D767}:20500	
+{F3192B90-EA73-480F-9471-04524118D767}:20501	
+{F3192B90-EA73-480F-9471-04524118D767}:20512	
+{F3192B90-EA73-480F-9471-04524118D767}:20513	
+EditorContextMenus.XAMLEditor.NavigatetoEventHandler	
+{D7E8C5E1-BDB8-11D0-9C88-0000F8040A53}:4400	
+{D7E8C5E1-BDB8-11D0-9C88-0000F8040A53}:4402	
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:18	
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:19	
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:50	
+Edit.GoToFindCombo	Global::Ctrl+D
+Build.SolutionConfigurations	
+View.ObjectBrowsingScope	
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:1657	
+{5EFC7975-14BC-11CF-9B2B-00AA00573819}:1717	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:245	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:1627	
+Build.SolutionPlatforms	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2180	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2181	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2182	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2183	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2184	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2185	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2186	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2187	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2188	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2189	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2190	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2191	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2192	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2193	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2194	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2195	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:2200	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:11281	
+{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:11283	
+View.URL	
+{E8B06F44-6D01-11D2-AA7D-00C04F990343}:470	
+Debug.StepBy	
+Debug.LocationToolbar.ProcessCombo	Global::Ctrl+5
+Debug.LocationToolbar.ThreadCombo	Global::Ctrl+6
+Debug.LocationToolbar.StackFrameCombo	Global::Ctrl+7
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:8200	
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:16789505	
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:16789507	
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:33566721	
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:33566723	
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:50343937	
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:50343939	
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:67121153	
+{C9DD4A59-47FB-11D2-83E7-00C04F9902C1}:67121155	
+{66BD4C1D-3401-4BCC-A942-E4990827E6F7}:8289	
+{C2013470-51AC-4278-9AC5-389C72A1F926}:8454	
+{FB41A027-57C5-4F83-9508-C326DCE6D943}:8303	
+{9AEB9524-82C6-40B9-9285-8D85D3DBD4C4}:12575	
+{CB3675B8-701E-4F56-9167-2714E167FF3F}:12297	
+{CB3675B8-701E-4F56-9167-2714E167FF3F}:12299	
+{CB3675B8-701E-4F56-9167-2714E167FF3F}:12329	
+{CB3675B8-701E-4F56-9167-2714E167FF3F}:12331	
+{CB3675B8-701E-4F56-9167-2714E167FF3F}:12333	
+{D245F356-3F45-4516-B1E6-04608DA126CC}:4097	
+Macros.Samples.DevStudio6Editor.AddFunctionDescription	
+Macros.Samples.DevStudio6Editor.AddRevisionMarks	
+Macros.Samples.DevStudio6Editor.AutoCompleteFromFile	
+Macros.Samples.DevStudio6Editor.CloseExceptActive	
+Macros.Samples.DevStudio6Editor.CommentOut	
+Macros.Samples.DevStudio6Editor.ifdefOut	
+Macros.Samples.DevStudio6Editor.ifndefOut	
+Macros.Samples.DevStudio6Editor.MultiplePastes	
+Macros.Samples.DevStudio6Editor.OneTimeInclude	
+Macros.Samples.DevStudio6Editor.PrintAllOpenDocuments	
+Macros.Samples.DevStudio6Editor.ToggleCommentStyle	
+Macros.Samples.Utilities.AddClassicComRef	
+Macros.Samples.Utilities.FindCase	
+Macros.Samples.Utilities.FindLastTarget	
+Macros.Samples.Utilities.FindLine	
+Macros.Samples.Utilities.InsertDocComments	
+Macros.Samples.Utilities.ListMacroSamples	
+Macros.Samples.Utilities.ListModifiedDocuments	
+Macros.Samples.Utilities.ListProj	
+Macros.Samples.Utilities.LoadView	
+Macros.Samples.Utilities.SaveView	
+Macros.Samples.Utilities.TurnOffLineNumbers	
+Macros.Samples.Utilities.TurnOffWordWrap	
+Macros.Samples.Utilities.TurnOnLineNumbers	
+Macros.Samples.Utilities.TurnOnWordWrap	
+Macros.Samples.VSEditor.BeginningOfFunction	
+Macros.Samples.VSEditor.CenterScreen	
+Macros.Samples.VSEditor.CommentRegion	
+Macros.Samples.VSEditor.CountOccurrences	
+Macros.Samples.VSEditor.DoForWholeFile	
+Macros.Samples.VSEditor.EmacsStyleIndentLine	
+Macros.Samples.VSEditor.FillCommentParagraph	
+Macros.Samples.VSEditor.FixLineEnds	
+Macros.Samples.VSEditor.InsertDate	
+Macros.Samples.VSEditor.InsertTime	
+Macros.Samples.VSEditor.InsertTimeDate	
+Macros.Samples.VSEditor.LineEmUp	
+Macros.Samples.VSEditor.LineToTop	
+Macros.Samples.VSEditor.ListMatchingLines	
+Macros.Samples.VSEditor.ListNonMatchingLines	
+Macros.Samples.VSEditor.NewCommentLine	
+Macros.Samples.VSEditor.OneFunctionView	
+Macros.Samples.VSEditor.OutlineCode	
+Macros.Samples.VSEditor.PrintItemsInSelectedProject	
+Macros.Samples.VSEditor.PrintNumberedLines	
+Macros.Samples.VSEditor.SaveBackup	
+Macros.Samples.VSEditor.SetFillColumn	
+Macros.Samples.VSEditor.TopOfBlock	
+Macros.Samples.MakeAddin.MakeAddinFromMacroProj	
+Macros.Samples.VSDebugger.AddBreakpointToMain	
+Macros.Samples.VSDebugger.AttachToCalc	
+Macros.Samples.VSDebugger.BreakpointLastHit	
+Macros.Samples.VSDebugger.DebuggerMode	
+Macros.Samples.VSDebugger.DetachAll	
+Macros.Samples.VSDebugger.DumpExpression	
+Macros.Samples.VSDebugger.DumpStacks	
+Macros.Samples.VSDebugger.LastBreakReason	
+Macros.Samples.VSDebugger.ListAllBreakpoints	
+Macros.Samples.VSDebugger.ListBreakpointsLastHit	
+Macros.Samples.VSDebugger.ListDebuggedProcesses	
+Macros.Samples.VSDebugger.RunToLine	
+Macros.Samples.VSDebugger.RunToNextBreakpoint	
+Macros.Samples.VSDebugger.ShowCurrentProcess	
+Macros.Samples.VSDebugger.StepOverAll	
+Macros.Samples.VSDebugger.SupportedLanguages	
+Macros.Samples.AddDirAsSlnFolder.GenerateSlnFolderOnDirStructure	
+Macros.Samples.Accessibility.DecreaseTextEditorFontSize	
+Macros.Samples.Accessibility.IncreaseTextEditorFontSize	
+Macros.Samples.Accessibility.MaximizeToolWindowsInEnvironment	
+Macros.Samples.Accessibility.ToggleTextEditorGrayScale	
+Macros.Samples.Accessibility.UpdateTextEditorFontSizeToMatchDisplayProperties	
+Macros.MyMacros.KeyboardShortcuts.GetAllCommands	

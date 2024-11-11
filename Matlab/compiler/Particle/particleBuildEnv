@@ -1,0 +1,38 @@
+ParticleDir=/usr/local/Particle
+Particle-Beta=/usr/local/Particle-beta
+TestDir=~/Particle
+DistDir=$(CURDIR)/dist
+
+
+install: InstallDir = $(ParticleDir)
+install_beta: InstallDir = $(Particle-Beta)
+install_test: InstallDir = $(TestDir)
+dist: InstallDir = $(DistDir)
+
+install_test: install_sub
+
+install: install_sub
+
+install_beta: install_sub
+
+dist: install_sub
+
+.PHONY : mkdirs
+mkdirs:
+	mkdir -p $(InstallDir)/bin/mce/$(arch)
+	mkdir -p $(InstallDir)/lib/$(arch)
+	mkdir -p $(InstallDir)/templates
+
+install_mce:
+	cp $(mce) $(InstallDir)/bin/mce/$(arch)
+	cp $(mce).ctf $(InstallDir)/lib/$(arch)
+	rm -rf $(InstallDir)/lib/$(arch)/$(mce)_mcr
+	cd $(InstallDir)/lib/$(arch) ; extractCTF $(mce).ctf
+
+.PHONY : clean_mcc clean_mce clean
+clean_mcc:
+	rm -rf mccExcludedFiles.log semantic.cache *~
+
+clean_mce:
+	rm -rf $(mce) $(mce).ctf $(mce)_mcr $(mce)_mcc_component_data.c \
+  $(mce)_main.c 

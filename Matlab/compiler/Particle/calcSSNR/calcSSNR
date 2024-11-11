@@ -1,0 +1,9 @@
+#!/bin/sh
+#
+#  calcSSNR_mce startup script
+
+source ${PARTICLE_DIR}/particle.cfg
+
+echo -n "Starting calcSSNR_mce ..."
+nice -n ${PARTICLE_NICE} calcSSNR_mce $@ >${1}.log 2>&1 &
+echo "started as a background process."

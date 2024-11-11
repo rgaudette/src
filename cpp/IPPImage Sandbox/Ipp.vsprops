@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="Ipp"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories="$(IPP_PATH_V5_1)\include"
+	/>
+	<Tool
+		Name="VCLinkerTool"
+		AdditionalDependencies="ippcoreem64tl.lib ippmemergedem64t.lib ippmmergedem64t.lib ippiemergedem64t.lib ippimergedem64t.lib ippcvemergedem64t.lib ippcvmergedem64t.lib ippsemergedem64t.lib ippsmergedem64t.lib"
+		AdditionalLibraryDirectories="&quot;$(IPP_PATH_V5_1)\lib&quot;"
+	/>
+</VisualStudioPropertySheet>

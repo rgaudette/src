@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="IppLib"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories="D:\AXI\Source\v810\SVN\5.4_Dev\axi\cpp64\IppLib"
+	/>
+	<Tool
+		Name="VCLinkerTool"
+		AdditionalDependencies="IppLib.lib"
+		AdditionalLibraryDirectories="D:\AXI\Source\v810\SVN\5.4_Dev\axi\cpp64\release\bin"
+	/>
+</VisualStudioPropertySheet>

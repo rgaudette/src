@@ -1,0 +1,13 @@
+OBJS=ccall.o cmap.o
+LIBS=stdc++
+
+ccall: $(OBJS)
+	f77 $^ -o $@ -l $(LIBS)
+
+ccall.o: ccall.c
+
+cmap.o: cmap.cpp
+
+
+clean:
+	rm -rf $(OBJS) ccall

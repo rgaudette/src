@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup>
+    <CudaCompile>
+      <AdditionalOptions> -Xptxas -dlcm=ca -Wno-deprecated-gpu-targets %(AdditionalOptions)</AdditionalOptions>
+      <CodeGeneration>compute_52,sm_52;compute_61,sm_61</CodeGeneration>
+    </CudaCompile>
+    <ClCompile />
+    <ClCompile>
+      <AdditionalIncludeDirectories>"$(CUDA_INC_PATH)";%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(CudaToolkitLibDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cusparse.lib;cublas.lib;cudart_static.lib;npps.lib;nppc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>echo "copying CUDA DLLs" 
+copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"
+copy "$(CudaToolkitBinDir)\cusparse*.dll" "$(OutDir)"
+copy "$(CudaToolkitBinDir)\cublas64*.dll" "$(OutDir)"
+copy "$(CudaToolkitBinDir)\npps64*.dll" "$(OutDir)"
+copy "$(CudaToolkitBinDir)\nppc64*.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

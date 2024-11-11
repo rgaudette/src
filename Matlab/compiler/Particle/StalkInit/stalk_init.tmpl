@@ -1,0 +1,28 @@
+% fnStalkModel: The stalk model.  It should contain a single object with a
+%               contour drawn on each stalk.  The first point should be in the
+%               center of the head and the second should be at the base of the
+%               stalk.
+fnStalkModel = 'stalk.mod';
+
+% iRef: The ojbect index of reference particle in the stalk model or 0 to align
+%       the particles with the z axis.
+iRef = 0;
+
+% fnHead:      The file name of the IMOD model indicating approximate
+%              locations of the head of the particles to average in the volume.
+%              This will be created from the first point of each contour of the
+%              stalk model.
+fnHead = 'head.mod';
+
+% fnCentroid: The file name of the IMOD model indicating approximate
+%              locations of the centroid particles to average in the volume.
+%              This will be created from the average of the two points of each
+%              contour in the stalk model.
+fnCentroid = 'centroid.mod';
+
+% fnInitMotiveList: The file name of the initial motive list to generate.
+fnInitMotiveList = 'stalk_MOTL_1.em';
+
+% debugLevel:  How much junk to print {0|1|2}
+%
+debugLevel = 1

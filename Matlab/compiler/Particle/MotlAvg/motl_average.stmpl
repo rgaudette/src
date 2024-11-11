@@ -1,0 +1,16 @@
+fnVolume = 'my_tomogram.rec'
+fnModParticle = 'my_particles.mod'
+fnMotiveList = 'my_MOTL_4.em'
+szVol = [64 64 64]
+fnOutput = 'my_volume'
+lstThresholds = [2:10]
+includeList = [ ]
+excludeList = [ ]
+selectClassID = [ ]
+tiltRange = []
+edgeShift = 0
+flgMeanFill = 0
+alignedBaseName = ''
+fnWedgeWeight = ''
+flgFullSubVolume = 0
+debugLevel = 3

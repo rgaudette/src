@@ -1,0 +1,42 @@
+Figure Properties
+======================================================================
+        BackingStore = on
+        Color = [0 0 0]
+        Colormap = [ (64 by 3) ]
+        CurrentAxes = [49.0021]
+        CurrentCharacter = 
+        CurrentMenu = [1]
+        CurrentObject = []
+        CurrentPoint = [0 0]
+        FixedColors = [0 0 0]
+        InvertHardcopy = on
+        KeyPressFcn = 
+        MenuBar = figure
+        MinColormap = [64]
+        Name = 
+        NextPlot = add
+        NumberTitle = on
+        PaperUnits = inches
+        PaperOrientation = portrait
+        PaperPosition = [0.25 2.5 8 6]
+        PaperSize = [8.5 11]
+        PaperType = usletter
+        Pointer = arrow
+        Position = [296 420 560 420]
+        Resize = on
+        SelectionType = normal
+        ShareColors = yes
+        Units = pixels
+        WindowButtonDownFcn = 
+        WindowButtonMotionFcn = 
+        WindowButtonUpFcn = 
+ 
+        ButtonDownFcn = 
+        Children = [49.0021]
+        Clipping = on
+        Interruptible = no
+        Parent = [0]
+        Type = figure
+        UserData = []
+        Visible = on
+ 

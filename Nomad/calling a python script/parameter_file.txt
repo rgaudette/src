@@ -1,0 +1,27 @@
+DIMENSION 2 # number of variables
+BB_EXE '$python measure_calc_reconstruction_iterative_N_α_M_λ.py' # ‘bb.exe’ is a program that 
+BB_OUTPUT_TYPE OBJ PB EB # takes in argument the name of
+# a text file containing 5
+# values, and that displays 3
+# values that correspond to the
+# objective function value (OBJ),
+# and two constraints values g1
+# and g2 with g1 <= 0 and
+# g2 <= 0; ‘PB’ and ‘EB’
+# correspond to constraints that
+# are treated by the Progressive
+# and Extreme Barrier approaches
+# (all constraint-handling
+# options are described in the
+# detailed parameters list)
+BB_INPUT_INCLUDE_TAG yes
+BB_INPUT_INCLUDE_SEED yes
+X0 ( 0.12783 -6.0) # starting point
+LOWER_BOUND * -6 # all variables are >= -6
+UPPER_BOUND ( 10 - ) # x_1 <= 10
+# x_1 has no bounds
+MAX_BB_EVAL 100 # the algorithm terminates when
+# 100 blackbox evaluations have
+# been made
+# DISPLAY_DEGREE NO_DISPLAY, MINIMAL_DISPLAY, NORMAL_DISPLAY, or FULL_DISPLAY
+DISPLAY_DEGREE NORMAL_DISPLAY

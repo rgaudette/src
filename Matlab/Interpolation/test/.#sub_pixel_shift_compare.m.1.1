@@ -1,0 +1,19 @@
+% Create a bandlimited random sequence
+zfull = randn(1024,1);
+hLPF = firpm(128, [0 0.075 0.1 1], [1 1 0 0]);
+ZBW = fft(zfull) .* fft(hLPF', 1024);
+zbw = ifft(ZBW);
+
+% Subsample it
+zbw_deci10 = zbw(1:10:end);
+
+% Compute the fourier transform approximation of 
+ZBW_DECI10 = fft(zbw);
+nFFT = length(ZBW_DECI10);
+w = 2*pi*[0:nFFT-1]'./nFFT;
+shift = 2.4;
+zbw_d10_shift = real(ifft(exp(-j*w*shift) .* ZBW_DECI10));
+clf
+plot(zbw)
+hold on
+plot(zbw_d10_shift, 'r');

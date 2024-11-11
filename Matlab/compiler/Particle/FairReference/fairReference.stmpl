@@ -1,0 +1,14 @@
+fnVolume = 'my_tomogram.rec'
+fnModParticle = 'my_particles.mod'
+select = 8
+fnMotiveList = 'my_MOTL_4.em'
+szVol = [64 64 64]
+fnOutput = 'reference'
+vPhi = [-180:15:179]
+vTheta = [0:15:45]
+vPsi = [-170:15:179]
+searchRadius = 10
+lowCutoff = 0
+hiCutoff = 0.867
+debugLevel = 3
+

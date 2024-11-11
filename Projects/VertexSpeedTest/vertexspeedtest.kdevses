@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<!DOCTYPE KDevPrjSession>
+<KDevPrjSession>
+ <Mainframe MaximizeMode="1" />
+ <DocsAndViews NumberOfDocuments="9" >
+  <Doc0 CursorPosLine="0" Type="KWriteDoc" NumberOfViews="1" CursorPosCol="0" FileName="/home/rickg/Src/Projects/VertexSpeedTest/TODO" >
+   <View0 Top="24" Width="400" Attach="1" Height="300" Left="3" Focus="0" Type="KWriteView" MinMaxMode="0" />
+  </Doc0>
+  <Doc1 CursorPosLine="0" Type="KWriteDoc" NumberOfViews="1" CursorPosCol="0" FileName="/home/rickg/Src/Projects/VertexSpeedTest/INSTALL" >
+   <View0 Top="46" Width="857" Attach="1" Height="531" Left="25" Focus="0" Type="KWriteView" MinMaxMode="0" />
+  </Doc1>
+  <Doc2 CursorPosLine="0" Type="KWriteDoc" NumberOfViews="1" CursorPosCol="0" FileName="/home/rickg/Src/Projects/VertexSpeedTest/vertexspeedtest.kdevprj" >
+   <View0 Top="68" Width="400" Attach="1" Height="300" Left="47" Focus="0" Type="KWriteView" MinMaxMode="0" />
+  </Doc2>
+  <Doc3 CursorPosLine="40" Type="KWriteDoc" NumberOfViews="1" CursorPosCol="53" FileName="/home/rickg/Src/Projects/VertexSpeedTest/vertexspeedtest/docs/en/index.html" >
+   <View0 Top="90" Width="846" Attach="1" Height="509" Left="69" Focus="0" Type="KWriteView" MinMaxMode="0" />
+  </Doc3>
+  <Doc4 CursorPosLine="0" Type="KWriteDoc" NumberOfViews="1" CursorPosCol="0" FileName="/home/rickg/Src/Projects/VertexSpeedTest/vertexspeedtest/docs/en/index.sgml" >
+   <View0 Top="112" Width="846" Attach="1" Height="526" Left="91" Focus="0" Type="KWriteView" MinMaxMode="0" />
+  </Doc4>
+  <Doc5 CursorPosLine="0" Type="KWriteDoc" NumberOfViews="1" CursorPosCol="0" FileName="/home/rickg/Src/Projects/VertexSpeedTest/vertexspeedtest/docs/en/Makefile" >
+   <View0 Top="134" Width="846" Attach="1" Height="527" Left="113" Focus="0" Type="KWriteView" MinMaxMode="0" />
+  </Doc5>
+  <Doc6 CursorPosLine="0" Type="KWriteDoc" NumberOfViews="1" CursorPosCol="0" FileName="/home/rickg/Src/Projects/VertexSpeedTest/vertexspeedtest/docs/en/Makefile.in" >
+   <View0 Top="156" Width="846" Attach="1" Height="509" Left="135" Focus="0" Type="KWriteView" MinMaxMode="0" />
+  </Doc6>
+  <Doc7 CursorPosLine="0" Type="KWriteDoc" NumberOfViews="1" CursorPosCol="0" FileName="/home/rickg/Src/Projects/VertexSpeedTest/vertexspeedtest/docs/en/Makefile.am" >
+   <View0 Top="178" Width="846" Attach="1" Height="509" Left="157" Focus="0" Type="KWriteView" MinMaxMode="0" />
+  </Doc7>
+  <Doc8 CursorPosLine="0" Type="KWriteDoc" NumberOfViews="1" CursorPosCol="0" FileName="/home/rickg/Src/Projects/VertexSpeedTest/vertexspeedtest/main.cpp" >
+   <View0 Top="152" Width="593" Attach="1" Height="372" Left="152" Focus="1" Type="KWriteView" MinMaxMode="2" />
+  </Doc8>
+ </DocsAndViews>
+ <LastCompileConfig>(Default)</LastCompileConfig>
+</KDevPrjSession>

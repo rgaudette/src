@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "se_translator", "se_translator.vcproj", "{1D5F5084-BFB1-4743-99A9-DE8C33AB0185}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D5F5084-BFB1-4743-99A9-DE8C33AB0185}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1D5F5084-BFB1-4743-99A9-DE8C33AB0185}.Debug|Win32.Build.0 = Debug|Win32
+		{1D5F5084-BFB1-4743-99A9-DE8C33AB0185}.Release|Win32.ActiveCfg = Release|Win32
+		{1D5F5084-BFB1-4743-99A9-DE8C33AB0185}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+LIBRARY THInterface 
+ 
+EXPORTS 
+     ProcessSnapShot
+	 GetNProc
+	 FreeHandle
+	 GetFirstProcess
+	 GetNextProcess
+	 ModuleSnapShot
+	 GetFirstModule
+	 GetNextModule

@@ -1,0 +1,87 @@
+package id22875cjd55hg6cjd6brh4;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@shapeType Hyperlink
+@__modelType link
+@__ref <oiref:java#Member#Matrix#$$constructor$$#(#int#int#)#:oiref><oihard>
+@__reversed 
+*/
+class link {
+}/**
+@__ref <oiref:design#Class#id22875cjd55hg6cjd6brh4.node:oiref><oihard>
+@__modelType reference 
+*/
+class reference {
+}/**
+@__ref <oiref:design#Class#id22875cjd55hg6cjd6brh4.node2:oiref><oihard>
+@__modelType reference 
+*/
+class reference3 {
+}}/**
+@__tags
+@shapeType SequenceDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:design#Class#id22875cjd55hg6cjd6brh4.node.link:oiref>=82,135,207,135:oigroup>
+<oigroup:<oiref:design#Class#id22875cjd55hg6cjd6brh4.node2:oiref>=207,100,90,200,1:oigroup>
+<oigroup:<oiref:design#Class#id22875cjd55hg6cjd6brh4.node2.node:oiref>=245,135,14,50,1:oigroup>
+<oigroup:Composite#$messageInplaceEditing#<oiref:design#Class#id22875cjd55hg6cjd6brh4.node.link:oiref>=86,112,121,19,0:oigroup>
+<oigroup:<oiref:design#Class#id22875cjd55hg6cjd6brh4.node:oiref>=30,30,90,270,1:oigroup> 
+*/
+class __positions {
+}/**
+@shapeType Object
+@__modelType node
+@name Object1
+@stereotype actor 
+*/
+class node {
+/**
+@shapeType MessageLink
+@__modelType link
+@__ref <oiref:design#Class#id22875cjd55hg6cjd6brh4.node2:oiref><oihard>
+@sendingInstant 135
+@processingDuration 50
+@sequenceNumber 1
+@operation <oiref:java#Member#Matrix#$$constructor$$#(#int#int#)#:oiref>
+@operationNameAsText '<constructor>(int,int)'
+@creationMessage true 
+*/
+class link {
+}/**
+@shapeType CollaborationLink
+@__modelType link
+@__ref <oiref:design#Class#id22875cjd55hg6cjd6brh4.node2:oiref><oihard> 
+*/
+class link4 {
+}}/**
+@shapeType Object
+@__modelType node
+@name initial
+@created true 
+*/
+class node2 {
+/**
+@shapeType DependencyLink
+@__modelType link
+@__ref <oiref:java#Class#Matrix:oiref><oihard> 
+*/
+class link {
+}/**
+@shapeType Activation
+@__modelType node
+@name Activation1
+@activationMessage <oiref:design#Class#id22875cjd55hg6cjd6brh4.node.link:oiref> 
+*/
+class node {
+}}

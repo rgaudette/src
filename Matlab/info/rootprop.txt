@@ -1,0 +1,21 @@
+Root Properties
+======================================================================
+        CaptureRect
+        CurrentFigure
+        Diary: [ on | off ]
+        DiaryFile
+        Echo: [ on | off ]
+        Format: [ short | long | shortE | longE | hex | bank | + | rat ]
+        FormatSpacing: [ loose | compact ]
+        PointerLocation
+        ScreenDepth
+        TerminalOneWindow: [ no | yes ]
+        TerminalProtocol: [ none | x | tek401x | tek410x | tek41xx | regis ]
+        Units: [ inches | centimeters | normalized | points | pixels ]
+ 
+        ButtonDownFcn
+        Clipping: [ {on} | off ]
+        Interruptible: [ {no} | yes ]
+        Parent
+        UserData
+        Visible: [ {on} | off ]

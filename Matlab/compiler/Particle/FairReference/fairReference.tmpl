@@ -1,0 +1,41 @@
+% fnVolume: The file name of the MRC image stack containing the particles
+fnVolume = 'my_tomogram.rec'
+
+% fnModParticle: The file name of the IMOD model indicating approximate
+%                 locations of the particles to average in the volume
+fnModParticle = 'my_particles.mod'
+
+% select: Either the number of particles, which must be a power of 2.  Or a
+%         vector containing the indices of the particles to use, which also
+%         must have a length equal to a power of 2.
+select = 8
+
+% fnMotiveList: The file name of the motive list.
+fnMotiveList = 'my_MOTL_4.em'
+
+% szVol: The size of the volume around each particle to average
+szVol = [64 64 64]
+
+% fnOutput: The base name of the output files for the average volumes, the
+%           reference volumes, and the transformation parameters
+fnOutput = 'reference'
+
+% vPhi:   The euler angle search space, Phi is around the Z-axis, Theta is
+% vTheta: around the X-axis, and Psi is around the Z-axis again.  The v is
+% vPsi:m  included because psi specifies a function.
+vPhi = [-180:15:179]
+vTheta = [0:15:45]
+vPsi = [-170:15:179]
+
+% searchRadius: The number of pixels to search in each dimension
+searchRadius = 10
+
+% lowCutoff: The frequency domain cutoff parameters for prefiltering the
+% hiCutoff:  particles and reference lowCutoff =< 0 prevents low frequency
+%            filtering, hiCutoff >= 0.866 prevents high frequency filtering
+lowCutoff = 0
+hiCutoff = 0.867
+
+% debugLevel:  How much junk to print {0|1|2}
+%
+debugLevel = 1

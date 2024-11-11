@@ -1,0 +1,2 @@
+This should also be on trunk, and more
+Let see what happens with the svn 1.8 automatic reintegration merge 

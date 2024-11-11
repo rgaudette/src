@@ -1,0 +1,13 @@
+svn info
+Path: .
+Working Copy Root Path: C:\Users\rick\Src\Subversion\start_as_trunk_then_switch
+URL: svn://192.168.8.1/home/svnrepos/Example/ABranch
+Relative URL: ^/Example/ABranch
+Repository Root: svn://192.168.8.1/home/svnrepos
+Repository UUID: fa75a084-8025-423b-990a-d51cadd6c70c
+Revision: 18
+Node Kind: directory
+Schedule: normal
+Last Changed Author: rick
+Last Changed Rev: 13
+Last Changed Date: 2013-07-09 22:50:16 -0400 (Tue, 09 Jul 2013)

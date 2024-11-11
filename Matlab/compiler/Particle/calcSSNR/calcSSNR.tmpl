@@ -1,0 +1,40 @@
+% fnVolume: The file name of the MRC image stack containing the particles
+fnVolume = 'my_tomogram.rec'
+
+% fnModParticle: The file name of the IMOD model indicating approximate
+%                 locations of the particles to average in the volume
+fnModParticle = 'my_particles.mod'
+
+% fnMotiveList: The file name of the motive list.
+fnMotiveList = 'my_MOTL_4.em'
+
+% fnParticles: A cell array containing the list of average volumes to analyze or
+%             a string with a wildcard that will expand into that list
+fnParticles = 'particle_AvgVol_*mrc'
+
+% thresholds: the list of thresholds that is associate with the average volumes
+%             in fnParticles
+thresholds = [10:10:60]
+
+% freqShells: the upper limit of each frequency shell
+freqShells = [0.025:0.025:0.5]
+
+% windowName: the type of the mask window to apply to the data 
+windowName = 'gaussian'
+
+% windowParams: The parameters to pass to the window generation function.
+%               For a gaussian window the parameters are [radius sigma] see
+%               gaussianMask.
+%
+windowParams = [0.4 0.05]
+
+% winCenter:  The center of the mask window (default: volume center)
+windowCenter = [ ]
+
+% fnOuput: The filename to write the output data to in matlab format.  If it
+%          does not have an extension .mat will be added
+fnOutput = 'SSNR_out'
+
+% debugLevel:  How much junk to print {0|1|2}
+%
+debugLevel = 2

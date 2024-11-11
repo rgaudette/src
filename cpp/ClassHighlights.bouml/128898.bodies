@@ -1,0 +1,14 @@
+class Derived2
+!!!130050.cpp!!!	Derived2(in  : void)
+
+!!!130178.cpp!!!	~Derived2(in  : void)
+
+!!!130306.cpp!!!	method2(in param : int) : int
+
+	cout << "I'm in Derived2::method2" << endl;
+	//cout << "Hit return to continue" << endl;
+	//char carr[1024];
+
+	//cin.getline(&carr[0], 1023);
+	d3.method3(param);
+	return 0;

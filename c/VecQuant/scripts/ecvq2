@@ -1,0 +1,80 @@
+#!/bin/csh
+##
+##  16 element set
+##
+#set nelems = 16
+#set ncodes = 256
+#set ntrain = 10000
+#set nrates = 100
+#set rate_start = 0.1
+#set rate_step = -0.001
+#set source = ../../Source/gg07_0a.mat
+#set varname = data
+#set codefile = gg${nelems}b
+#set rdfile = rdgg${nelems}b
+#
+#ecvq $source $varname $codefile $rdfile $nelems $ncodes $ntrain $nrates $rate_start $rate_step
+
+##
+##  8 element set
+##
+#set nelems = 8
+#set ncodes = 256
+#set ntrain = 12244
+#set nrates = 22
+#set rate_start = 1.1
+#set rate_step = -0.05
+#set source = /dosd/data/video/codebook/source/gg07_01.mat
+#set varname = data
+#set codefile = gg$nelems
+#set rdfile = rdgg$nelems
+#
+#ecvq $source $varname $codefile $rdfile $nelems $ncodes $ntrain $nrates $rate_start $rate_step
+#
+###
+###  4 element set
+###
+#set nelems = 4
+#set ncodes = 2048
+#set ntrain = 20000
+#set nrates = 11
+#set rate_start = 2.75
+#set rate_step = -0.25
+#set source = /dosd/data/video/codebook/source/gg07_01.mat
+#set varname = data
+#set codefile = gg$nelems
+#set rdfile = rdgg$nelems
+#
+#ecvq $source $varname $codefile $rdfile $nelems $ncodes $ntrain $nrates $rate_start $rate_step
+#
+###
+###  2 element set a
+###
+#set nelems = 2
+#set ncodes = 4096
+#set ntrain = 20000
+#set nrates = 20
+#set rate_start = 6.0
+#set rate_step = -0.25
+#set source = /dosd/data/video/codebook/source/gg07_01.mat
+#set varname = data
+#set codefile = gg${nelems}a
+#set rdfile = rdgg${nelems}a
+#
+#ecvq $source $varname $codefile $rdfile $nelems $ncodes $ntrain $nrates $rate_start $rate_step
+
+#
+#  2 element set b
+#
+set nelems = 2
+set ncodes = 65536
+set ntrain = 400000
+set nrates = 20
+set rate_start = 8.0
+set rate_step = -0.25
+set source = ../../Source/gg07_0a.mat
+set varname = data
+set codefile = gg${nelems}b
+set rdfile = rdgg${nelems}b
+
+/home/rjg/Src/C/VecQuant/ecvq $source $varname $codefile $rdfile $nelems $ncodes $ntrain $nrates $rate_start $rate_step

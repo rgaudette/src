@@ -1,0 +1,6 @@
+fnStalkModel = 'stalk.mod';
+iRef = 0;
+fnHead = 'head.mod';
+fnCentroid = 'centroid.mod';
+fnInitMotiveList = 'stalk_MOTL_1.em';
+debugLevel = 1

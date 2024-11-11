@@ -1,0 +1,7 @@
+*.log
+*.vatmpl
+*.tmpl
+*.mod
+*.mrc
+*.em
+*.out

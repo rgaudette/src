@@ -1,0 +1,15 @@
+window_sizes 1920 1018 450 1350 720 82
+diagrams
+  classdiagram_ref 128130 // myclassdia
+    1071 631 100 4 0 0
+  active  sequencediagram_ref 128258 // myseq
+    1071 631 100 4 0 0
+end
+show_stereotypes
+selected operation_ref 129154 // a_method
+open
+  class_ref 128514 // ClassA
+  deploymentview_ref 128130 // ClassHighlights
+  classview_ref 128258 // myclass
+end
+end

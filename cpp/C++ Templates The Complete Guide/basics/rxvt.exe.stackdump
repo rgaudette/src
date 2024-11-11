@@ -1,0 +1,8 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=00000000
+eax=00000001 ebx=00000000 ecx=00000000 edx=6118C480 esi=FFFFFFFF edi=0028AA30
+ebp=0000010C esp=0028A9E0 program=C:\Apps\cygwin\bin\rxvt.exe, pid 79728, thread main
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+  56615 [main] rxvt 79728 exception::handle: Exception: STATUS_ACCESS_VIOLATION
+  58455 [main] rxvt 79728 exception::handle: Error while dumping state (probably corrupted stack)

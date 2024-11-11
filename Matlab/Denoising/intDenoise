@@ -1,0 +1,6 @@
+#!/bin/sh 
+
+# Startup matlab with the intDenoise tool
+base=/usr/local/MatlabTools
+export MATLABPATH=${base}/Denoising:${base}/MatTomo:${base}/MatTomo/Visualization:${base}/Std/Wavelet
+matlab -r "intDenoise('$1')" 1>waveletDenoise.log 2>waveletDenoise.err

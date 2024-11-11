@@ -1,0 +1,57 @@
+#!/bin/sh
+
+#  Input file
+inputfile=$1
+#  Output file
+outfile=$2
+
+#  Uncomment the wavelet type, either discrete or stationary
+waveletType=stationary
+#waveletType=discrete
+
+#  Select one of the wavelet families for the wavelet transform
+waveletFamily=db
+#waveletFamily=sym
+#waveletFamily=coif
+
+#  Select the order of wavelet (for db, sym, coif)
+order=10
+
+#  Select the number of detail scales to compute
+levels=2
+
+#  Select the threshold type s = soft, h = hard
+#threshType=h
+threshType=s
+
+#  Select the noise model
+#noiseModel=white
+noiseModel=F30
+#noiseModel=GIF
+
+#  Select the threshold calculation function
+threshCalc=sqtwolog
+#threshCalc=std
+#threshCalc=rigsure
+#threshCalc=heursure
+#threshCalc=minimaxi
+
+#  Specify the threshold weighting
+threshWeight=2.0
+
+
+##
+##  Do not modify anything below this line
+##
+base=/usr/local/MatlabTools
+
+# Copy the input data to the output data, since denoiseStack will 
+# denoise inplace.
+cp $inputfile $outfile
+
+export MATLABPATH=${base}/Denoising:${base}/MatTomo:${base}/MatTomo/Visualization:${base}/Std/Wavelet:
+#  construct the Matlab command line
+denoiseCmd="denoiseStack('${outfile}', '${waveletType}', '${waveletFamily}', '${order}', ${levels}, '${threshType}', '${noiseModel}', '${threshCalc}', ${threshWeight})"
+matlabCmd="matlab -nosplash -nojvm"
+
+echo $denoiseCmd | $matlabCmd 1>waveletDenoise.log 2>waveletDenoise.err

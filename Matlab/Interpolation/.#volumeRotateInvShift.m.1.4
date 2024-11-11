@@ -1,0 +1,90 @@
+%volumeRotateInvShift   Inverse rotate and shift 
+%
+%   vol = volumeRotateInvShift(vol, rotate, shift, origin, method)
+%
+%   vol         The input and output volume.
+%
+%   rotate      The rotation to be applied to the volume in units of radians.
+%               If rotate is a 2 element vector it specifies [Az El].  If
+%               rotate is a 3 element vector it specifies the euler angles
+%               [Phi Theta Psi].
+%
+%   shift       The amount to shift the volume [dX dY dZ].
+%
+%   origin      OPTIONAL: The center of rotation for the volume specified
+%               in terms of the base-1 matlab indexing.
+%
+%   method      OPTIONAL: The interpolation method (default: 'linear')
+%               See intpern for a list of interpolation methods.
+%
+%   volumeRotateInvShift inverse rotates a 3D volume the amount specified
+%   by the argument rotate then shifts the volume by the shift argument.
+%   The point around which the rotation is applied is taken to be the
+%   origin of the volume unless otherwise specified.
+%
+%   Calls: none
+%
+%   Bugs: none known
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  $Author: rickg $
+%
+%  $Date: 2004/10/29 18:37:33 $
+%
+%  $Revision: 1.4 $
+%
+%  $Log: volumeRotateInvShift.m,v $
+%  Revision 1.4  2004/10/29 18:37:33  rickg
+%  Swapped order, sign and rotation method
+%
+%  Revision 1.3  2004/09/27 23:57:05  rickg
+%  Exrtrapolated regions set to volume average
+%
+%  Revision 1.2  2004/09/10 04:32:28  rickg
+%  Internal change of center to origin
+%  Comment updates
+%
+%  Revision 1.1  2004/09/07 23:27:14  rickg
+%  Initial revision
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+function vol = ...
+    volumeRotateInvShift(vol, rotate, shift, origin, method, extrapValue)
+
+if nargin < 5
+  method = 'linear';
+end
+
+szVol = size(vol);
+if nargin < 3 | isempty(origin)
+  origin = szVol ./ 2 + 0.5;
+end
+
+% Calculate the coordiates of each voxel
+[locX locY locZ] = ndgrid([1:szVol(1)] - origin(1) - shift(1), ...
+                          [1:szVol(2)] - origin(2) - shift(2), ...
+                          [1:szVol(3)] - origin(3) - shift(3));
+
+% Rotate the voxel coordinates
+if length(rotate) == 2
+  error('[Az El] not yet implemented');
+else
+  locRot = eulerRotate([locX(:)'; locY(:)'; locZ(:)'], -1 * rotate);
+end
+
+iX = reshape(locRot(1,:), size(vol));
+iY = reshape(locRot(2,:), size(vol));
+iZ = reshape(locRot(3,:), size(vol));
+
+% Set values outside of the volume to the mean value
+if nargin < 6
+  extrapValue = mean(vol(:));
+end
+
+% Interpolate at the new coordinates
+vol = interpn(locX, locY, locZ, vol, iX, iY, iZ, method, extrapValue);
+

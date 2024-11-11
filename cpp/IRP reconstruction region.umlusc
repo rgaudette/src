@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.1/notation" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_JgTCAFXTEd6aRMdytK18lw" type="UMLUseCase" name="IRP reconstruction region.umlusc" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_JtwPMFXTEd6aRMdytK18lw" type="2001">
+    <children xmi:type="notation:Node" xmi:id="_JtwPM1XTEd6aRMdytK18lw" type="5001"/>
+    <children xmi:type="notation:Node" xmi:id="_Jtw2QFXTEd6aRMdytK18lw" type="7001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_Jtw2QVXTEd6aRMdytK18lw" collapsed="true"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Jtw2QlXTEd6aRMdytK18lw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Jtw2Q1XTEd6aRMdytK18lw"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_JtwPMVXTEd6aRMdytK18lw" fontName="Segoe UI"/>
+    <element xmi:type="uml:Package" href="IRP reconstruction region.uml#_JffwwFXTEd6aRMdytK18lw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JtwPMlXTEd6aRMdytK18lw"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_KteKUFXUEd6aRMdytK18lw" type="2003">
+    <children xmi:type="notation:Node" xmi:id="_KteKU1XUEd6aRMdytK18lw" type="5003">
+      <styles xmi:type="notation:FontStyle" xmi:id="_KuEAMFXUEd6aRMdytK18lw" bold="true"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_KtexYFXUEd6aRMdytK18lw" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_KtexYVXUEd6aRMdytK18lw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_KtexYlXUEd6aRMdytK18lw"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_KteKUVXUEd6aRMdytK18lw" fontName="Segoe UI"/>
+    <element xmi:type="uml:UseCase" href="IRP reconstruction region.uml#_KtTyQFXUEd6aRMdytK18lw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KteKUlXUEd6aRMdytK18lw" x="192" y="134"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_PIMpMFXUEd6aRMdytK18lw" type="2002">
+    <children xmi:type="notation:Node" xmi:id="_PINQQFXUEd6aRMdytK18lw" type="5002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_PINQQVXUEd6aRMdytK18lw" y="5"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_PIMpMVXUEd6aRMdytK18lw" fontName="Segoe UI"/>
+    <element xmi:type="uml:Actor" href="IRP reconstruction region.uml#_PIDfQFXUEd6aRMdytK18lw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PIMpMlXUEd6aRMdytK18lw" x="438" y="245"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_JgTCAVXTEd6aRMdytK18lw"/>
+  <element xmi:type="uml:Package" href="IRP reconstruction region.uml#_JffwwFXTEd6aRMdytK18lw"/>
+</notation:Diagram>

@@ -1,0 +1,68 @@
+% fnVolume: The file name of the MRC image stack containing the particles
+fnVolume = 'my_tomogram.rec'
+
+% fnModParticle: The file name of the IMOD model indicating approximate
+%                 locations of the particles to average in the volume
+fnModParticle = 'my_particles.mod'
+
+
+% fnMotiveList: The file name of the motive list.
+fnMotiveList = 'my_MOTL_4.em'
+
+% szVol: The size of the volume around each particle to average
+szVol = [64 64 64]
+
+% fnOutput: The base name of the output files for the average volumes, the
+%           reference volumes, and the transformation parameters
+fnOutput = 'my_volume'
+
+% lstThresholds: The list of thresholds to use for computing the final volumes.
+%                An average volume is generated for each value in this vector.
+%                The format of the average volume file name is
+%                fnOutout_AvgVol_navg_thresh_iteration.mrc
+lstThresholds = [2:10]
+
+% includeList, excludeList, selectClassID: These three vectors specify the list
+%             particles to consider incorporating into the average.  includeList 
+%             specifies explicitly which particles to consider, all others are
+%             not considered.  excludeList specifies the list of particles to
+%             not be considered.  selectClassID specifies which particle classes
+%             to be considered.  The selection and deselection are applied in
+%             the following order: includeList, excludeList, selectClassID.  
+%             Note that the index of a particle in the list does not change
+%             after any of the operations.  An empty array specifies not to
+%             apply the list.
+includeList = [ ]
+excludeList = [ ]
+selectClassID = [ ]
+
+%             
+% tiltRange:  The tilt range used to acquire the tilt series [min max].
+%             This will account for the missing wedge in generating
+%             averages.  A empty array, [], specifies not to account for the
+%             missing wedge (and use more efficient space domain averaging).
+tiltRange = [ ]
+
+% edgeShift:  The number of pixels shift the edge of the wedge mask to 
+%             ensure that all of the frequency info is included.
+%
+edgeShift = 0
+
+% meanFill: If any particles are partially out of the volume fill with the
+%            mean of the existant data (default: 0).
+%
+flgMeanFill = 0
+
+% alignedBaseName The basename for the aligned particle MRC files (default: '').
+alignedBaseName = ''
+
+% fnWedgeWeight The basename for the wedge weighting volume (default: '')
+fnWedgeWeight = ''
+
+%flgFullSubVolume:  Extract a larger subvolume for each particle so that
+%                   rotations will not cause interpolations
+flgFullSubVolume = 0
+
+% debugLevel:  How much junk to print {0|1|2}
+%
+debugLevel = 1

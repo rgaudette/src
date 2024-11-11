@@ -1,0 +1,8 @@
+class ClassB
+!!!129282.cpp!!!	ClassB(in  : void)
+
+!!!129410.cpp!!!	~ClassB(in  : void)
+
+!!!129538.cpp!!!	b_method(in param : int) : int
+
+	return 0;

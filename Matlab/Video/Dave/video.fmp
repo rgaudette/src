@@ -1,0 +1,64 @@
+total 10469
+assess3.m
+assess4.m
+bi_vq_bit_alloc1.m              bivqba1.m
+bi_vq_bit_alloc1.m~
+bi_vq_bit_alloc2.m              bivqba2.m
+bivq1over_16_73.mat
+bivqnon_16_102.mat
+bivqnon_16_115.mat
+bivqnon_16_82.mat
+bivqover16_81.mat
+bivqover16_99.mat
+bivqover_16_111.mat
+bivqover_16_34_106.mat
+bivqover_16_34_78.mat
+bivqover_16_34_94.mat
+conv
+dbvq2over_16_86.mat
+dbvqnon_16_93.mat
+dbvqover_16_74.mat
+dbvqover_16_95.mat
+driver.m
+driver1.m
+encoder_bi_tcq.m                encbitcq.m
+encoder_bi_tcq.m~
+encoder_bi_vq.m                 encbivq.m
+encoder_bi_vq.m~
+encoder_daub_tcq.m              encdtcq.m
+encoder_daub_tcq.m~
+encoder_daub_vq.m               encdvq.m
+encoder_daub_vq.m~
+jt400.mat
+jt400.raw
+motion_comp.m                   motncmp.m
+motion_comp2.m                  motncmp2.m
+motion_comp3.m                  motncom3.m
+movie_load.m                    mov_ld.m
+movie_load1.m                   mov_ld1.m
+movie_load2.m                   mov_ld2.m
+movie_load3.m                   mov_ld3.m
+new_driver.m                    new_driv.m
+non_overlap.m                   non_over.m
+non_overlap.m~
+old_driver.m                    old_driv.m
+overlap_motion.m                overlap_.m
+overlap_motion.m~
+psnr_vs_frame.ps
+rd_vq.m
+rd_vq_bi.m
+rd_vq_bi_old.m                  rdvqbiol.m
+rd_vq_old.m                     rd_vq_ol.m
+split_residual.m                split_re.m
+tcq_dummy.m                     tcq_dumm.m
+test_movie.m                    test_mov.m
+titan.m
+titan.m~
+titanic.mat
+video_data.m                    vid_dat.m
+video_data1.m                   vid_dat1.m
+video_encoder_bi1.m             videncbi.m
+vq_bit_alloc1.m                 vqba1.m
+vq_bit_alloc2.m                 vqba2.m
+wave_jpg_encode.m               wave_jpg.m
+wave_video.m                    wave_vid.m

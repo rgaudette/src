@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="Intel MKL 11 x64 sequential static"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories="$(INTEL_MKL)\mkl\include"
+	/>
+	<Tool
+		Name="VCLinkerTool"
+		AdditionalDependencies="mkl_intel_lp64.lib mkl_core.lib mkl_sequential.lib"
+		AdditionalLibraryDirectories="$(INTEL_MKL)\mkl\lib\intel64"
+	/>
+</VisualStudioPropertySheet>

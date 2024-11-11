@@ -1,0 +1,2 @@
+This project was derived from vs2011 or vs2012, redo so that it is not a converted project.  
+It complains about an unknown compiler when building.

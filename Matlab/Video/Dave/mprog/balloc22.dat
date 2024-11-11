@@ -1,0 +1,167 @@
+Compression of Jt403_half.raw
+
+--------------------------------------------------------------------
+# of decompositions: 3
+Desired bit rate: 1.0000
+
+Bit assignment after rate allocation applied:
+6.3120 3.2667 2.8633 2.2504 0.4089 0.4707 -0.5526 0.0000 0.0000 0.0000 
+
+Average bit rate: 0.2500
+Compression ratio: 32.0000:1
+
+
+"Rounding" of bit assignment:
+8.0000 3.3219 2.8074 2.3219 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 
+
+Actual average bit rate: 0.2571
+Actual compression ratio: 31.1223:1
+PSNR: 27.8407 
+
+--------------------------------------------------------------------
+# of decompositions: 3
+Desired bit rate: 0.5000
+
+Bit assignment after rate allocation applied:
+5.8120 2.7667 2.3633 1.7504 -0.0911 -0.0293 -1.0526 0.0000 0.0000 0.0000 
+
+Average bit rate: 0.1250
+Compression ratio: 64.0000:1
+
+
+"Rounding" of bit assignment:
+8.0000 2.8074 2.3219 1.5850 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 
+
+Actual average bit rate: 0.2299
+Compression ratio: 34.7962:1
+PSNR: 27.5541
+
+--------------------------------------------------------------------
+# of decompositions: 3
+Desired bit rate: 0.1000
+
+Bit assignment after rate allocation applied:
+5.4120 2.3667 1.9633 1.3504 -0.4911 -0.4293 -1.4526 0.0000 0.0000 0.0000 
+
+Average bit rate: 0.0250
+Compression ratio: 320.0000:1
+
+
+"Rounding" of bit assignment:
+8.0000 2.3219 2.0000 1.5850 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 
+
+Actual average bit rate: 0.2173
+Compression ratio: 36.8163:1
+PSNR: 27.4428 
+
+--------------------------------------------------------------------
+# of decompositions: 3
+Desired bit rate: 0.0100
+
+Bit assignment after rate allocation applied:
+5.3220 2.2767 1.8733 1.2604 -0.5811 -0.5193 -1.5426 0.0000 0.0000 0.0000 
+
+Average bit rate: 0.0025
+Compression ratio: 3200.0000:1
+
+
+"Rounding" of bit assignment:
+8.0000 2.3219 2.0000 1.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 
+
+Actual average bit rate: 0.2082
+Compression ratio: 38.4329:1
+PSNR: 27.5038 
+
+--------------------------------------------------------------------
+# of decompositions: 3
+Desired bit rate: 2.0000
+
+Bit assignment after rate allocation applied:
+7.3120 4.2667 3.8633 3.2504 1.4089 1.4707 0.4474 0.0000 0.0000 0.0000 
+
+Average bit rate: 0.5000
+Compression ratio: 16.0000:1
+
+
+"Rounding" of bit assignment:
+8.0000 4.2479 3.9069 3.3219 1.5850 1.5850 0.0000 0.0000 0.0000 0.0000 
+
+Actual average bit rate: 0.5024
+Compression ratio: 15.9222:1
+PSNR: 28.0869 
+
+--------------------------------------------------------------------
+# of decompositions: 3
+Desired bit rate: 3.0000
+
+Bit assignment after rate allocation applied:
+8.3120 5.2667 4.8633 4.2504 2.4089 2.4707 1.4474 0.0000 0.0000 0.0000 
+
+Average bit rate: 0.7500
+Compression ratio: 10.6667:1
+
+
+"Rounding" of bit assignment:
+8.0000 5.1699 4.8580 4.2479 2.3219 2.5850 1.5850 0.0000 0.0000 0.0000 
+
+Actual average bit rate: 0.7538
+Compression ratio: 10.6129:1
+PSNR: 29.8708 
+
+
+--------------------------------------------------------------------
+# of decompositions: 3
+Desired bit rate: 4.0000
+
+Bit assignment after rate allocation applied:
+9.3120 6.2667 5.8633 5.2504 3.4089 3.4707 2.4474 0.0000 0.0000 0.0000 
+
+Average bit rate: 1.0000
+Compression ratio: 8.0000:1
+
+
+"Rounding" of bit assignment:
+8.0000 6.0000 6.0000 5.1699 3.4594 3.4594 2.3219 0.0000 0.0000 0.0000 
+
+Actual average bit rate: 0.9708
+Compression ratio: 8.2404:1
+PSNR: 30.6501 
+
+
+--------------------------------------------------------------------
+# of decompositions: 3
+Desired bit rate: 2.5000
+
+Bit assignment after rate allocation applied:
+7.8120 4.7667 4.3633 3.7504 1.9089 1.9707 0.9474 0.0000 0.0000 0.0000 
+
+Average bit rate: 0.6250
+Compression ratio: 12.8000:1
+
+
+"Rounding" of bit assignment:
+8.0000 4.7549 4.3923 3.7004 2.0000 2.0000 1.0000 0.0000 0.0000 0.0000 
+
+Actual average bit rate: 0.6382
+Compression ratio: 12.5344:1
+PSNR: 29.4587 
+
+
+--------------------------------------------------------------------
+# of decompositions: 3
+Desired bit rate: 3.5000
+
+Bit assignment after rate allocation applied:
+8.8120 5.7667 5.3633 4.7504 2.9089 2.9707 1.9474 0.0000 0.0000 0.0000 
+
+Average bit rate: 0.8750
+Compression ratio: 9.1429:1
+
+
+"Rounding" of bit assignment:
+8.0000 6.0000 5.1699 4.7549 3.0000 3.0000 2.0000 0.0000 0.0000 0.0000 
+
+Actual average bit rate: 0.8738
+Compression ratio: 9.1551:1
+PSNR: 30.4134 
+

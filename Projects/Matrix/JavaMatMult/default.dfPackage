@@ -1,0 +1,37 @@
+package id1cbihcjd55hg6cjd572u7;
+
+/**
+@version 2.0
+@physicalPackage
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#matmult:oiref><oihard>
+@__modelType reference 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#Matrix:oiref><oihard>
+@__modelType reference 
+*/
+class reference1 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Class#Matrix:oiref>=347,9,180,166,1:oigroup>
+<oigroup:<oiref:java#Member#Matrix#Matrix#(##)#:oiref>=356,212,0,0,1:oigroup>
+<oigroup:<oiref:java#Member#Matrix#n:oiref>=349,167,0,0,1:oigroup>
+<oigroup:<oiref:java#Member#Matrix#Multiply#(#Matrix#Matrix#)#:oiref>=349,167,0,0,1:oigroup>
+<oigroup:<oiref:java#Member#Matrix#RandUniform#(##)#:oiref>=356,212,0,0,1:oigroup>
+<oigroup:<oiref:java#Class#matmult:oiref>=10,10,203,166,1:oigroup>
+*/
+class __positions {
+}

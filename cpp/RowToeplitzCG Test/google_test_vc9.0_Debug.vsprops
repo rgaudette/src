@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="google_test_vc9.0_Debug_Win32"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories="$(GOOGLE_TEST)\include"
+	/>
+	<Tool
+		Name="VCLinkerTool"
+		AdditionalDependencies="gtestd.lib"
+		AdditionalLibraryDirectories="$(GOOGLE_TEST)\msvc90\gtest-md\$(PlatformName)\$(ConfigurationName)"
+	/>
+</VisualStudioPropertySheet>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="Intel IPP 5.1 x86 static"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories="C:\Apps\Intel\IPP\5.1\ia32\include"
+	/>
+	<Tool
+		Name="VCLinkerTool"
+		AdditionalDependencies="ippiemerged.lib ippimerged.lib ippmemerged.lib ippmmerged.lib ippsemerged.lib ippsmerged.lib ippcorel.lib"
+		AdditionalLibraryDirectories="C:\Apps\Intel\IPP\5.1\ia32\lib"
+	/>
+</VisualStudioPropertySheet>

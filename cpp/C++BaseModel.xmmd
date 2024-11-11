@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.1">
+ <xmi:Documentation contact="www.metamill.com" exporter="Metamill" exporterVersion="5.0 (build 860)" shortDescription="Metamill Model (C++ Base Model)" notice="modified: 20090610-10:07:07"/>
+ <uml:Model xmi:type="uml:Model" xmi:id="mm:7e417130-c3c2-11d7-835d-97800b524c04" name="(EVAL VERSION) C++ Base Model">
+  <packagedElement xmi:type="uml:Package" xmi:id="mm:7e41743d-c3c2-11d7-835d-97800b524c04" name="UseCaseView" visibility="public"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="mm:7e41743e-c3c2-11d7-835d-97800b524c04" name="DesignView" visibility="public">
+   <packagedElement xmi:type="uml:Package" xmi:id="mm:6fa77933-c3c3-11d7-835d-97800b524c04" name="std" visibility="public">
+    <packagedElement xmi:type="uml:Class" xmi:id="mm:7fbf5b20-c3c3-11d7-835d-97800b524c04" name="deque" visibility="public"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="mm:864dc04e-c3c3-11d7-835d-97800b524c04" name="list" visibility="public"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="mm:8cdc4c97-c3c3-11d7-835d-97800b524c04" name="queue" visibility="public"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="mm:92d21aa5-c3c3-11d7-835d-97800b524c04" name="priority_queue" visibility="public"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="mm:9d8cb17b-c3c3-11d7-835d-97800b524c04" name="stack" visibility="public"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="mm:a41b3ef9-c3c3-11d7-835d-97800b524c04" name="vector" visibility="public"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="mm:a97887a3-c3c3-11d7-835d-97800b524c04" name="map" visibility="public"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="mm:b09f9503-c3c3-11d7-835d-97800b524c04" name="multimap" visibility="public"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="mm:b72e03f5-c3c3-11d7-835d-97800b524c04" name="set" visibility="public"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="mm:bac181d0-c3c3-11d7-835d-97800b524c04" name="multiset" visibility="public"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="mm:cc0aad73-c3c3-11d7-835d-97800b524c04" name="bitset" visibility="public"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="mm:996fcff0-9487-11dc-9e2e-e89bc01e1c02" name="string" visibility="public"/>
+   </packagedElement>
+   <packagedElement xmi:type="uml:Package" xmi:id="mm:d2ddbf87-5574-11de-8154-8e5efcae5d77" name="ClassHighlights" visibility="public">
+    <packagedElement xmi:type="uml:Class" xmi:id="mm:d2ddbf89-5574-11de-8154-8e5efcae5d77" name="Base1" visibility="public">
+     <ownedOperation xmi:type="uml:Operation" xmi:id="mm:d2ddbf90-5574-11de-8154-8e5efcae5d77" name="Base1" visibility="public"/>
+     <ownedOperation xmi:type="uml:Operation" xmi:id="mm:d2ddbf91-5574-11de-8154-8e5efcae5d77" name="~Base1" visibility="public"/>
+     <ownedOperation xmi:type="uml:Operation" xmi:id="mm:d2ddbf92-5574-11de-8154-8e5efcae5d77" name="method1" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="mm:d2ddbf8b-5574-11de-8154-8e5efcae5d77" name="Base2" visibility="public">
+     <ownedOperation xmi:type="uml:Operation" xmi:id="mm:d2ddbf93-5574-11de-8154-8e5efcae5d77" name="Base2" visibility="public"/>
+     <ownedOperation xmi:type="uml:Operation" xmi:id="mm:d2ddbf94-5574-11de-8154-8e5efcae5d77" name="~Base2" visibility="public"/>
+     <ownedOperation xmi:type="uml:Operation" xmi:id="mm:d2ddbf95-5574-11de-8154-8e5efcae5d77" name="method1" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="mm:d2ddbf96-5574-11de-8154-8e5efcae5d77" name="parm" visibility="public"/>
+     </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="mm:d2ddbf8d-5574-11de-8154-8e5efcae5d77" name="Derived1" visibility="public">
+     <ownedAttribute xmi:type="uml:Property" xmi:id="mm:d2ddbf97-5574-11de-8154-8e5efcae5d77" name="d2" visibility="private" aggregation="shared"/>
+     <ownedOperation xmi:type="uml:Operation" xmi:id="mm:d2ddbf98-5574-11de-8154-8e5efcae5d77" name="Derived1" visibility="public"/>
+     <ownedOperation xmi:type="uml:Operation" xmi:id="mm:d2ddbf99-5574-11de-8154-8e5efcae5d77" name="~Derived1" visibility="public"/>
+     <ownedOperation xmi:type="uml:Operation" xmi:id="mm:d2ddbf9a-5574-11de-8154-8e5efcae5d77" name="method2" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="mm:d2ddbf9a-5574-11de-8154-8e5efcae5d77" name="param2" visibility="public"/>
+     </ownedOperation>
+     <generalization xmi:type="uml:Generalization" xmi:id="mm:d2ddbfa5-5574-11de-8154-8e5efcae5d77" general="mm:d2ddbf89-5574-11de-8154-8e5efcae5d77"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="mm:d2ddbf8f-5574-11de-8154-8e5efcae5d77" name="Derived2" visibility="public">
+     <ownedOperation xmi:type="uml:Operation" xmi:id="mm:d2ddbf9b-5574-11de-8154-8e5efcae5d77" name="Derived2" visibility="public"/>
+     <ownedOperation xmi:type="uml:Operation" xmi:id="mm:d2ddbf9c-5574-11de-8154-8e5efcae5d77" name="~Derived2" visibility="public"/>
+     <ownedElement xmi:type="uml:Collaboration" xmi:id="mm:f1dc3f8f-5574-11de-8154-8e5efcae5d77" name="main">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="mm:b98938b0-5575-11de-8154-8e5efcae5d77"/>
+     </ownedElement>
+     <generalization xmi:type="uml:Generalization" xmi:id="mm:d2ddbfa7-5574-11de-8154-8e5efcae5d77" general="mm:d2ddbf8b-5574-11de-8154-8e5efcae5d77"/>
+    </packagedElement>
+   </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="mm:7e41743f-c3c2-11d7-835d-97800b524c04" name="ImplView" visibility="public"/>
+  <ownedElement xmi:type="uml:Profile" xmi:id="mm:3fbf125c-62fd-11dc-9716-cfb47d7b8ac9" name="Metamill_profile">
+   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="mm:cb5d6c6b-8c7c-11dc-8191-d5d2e607e6a5" name="bool"/>
+   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="mm:cf8982bb-8c7c-11dc-8191-d5d2e607e6a5" name="char"/>
+   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="mm:c3edab3d-8c83-11dc-8191-d5d2e607e6a5" name="clock_t"/>
+   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="mm:2000dd25-8c7d-11dc-8191-d5d2e607e6a5" name="double"/>
+   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="mm:18d9dab5-8c7d-11dc-8191-d5d2e607e6a5" name="float"/>
+   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="mm:f647cd45-8c7c-11dc-8191-d5d2e607e6a5" name="int"/>
+   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="mm:0495f165-8c7d-11dc-8191-d5d2e607e6a5" name="long"/>
+   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="mm:255e31ff-8c7d-11dc-8191-d5d2e607e6a5" name="long double"/>
+   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="mm:0069bcc5-8c7d-11dc-8191-d5d2e607e6a5" name="long int"/>
+   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="mm:2d1de575-8c7d-11dc-8191-d5d2e607e6a5" name="long long"/>
+   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="mm:e6c876d5-8c7c-11dc-8191-d5d2e607e6a5" name="short"/>
+   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="mm:dfa17f05-8c7c-11dc-8191-d5d2e607e6a5" name="short int"/>
+   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="mm:847072dd-8c7e-11dc-8191-d5d2e607e6a5" name="signed char"/>
+   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="mm:8aff076d-8c7e-11dc-8191-d5d2e607e6a5" name="signed int"/>
+   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="mm:905c38f7-8c7e-11dc-8191-d5d2e607e6a5" name="signed long"/>
+   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="mm:978346f6-8c7e-11dc-8191-d5d2e607e6a5" name="signed long int"/>
+   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="mm:9ce0a077-8c7e-11dc-8191-d5d2e607e6a5" name="signed long long"/>
+   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="mm:a2d679f7-8c7e-11dc-8191-d5d2e607e6a5" name="signed short"/>
+   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="mm:aa962237-8c7e-11dc-8191-d5d2e607e6a5" name="signed short int"/>
+   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="mm:1bd6c6ed-8c81-11dc-8191-d5d2e607e6a5" name="size_t"/>
+   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="mm:c0f29623-8c83-11dc-8191-d5d2e607e6a5" name="time_t"/>
+   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="mm:d44e40c5-8c7c-11dc-8191-d5d2e607e6a5" name="unsigned char"/>
+   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="mm:fc3dba25-8c7c-11dc-8191-d5d2e607e6a5" name="unsigned int"/>
+   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="mm:0f507495-8c7d-11dc-8191-d5d2e607e6a5" name="unsigned long"/>
+   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="mm:08297c25-8c7d-11dc-8191-d5d2e607e6a5" name="unsigned long int"/>
+   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="mm:3313c58f-8c7d-11dc-8191-d5d2e607e6a5" name="unsigned long long"/>
+   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="mm:f051d395-8c7c-11dc-8191-d5d2e607e6a5" name="unsigned short"/>
+   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="mm:e9c37385-8c7c-11dc-8191-d5d2e607e6a5" name="unsigned short int"/>
+   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="mm:bafcb523-8c83-11dc-8191-d5d2e607e6a5" name="void"/>
+   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="mm:dadccb05-8c7c-11dc-8191-d5d2e607e6a5" name="wchar"/>
+   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="mm:21cca0bd-8c81-11dc-8191-d5d2e607e6a5" name="wchar_t"/>
+  </ownedElement>
+ </uml:Model>
+ <xmi:Extension extender="Metamill" extenderID="(build 860)">
+  <profileContainer>
+   <metaElement xmi:idref="mm:7e417130-c3c2-11d7-835d-97800b524c04">
+    <data tag="cf_codelang" value="1"/>
+    <data tag="cf_genemark" value="1"/>
+    <data tag="mpacksdir" value="${BASEMPACKSDIR}"/>
+    <data tag="sourcedir" value="${BASESOURCEDIR}"/>
+    <data tag="documsdir" value="${BASEDOCUMSDIR}"/>
+    <data tag="scriptdir" value="${BASESCRIPTDIR}"/>
+    <data tag="exportdir" value="${BASEEXPORTDIR}"/>
+    <data tag="imprules"/>
+    <data tag="cf_codeconf" value="hppext=.hpp;cppext=.cpp;hpppatt=(DIR)/(FILE).(EXT);cpppatt=(DIR)/(FILE).(EXT);visualc=false;attrpfix=m_;listcpp=list&lt;*&gt;;listjava=Vector;listcs=Vector;listvb=List&lt;&gt;"/>
+    <data tag="cf_macros" value="DECLARE_DYNAMIC()
+DECLARE_DYNCREATE()
+DECLARE_OLECREATE_EX()
+DECLARE_MESSAGE_MAP()
+DECLARE_DISPATCH_MAP()
+DECLARE_EVENT_MAP()
+DECLARE_OLECREATE_EX()
+DECLARE_OLETYPELIB()
+DECLARE_PROPPAGEIDS()
+DECLARE_OLECTLTYPE()
+DECLARE_REGISTRY_RESOURCEID()
+DECLARE_NOT_AGGREGATABLE()
+BEGIN_COM_MAP()
+END_COM_MAP()
+COM_INTERFACE_ENTRY()
+DECLARE_PROTECT_FINAL_CONSTRUCT()
+__cplusplus"/>
+    <data tag="cf_integralcode" value="0"/>
+    <data tag="__M_documentation" value="This is a base model template for C++ development.
+It contains C++ primitive data types.
+"/>
+   </metaElement>
+   <metaElement xmi:idref="mm:b09f9503-c3c3-11d7-835d-97800b524c04">
+    <data tag="namespace" value="std{show}"/>
+   </metaElement>
+   <metaElement xmi:idref="mm:6fa77933-c3c3-11d7-835d-97800b524c04">
+    <data tag="namespace" value="std"/>
+   </metaElement>
+   <metaElement xmi:idref="mm:a97887a3-c3c3-11d7-835d-97800b524c04">
+    <data tag="namespace" value="std{show}"/>
+   </metaElement>
+   <metaElement xmi:idref="mm:92d21aa5-c3c3-11d7-835d-97800b524c04">
+    <data tag="namespace" value="std{show}"/>
+   </metaElement>
+   <metaElement xmi:idref="mm:b72e03f5-c3c3-11d7-835d-97800b524c04">
+    <data tag="namespace" value="std{show}"/>
+   </metaElement>
+   <metaElement xmi:idref="mm:864dc04e-c3c3-11d7-835d-97800b524c04">
+    <data tag="namespace" value="std{show}"/>
+   </metaElement>
+   <metaElement xmi:idref="mm:bac181d0-c3c3-11d7-835d-97800b524c04">
+    <data tag="namespace" value="std{show}"/>
+   </metaElement>
+   <metaElement xmi:idref="mm:7fbf5b20-c3c3-11d7-835d-97800b524c04">
+    <data tag="namespace" value="std{show}"/>
+   </metaElement>
+   <metaElement xmi:idref="mm:a41b3ef9-c3c3-11d7-835d-97800b524c04">
+    <data tag="namespace" value="std{show}"/>
+   </metaElement>
+   <metaElement xmi:idref="mm:9d8cb17b-c3c3-11d7-835d-97800b524c04">
+    <data tag="namespace" value="std{show}"/>
+   </metaElement>
+   <metaElement xmi:idref="mm:8cdc4c97-c3c3-11d7-835d-97800b524c04">
+    <data tag="namespace" value="std{show}"/>
+   </metaElement>
+   <metaElement xmi:idref="mm:cc0aad73-c3c3-11d7-835d-97800b524c04">
+    <data tag="namespace" value="std{show}"/>
+   </metaElement>
+   <metaElement xmi:idref="mm:996fcff0-9487-11dc-9e2e-e89bc01e1c02">
+    <data tag="namespace" value="std{show}"/>
+   </metaElement>
+   <metaElement xmi:idref="mm:d2ddbf91-5574-11de-8154-8e5efcae5d77">
+    <data tag="__M_polymorphic" value="true"/>
+   </metaElement>
+   <metaElement xmi:idref="mm:d2ddbf92-5574-11de-8154-8e5efcae5d77" mtype="int">
+    <data tag="__M_documentation" value="The first method
+"/>
+   </metaElement>
+   <metaElement xmi:idref="mm:d2ddbf94-5574-11de-8154-8e5efcae5d77">
+    <data tag="__M_polymorphic" value="true"/>
+   </metaElement>
+   <metaElement xmi:idref="mm:d2ddbf95-5574-11de-8154-8e5efcae5d77" mtype="float">
+    <data tag="__M_documentation" value="more comments
+"/>
+   </metaElement>
+   <metaElement xmi:idref="mm:d2ddbf96-5574-11de-8154-8e5efcae5d77" mtype="int"/>
+   <metaElement xmi:idref="mm:d2ddbf97-5574-11de-8154-8e5efcae5d77" mtype="Derived2"/>
+   <metaElement xmi:idref="mm:d2ddbf99-5574-11de-8154-8e5efcae5d77">
+    <data tag="__M_polymorphic" value="true"/>
+   </metaElement>
+   <metaElement xmi:idref="mm:d2ddbf9a-5574-11de-8154-8e5efcae5d77" mtype="int"/>
+   <metaElement xmi:idref="mm:d2ddbf9c-5574-11de-8154-8e5efcae5d77">
+    <data tag="__M_polymorphic" value="true"/>
+   </metaElement>
+  </profileContainer>
+  <visualContainer>
+   <diagram name="STL" xmi:id="mm:7df59708-c3c3-11d7-835d-97800b524c04" kind="Class Diagram" owner="mm:6fa77933-c3c3-11d7-835d-97800b524c04" geometry="width=876;height=1100" zoom="inZoom=100;outZoom=80;currZoom=80">
+    <tags>
+     <data tag="flags" value="laymaxwid=800;layspacing=60"/>
+    </tags>
+    <elements>
+     <element vcode="VClass" xmi:id="mm:7fbf5b23-c3c3-11d7-835d-97800b524c04" metaid="mm:7fbf5b20-c3c3-11d7-835d-97800b524c04" geometry="x=131;y=119;width=106;height=54" order="1">
+      <data tag="name" value="deque"/>
+      <data tag="cgeom" value="offset=(0.00,0.00)"/>
+     </element>
+     <element vcode="VClass" xmi:id="mm:864dc051-c3c3-11d7-835d-97800b524c04" metaid="mm:864dc04e-c3c3-11d7-835d-97800b524c04" geometry="x=131;y=265;width=106;height=54" order="2">
+      <data tag="name" value="list"/>
+      <data tag="cgeom" value="offset=(0.00,0.00)"/>
+     </element>
+     <element vcode="VClass" xmi:id="mm:8cdc4c95-c3c3-11d7-835d-97800b524c04" metaid="mm:8cdc4c97-c3c3-11d7-835d-97800b524c04" geometry="x=345;y=119;width=106;height=54" order="3">
+      <data tag="name" value="queue"/>
+      <data tag="cgeom" value="offset=(0.00,0.00)"/>
+     </element>
+     <element vcode="VClass" xmi:id="mm:92d21aa3-c3c3-11d7-835d-97800b524c04" metaid="mm:92d21aa5-c3c3-11d7-835d-97800b524c04" geometry="x=345;y=265;width=106;height=54" order="4">
+      <data tag="name" value="priority_queue"/>
+      <data tag="cgeom" value="offset=(0.00,0.00)"/>
+     </element>
+     <element vcode="VClass" xmi:id="mm:9d8cb179-c3c3-11d7-835d-97800b524c04" metaid="mm:9d8cb17b-c3c3-11d7-835d-97800b524c04" geometry="x=559;y=119;width=106;height=54" order="5">
+      <data tag="name" value="stack"/>
+      <data tag="cgeom" value="offset=(0.00,0.00)"/>
+     </element>
+     <element vcode="VClass" xmi:id="mm:a41b3ef7-c3c3-11d7-835d-97800b524c04" metaid="mm:a41b3ef9-c3c3-11d7-835d-97800b524c04" geometry="x=559;y=265;width=106;height=54" order="6">
+      <data tag="name" value="vector"/>
+      <data tag="cgeom" value="offset=(0.00,0.00)"/>
+     </element>
+     <element vcode="VClass" xmi:id="mm:a97887a1-c3c3-11d7-835d-97800b524c04" metaid="mm:a97887a3-c3c3-11d7-835d-97800b524c04" geometry="x=773;y=119;width=106;height=54" order="7">
+      <data tag="name" value="map"/>
+      <data tag="cgeom" value="offset=(0.00,0.00)"/>
+     </element>
+     <element vcode="VClass" xmi:id="mm:b09f9501-c3c3-11d7-835d-97800b524c04" metaid="mm:b09f9503-c3c3-11d7-835d-97800b524c04" geometry="x=773;y=265;width=106;height=54" order="8">
+      <data tag="name" value="multimap"/>
+      <data tag="cgeom" value="offset=(0.00,0.00)"/>
+     </element>
+     <element vcode="VClass" xmi:id="mm:b72e03f3-c3c3-11d7-835d-97800b524c04" metaid="mm:b72e03f5-c3c3-11d7-835d-97800b524c04" geometry="x=131;y=411;width=106;height=54" order="9">
+      <data tag="name" value="set"/>
+      <data tag="cgeom" value="offset=(0.00,0.00)"/>
+     </element>
+     <element vcode="VClass" xmi:id="mm:bac181d3-c3c3-11d7-835d-97800b524c04" metaid="mm:bac181d0-c3c3-11d7-835d-97800b524c04" geometry="x=131;y=557;width=106;height=54" order="10">
+      <data tag="name" value="multiset"/>
+      <data tag="cgeom" value="offset=(0.00,0.00)"/>
+     </element>
+     <element vcode="VClass" xmi:id="mm:cc0aad71-c3c3-11d7-835d-97800b524c04" metaid="mm:cc0aad73-c3c3-11d7-835d-97800b524c04" geometry="x=345;y=411;width=106;height=54" order="11">
+      <data tag="name" value="bitset"/>
+      <data tag="cgeom" value="offset=(0.00,0.00)"/>
+     </element>
+     <element vcode="VClass" xmi:id="mm:996fcff2-9487-11dc-9e2e-e89bc01e1c02" metaid="mm:996fcff0-9487-11dc-9e2e-e89bc01e1c02" geometry="x=345;y=557;width=106;height=54" order="12">
+      <data tag="name" value="string"/>
+      <data tag="cgeom" value="offset=(0.00,0.00)"/>
+     </element>
+    </elements>
+   </diagram>
+   <diagram name="sequence" xmi:id="mm:f4d74292-5574-11de-8154-8e5efcae5d77" kind="Sequence Diagram" owner="mm:f1dc3f8f-5574-11de-8154-8e5efcae5d77" geometry="width=800;height=1100" zoom="inZoom=100;outZoom=40;currZoom=100"/>
+   <diagram name="class" xmi:id="mm:e2f58bb0-5574-11de-8154-8e5efcae5d77" kind="Class Diagram" owner="mm:d2ddbf87-5574-11de-8154-8e5efcae5d77" geometry="width=964;height=1100" zoom="inZoom=100;outZoom=40;currZoom=100">
+    <elements>
+     <element vcode="VClass" xmi:id="mm:e557e827-5574-11de-8154-8e5efcae5d77" metaid="mm:d2ddbf8d-5574-11de-8154-8e5efcae5d77" geometry="x=321;y=272;width=208;height=99" order="1">
+      <data tag="name" value="Derived1"/>
+     </element>
+     <element vcode="VClass" xmi:id="mm:e557e831-5574-11de-8154-8e5efcae5d77" metaid="mm:d2ddbf89-5574-11de-8154-8e5efcae5d77" geometry="x=429;y=453;width=131;height=85" order="2">
+      <data tag="name" value="Base1"/>
+     </element>
+     <element vcode="VClass" xmi:id="mm:e7ba569f-5574-11de-8154-8e5efcae5d77" metaid="mm:d2ddbf8f-5574-11de-8154-8e5efcae5d77" geometry="x=667;y=294;width=114;height=68" order="4">
+      <data tag="name" value="Derived2"/>
+     </element>
+     <element vcode="VClass" xmi:id="mm:e7ba56a9-5574-11de-8154-8e5efcae5d77" metaid="mm:d2ddbf8b-5574-11de-8154-8e5efcae5d77" geometry="x=812;y=459;width=204;height=85" order="5">
+      <data tag="name" value="Base2"/>
+     </element>
+    </elements>
+    <lines>
+     <line vcode="VRelationship" rstype="RSGeneralization" xmi:id="mm:e557e835-5574-11de-8154-8e5efcae5d77" metaid="mm:d2ddbfa5-5574-11de-8154-8e5efcae5d77" geometry="x=377;y=366" order="3">
+      <data tag="controlpoints" value="p0=(350.67,322.00);p1=(404.02,411.00)"/>
+      <data tag="sourceId" value="mm:e557e827-5574-11de-8154-8e5efcae5d77"/>
+      <data tag="targetId" value="mm:e557e831-5574-11de-8154-8e5efcae5d77"/>
+     </line>
+     <line vcode="VRelationship" rstype="RSGeneralization" xmi:id="mm:e7ba56ae-5574-11de-8154-8e5efcae5d77" metaid="mm:d2ddbfa7-5574-11de-8154-8e5efcae5d77" geometry="x=735;y=372" order="6">
+      <data tag="controlpoints" value="p0=(696.79,328.00);p1=(774.76,417.00)"/>
+      <data tag="sourceId" value="mm:e7ba569f-5574-11de-8154-8e5efcae5d77"/>
+      <data tag="targetId" value="mm:e7ba56a9-5574-11de-8154-8e5efcae5d77"/>
+     </line>
+    </lines>
+   </diagram>
+  </visualContainer>
+ </xmi:Extension>
+</xmi:XMI>

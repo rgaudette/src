@@ -1,0 +1,25 @@
+%showMRCImage   Display a MRC Image in the correct orientation
+%
+%  need to rename, too confusing with MRCImage type
+function showMRCImage(im, xvalue, yvalue)
+
+[nX nY] = size(im);
+
+if nargin < 3
+  yvalue = 1:nY;
+end
+
+if nargin < 2
+  xvalue = 1:nX;
+end
+
+%  Columns and rows need to be reversed,  MATLAB represents an
+%  image as a  matrix with rows indexed the fastest.  MRC images
+%  are stored in raster form
+set(gcf, 'Renderer', 'openGL')
+imagesc(xvalue, yvalue, flipud(rot90(im)))
+set(gca, 'ydir', 'normal');
+axis('image')
+xlabel('X axis');
+ylabel('Y axis');
+

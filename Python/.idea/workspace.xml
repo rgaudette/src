@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3765a326-bbda-4428-9b56-1910ab5d63bc" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/PyCharn/scientific/.idea/$CACHE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PyCharn/scientific/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PyCharn/scientific/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PyCharn/scientific/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PyCharn/scientific/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PyCharn/scientific/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PyCharn/scientific/.idea/scientific.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PyCharn/scientific/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sandbox/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GaussianModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/GaussianModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/.idea/Sandbox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/.idea/Sandbox.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/.idea/other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/.idea/other.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/Matplotlib/plot_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/Matplotlib/plot_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/command_line_argparse.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/command_line_argparse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/command_line_parser_enh.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/command_line_parser_enh.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/modules_example/module_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/modules_example/module_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/modules_example/sub_module/a_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/modules_example/sub_module/a_module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/unittest_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/unittest_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plot_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/plot_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TV Min Chambolle Conversion/C++/IrpLib/TotalVariationMinimizationChambolle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../TV Min Chambolle Conversion/C++/IrpLib/TotalVariationMinimizationChambolle.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TV Min Chambolle Conversion/C++/IrpLib/TotalVariationMinimizationChambolle.h" beforeDir="false" afterPath="$PROJECT_DIR$/../TV Min Chambolle Conversion/C++/IrpLib/TotalVariationMinimizationChambolle.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TV Min Chambolle Conversion/C++/Unit Tests/Test TotalVariationMiniminzationChambolle/Test TotalVariationMiniminzationChambolle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../TV Min Chambolle Conversion/C++/Unit Tests/Test TotalVariationMiniminzationChambolle/Test TotalVariationMiniminzationChambolle.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TV Min Chambolle Conversion/Python/.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../TV Min Chambolle Conversion/Python/.idea/Python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TV Min Chambolle Conversion/Python/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TV Min Chambolle Conversion/Python/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TV Min Chambolle Conversion/Python/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TV Min Chambolle Conversion/Python/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TV Min Chambolle Conversion/Python/3D example.py" beforeDir="false" afterPath="$PROJECT_DIR$/../TV Min Chambolle Conversion/Python/3D example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/C++11 Meyers/Counting Words Across Files 11/Counting Words Across Files 11.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp/C++11 Meyers/Counting Words Across Files 11/Counting Words Across Files 11.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/C++11 Meyers/Counting Words Across Files 98/Counting Words Across Files 98.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp/C++11 Meyers/Counting Words Across Files 98/Counting Words Across Files 98.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/C++11 Meyers/Counting Words Across Files My Style/Counting Words Across Files My Style.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp/C++11 Meyers/Counting Words Across Files My Style/Counting Words Across Files My Style.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/C++11/Copy and move/Copy and move.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp/C++11/Copy and move/Copy and move.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/C++11/Copy and move/Copy and move.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp/C++11/Copy and move/Copy and move.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/C++11/Copy and move/Copy and move.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp/C++11/Copy and move/Copy and move.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/CUDA/Clip Vector/Clip Vector/Clip Vector.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp/CUDA/Clip Vector/Clip Vector/Clip Vector.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/CUDA/cusparse_csr2csc/cusparse_csr2csc.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp/CUDA/cusparse_csr2csc/cusparse_csr2csc.vcxproj" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Python$test_pickle.coverage" NAME="test_pickle Coverage Results" MODIFIED="1409865420966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/Python$csr_matrix_serialization.coverage" NAME="csr_matrix_serialization Coverage Results" MODIFIED="1510864520895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sandbox/SciPy" />
+    <SUITE FILE_PATH="coverage/Python$npzsave_test.coverage" NAME="npzsave_test Coverage Results" MODIFIED="1551554133773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sandbox/SciPy" />
+    <SUITE FILE_PATH="coverage/Python$plot_test.coverage" NAME="plot_test Coverage Results" MODIFIED="1409875649404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/Python$npz_non_array.coverage" NAME="npz_non_array Coverage Results" MODIFIED="1551560157190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sandbox/Numpy" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Python" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="SciPy Script With Main" />
+        <option value="Python Script With Main" />
+        <option value="scipy module" />
+        <option value="scipy module with unit test" />
+        <option value="Python Script With Main,Argparse" />
+        <option value="python script with main" />
+      </list>
+    </option>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="ProjectId" id="1TcKWOTAsdYHVLYu0BvsUJ3qtYN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="FullScreen" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.npz_non_array">
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration name="npz_non_array" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sandbox/Numpy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sandbox/Numpy/npz_non_array.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="secondary" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sandbox/argparse_modules" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sandbox/argparse_modules/secondary.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in junk3.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sandbox/Numpy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Sandbox/Numpy/junk3.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in junk.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sandbox/Numpy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Sandbox/Numpy/junk.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in unittest_example.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sandbox" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Sandbox/unittest_example.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.secondary" />
+      <item itemvalue="Python tests.Unittests in junk3.py" />
+      <item itemvalue="Python tests.Unittests in junk.py" />
+      <item itemvalue="Python tests.Unittests in unittest_example.py" />
+      <item itemvalue="Python.npz_non_array" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.npz_non_array" />
+        <item itemvalue="Python.secondary" />
+        <item itemvalue="Python tests.Unittests in unittest_example.py" />
+        <item itemvalue="Python tests.Unittests in junk3.py" />
+        <item itemvalue="Python tests.Unittests in junk.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3765a326-bbda-4428-9b56-1910ab5d63bc" name="Default" comment="" />
+      <created>1381188143521</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1381188143521</updated>
+      <workItem from="1551553655198" duration="4824000" />
+      <workItem from="1573753977637" duration="1568000" />
+      <workItem from="1573755660109" duration="136000" />
+      <workItem from="1573755813764" duration="15119000" />
+      <workItem from="1575151246018" duration="5527000" />
+      <workItem from="1586755058766" duration="15000" />
+      <workItem from="1619197739593" duration="2914000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Sandbox/argparse_modules/secondary.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Python$npz_non_array.coverage" NAME="npz_non_array Coverage Results" MODIFIED="1619198866416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sandbox/Numpy" />
+    <SUITE FILE_PATH="coverage/Python$Unittests_in_unittest_example_py.coverage" NAME="Unittests in unittest_example.py Coverage Results" MODIFIED="1573939382810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sandbox" />
+    <SUITE FILE_PATH="coverage/Python$Unittests_in_junk3_py.coverage" NAME="Unittests in junk3.py Coverage Results" MODIFIED="1573764422944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sandbox/Numpy" />
+    <SUITE FILE_PATH="coverage/Python$secondary.coverage" NAME="secondary Coverage Results" MODIFIED="1575156031705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sandbox/argparse_modules" />
+    <SUITE FILE_PATH="coverage/Python$Unittests_in_junk2_py.coverage" NAME="Unittests in junk2.py Coverage Results" MODIFIED="1573759200528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sandbox/Numpy" />
+    <SUITE FILE_PATH="coverage/Python$Unittests_in_junk_py.coverage" NAME="Unittests in junk.py Coverage Results" MODIFIED="1573759724310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sandbox/Numpy" />
+  </component>
+  <component name="hg4idea.settings">
+    <option name="CHECK_INCOMING_OUTGOING" value="true" />
+    <option name="RECENT_HG_ROOT_PATH" value="$PROJECT_DIR$/Sandbox" />
+  </component>
+</project>

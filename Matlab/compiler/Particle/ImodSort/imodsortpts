@@ -1,0 +1,9 @@
+#!/bin/sh
+#
+#  imodsort startup script
+
+source ${PARTICLE_DIR}/particle.cfg
+
+unset DISPLAY
+
+imodsort_mce $@

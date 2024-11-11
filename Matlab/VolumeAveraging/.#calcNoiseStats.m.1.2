@@ -1,0 +1,88 @@
+%calcNoiseStats Calculate the average radial spectrum of the specifed regions
+%
+%
+function [snr fSqMagNoise fSqMagSignal] = calcNoiseStats(volume, ...
+  modNoiseRegions, modSignalRegions, szVol, fShells)
+
+if ischar(volume)
+  volume = MRCImage(volume, 0);
+end
+
+% Get the region centers from the model
+ptsNoise = imodPoints2Index(getPoints(modNoiseRegions, 1, 1));
+nNoiseReg = size(ptsNoise, 2);
+fSqMagNoise = zeros(szVol);
+
+% Loop over each region computing the average spectrum
+fprintf('Averaging noise regions...');
+for iRegion = 1:nNoiseReg
+  % Load in the region
+  center = ptsNoise(:, iRegion);
+  region = single(extractSubVolume(volume, center, szVol));
+  regMean(iRegion) = mean(region(:));
+  region = region - mean(region(:));
+  
+  % Compute the fourier transform
+  REG = fftshift(fftn(region));
+  REGSQ = REG .* conj(REG);
+  % Average both the amplitude and the complex 
+  fSqMagNoise = fSqMagNoise + REGSQ;
+end
+fSqMagNoise = fSqMagNoise ./ nNoiseReg;
+fprintf('done\n');
+
+% Get the region centers from the model
+ptsSignal = imodPoints2Index(getPoints(modSignalRegions, 1, 1));
+nSignalReg = size(ptsSignal, 2);
+fSqMagSignal = zeros(szVol);
+
+% Loop over each region computing the average spectrum
+fprintf('Averaging signal regions...');
+for iRegion = 1:nSignalReg
+  % Load in the region
+  center = ptsSignal(:, iRegion);
+  region = single(extractSubVolume(volume, center, szVol));
+  regMean(iRegion) = mean(region(:));
+  region = region - mean(region(:));
+  
+  % Compute the fourier transform
+  REG = fftshift(fftn(region));
+  REGSQ = REG .* conj(REG);
+  % Average both the amplitude and the complex 
+  fSqMagSignal = fSqMagSignal + REGSQ;
+end
+fSqMagSignal = fSqMagSignal ./ nSignalReg;
+fprintf('done\n');
+
+%  FIXME: Need to include handling of the missing wedge.
+
+nX = szVol(1);
+nY = szVol(2);
+nZ = szVol(3);
+fX = ([0:nX-1] - floor(nX / 2)) / nX;
+fY = ([0:nY-1] - floor(nY / 2)) / nY;
+fZ = ([0:nZ-1] - floor(nZ / 2)) / nZ;
+
+[arrFX arrFY arrFZ] = ndgrid(fX', fY, fZ);
+
+fMag = sqrt(arrFX.^2 + arrFY.^2 + arrFZ.^2);
+nShells = length(fShells);
+fscc = zeros(nShells, 1);
+nSamples = zeros(nShells, 1);
+fLow = [0 fShells(1:end-1)];
+for iShell = 1:nShells
+  % Find the samples in the current shell
+  idxShell = (fMag >= fLow(iShell)) & (fMag < fShells(iShell));
+  idxShell = idxShell(:);
+  shellSignal = fSqMagNoise(idxShell);
+  shellNoise = fSqMagSignal(idxShell);
+  
+  % Compute the ratio of the 
+  snr(iShell) = sum(shellSignal) / sum(shellNoise);
+  if snr(iShell) > 1
+    snr(iShell) = ssnr(iShell) - 1;
+  else
+    snr(iShell) = eps;
+  end
+  nSamples(iShell) = sum(idxShell);
+end

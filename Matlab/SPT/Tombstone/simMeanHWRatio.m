@@ -1,0 +1,62 @@
+%simMeanHWRatio Simulate the Chip minimum normalized difference calculation
+%
+%  [meanHWRatio heightToWidthRatio derivExtrema width sepStat] = ...
+%    simMeanHWRatio(profile, FOV, nSmooth, diffStep, cThresh, badList)
+%
+% Status: functional
+
+function [meanHWRatio, heightToWidthRatio, derivExtrema, width, sepStat] = ...
+    simMeanHWRatio(profile, FOV,  nSmooth, diffStep, cThresh, badList)
+
+%%
+%%  Trim the raw profiles to remove leading and trailing zeros
+%%
+trimProf = trimProfile(profile);
+
+%%
+%%  Approximate the derivatives
+%%
+diffProf = diffApprox(trimProf, nSmooth, diffStep);
+
+%%
+%%  Compute the pulse height-to-width ratios
+%%
+milsPerPixel = FOV / 1024;
+
+[heightToWidthRatio derivExtrema width] = ...
+    pulseHeightToWidthRatio(diffProf, cThresh, milsPerPixel);
+
+%%
+%%  Reshape the height-to-width ratio to compute the mean for each pin
+%%
+nProfs = size(heightToWidthRatio, 1);
+if rem(nProfs, 4) ~= 0
+  error('Expecting 4 profiles per pin');
+end
+hwrPerDevice = reshape(heightToWidthRatio', 4, nProfs / 2);
+%%
+%%  Compute the minimum normalized difference from the mean HW
+%%
+meanHWRatio = mean(hwrPerDevice)';
+
+%%
+%%  If the good and bad are known return the separation statistics
+%%
+if nargin > 5
+  sepStat.nPins = length(meanHWRatio);
+  idxGood = [];
+  for iPin = 1:sepStat.nPins
+    if ~any(iPin == badList)
+      idxGood = [idxGood iPin];
+    end
+  end
+
+  sepStat.meanGood = mean(meanHWRatio(idxGood));
+  sepStat.stdGood = std(meanHWRatio(idxGood));
+  sepStat.minGood = min(meanHWRatio(idxGood));
+  sepStat.maxBad = max(meanHWRatio(badList));
+
+  sepStat.margin = sepStat.minGood - sepStat.maxBad;
+  sepStat.normMargin = sepStat.margin / sepStat.stdGood;
+  sepStat.minNormDist = (sepStat.meanGood - sepStat.maxBad) / sepStat.stdGood;
+end

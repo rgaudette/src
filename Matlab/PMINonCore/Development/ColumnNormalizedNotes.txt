@@ -1,0 +1,57 @@
+Since the sensitivity of the DPDW waves decreases rapidly with depth and it
+seems that the surface is much more succeptible to noise it might be useful to
+weight the system in some way to take these affects into account.  I came up
+with the approach while looking at Gorodnitsky's FOCUSS algorithm.
+
+Using the standard min. norm approach FOCUSS generally found sparse solutions
+of a few voxels very near the top of the medium.
+
+This I feel is related to the noise near the surface observed in our
+reconstructions.
+
+Even using an "over-regularized" approach, that is picking the flat part of
+the L-curve to heavily supress the noise did not make much of a difference.
+
+In thinking about this I realized that this might be due to the large norm of
+columns associated with shallow voxels.
+
+Therefore, I first looked at normalizing the columns of the system such that
+they would all have the same norm.  Given we have the system
+
+     Ax = b
+
+I accomplished this by substituting in Wq = x
+
+     AWq = b
+
+where W is the diagonal matrix
+
+     W = diag(||A(:,i)||^-1)
+
+Then finding the min. norm solution for q gives a weighted mon. norm solution
+to the orginal problem
+
+     q' = min ||q||  s.t. AWq' = b
+
+therefore
+
+     x' = min ||W^-1 x||  s.t. Ax = b
+
+or
+     x' = min ||diag(A,i) x||  s.t. Ax = b.
+
+Therefore elements associated with large norm columns of A are forced smaller
+than elements associated with small norm columns A.
+
+
+Observations of CNTSVD
+
+* no noise observations
+  
+* the inverse square root of the norm of the column seems to work better than
+  the inverse norm of the column as a weight matrix.  The 
+
+* which norm/residual to draw the L-curve over
+
+* application of the CNTSVD to FOCUSS
+

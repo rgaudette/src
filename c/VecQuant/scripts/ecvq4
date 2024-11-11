@@ -1,0 +1,3 @@
+#!/bin/csh
+
+ecvq lapliid1.mat lapliid lapliid2.mat lapliid la4b rd4b.txt 4 1024 20000 40 0.05 0.05 >& la4b.log

@@ -1,0 +1,11 @@
+class Derived1
+!!!129666.cpp!!!	Derived1(in  : void)
+
+!!!129794.cpp!!!	~Derived1(in  : void)
+
+!!!129922.cpp!!!	method1(in param : int) : int
+
+	cout << "I'm in Derived1::method1" << endl;
+	cout << "param: " << param << endl;
+	d2.method2(1);
+	return 0;

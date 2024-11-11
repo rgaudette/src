@@ -1,0 +1,53 @@
+%
+%  Standard article template
+%
+\documentclass [11 pt, titlepage]{article}
+
+%
+%  Page layout for the document
+%
+\textwidth 6.5in
+\textheight 8.5in
+\oddsidemargin 0in
+\evensidemargin 0in
+\topmargin 1in
+\headheight 0in
+\headsep 0in
+\topskip 0in
+\parindent 0in
+\parskip 2ex plus0.5ex minus0.2ex
+\renewcommand{\baselinestretch}{2}
+\usepackage {graphics}
+\title {This Is The Title}
+\author {Rick Gaudette}
+
+\begin {document}
+%\newfont{\Times}{ptmr8r at 11pt}
+%\Times
+\maketitle
+
+%
+%  Table of contents and list of figures
+%
+% \pagenumbering{roman}
+% {\renewcommand{\baselinestretch}{1}
+%   \small\normalsize
+%   \tableofcontents}
+% \newpage
+
+% {\renewcommand{\baselinestretch}{1}
+%   \small\normalsize
+%   \listoffigures}
+% \newpage
+
+\pagenumbering{arabic}
+\section{Introduction}
+\label{sec:Introduction}
+\vspace{-4ex}
+
+% \clearpage
+% \renewcommand{\baselinestretch}{1}
+% \small\normalsize
+% \bibliographystyle{unsrt}
+% \bibliography{Bibfile}
+\end {document}

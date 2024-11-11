@@ -1,0 +1,3 @@
+#!/bin/csh
+
+ecvq lapliid1.mat lapliid lapliid2.mat lapliid la8b rd8b.txt 8 512 20000 40 0.05 0.05 >& la8b.log

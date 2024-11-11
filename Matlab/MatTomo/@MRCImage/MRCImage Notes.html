@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice.org 1.1.1  (Linux)">
+	<META NAME="CREATED" CONTENT="20040703;11190200">
+	<META NAME="CHANGED" CONTENT="20040703;12035400">
+	<STYLE>
+	<!--
+		@page { size: 8.5in 11in; margin: 1in }
+		P { margin-bottom: 0.08in }
+		P.western { font-family: "Arial", sans-serif; font-size: 11pt }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="en-US" DIR="LTR">
+<P CLASS="western" STYLE="margin-bottom: 0in">MRCImage Notes</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">Structural question:
+should the object be split into a loading and non-loading version
+since the implementation for each one is very different for some
+functions, making maintaining them a PITA</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">Idea: use a base class
+that implements the methods that are not dependent on and two derived
+classes, one for loaded volumes and one for unloaded volumes.</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">Parent class</P>
+<UL>
+	<LI><P CLASS="western" STYLE="margin-bottom: 0in">anything in the
+	header</P>
+	<LI><P CLASS="western" STYLE="margin-bottom: 0in">anything that just
+	modifies the header (maybe what about consistency of the header on
+	disk)</P>
+</UL>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">Child classes</P>
+<UL>
+	<LI><P CLASS="western" STYLE="margin-bottom: 0in">anything the
+	modifies the volume</P>
+	<LI><P CLASS="western" STYLE="margin-bottom: 0in">loading and saving</P>
+	<LI><P CLASS="western" STYLE="margin-bottom: 0in"></P>
+</UL>
+</BODY>
+</HTML>

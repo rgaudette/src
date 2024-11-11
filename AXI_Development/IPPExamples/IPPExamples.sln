@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IPPExamples", "IPPExamples\IPPExamples.vcproj", "{61A346D0-85F0-46A2-8401-0AEB580FEC5E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{61A346D0-85F0-46A2-8401-0AEB580FEC5E}.Debug.ActiveCfg = Debug|Win32
+		{61A346D0-85F0-46A2-8401-0AEB580FEC5E}.Debug.Build.0 = Debug|Win32
+		{61A346D0-85F0-46A2-8401-0AEB580FEC5E}.Release.ActiveCfg = Release|Win32
+		{61A346D0-85F0-46A2-8401-0AEB580FEC5E}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

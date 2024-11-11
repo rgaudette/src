@@ -1,0 +1,50 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{Rick Gaudette}
+\begin{document}
+    # Allocate the forward operator matrix
+    n_total_pixels = sum(detector_pixel_count)
+    n_voxels = length(absorption_map.map)
+    A = fill(T(-1), n_total_pixels, n_voxels)
+    A_n_rows, A_n_cols = size(A)
+    A_MB = length(A) * sizeof(T) / (1024 * 1024)
+    @info @sprintf("Forward operator %d x %d, memory size: %0.2f MB\n", A_n_rows, A_n_cols, A_MB)
+
+    # Use a single Rectangle structure to hold the voxel of interest so that many Rectangles are not created and
+    # destroyed in the inner loop
+    voxel_rect = MRectangle(T(0), T(0), reconstruction_region_voxel_size.x, reconstruction_region_voxel_size.y)
+    idx_src_det_pair = 1
+    for (idx_source, source_pos) in enumerate(x_ray_source_pos)
+        @debug("Source: %d\n", idx_source)
+        #TODO: get the current time for profiling
+        detector_plane_offset = detector_start_pos[idx_source].y - source_pos.y
+
+        old_x_sample_loc, old_origin_x = shift_x!(absorption_map, source_pos.x)
+        for idx_detector = 1:detector_pixel_count[idx_source]
+            left_det_edge_position =
+                detector_start_pos[idx_source].x - source_pos.x + idx_detector * detector_pixel_size
+            right_det_edge_position = left_det_edge_position + detector_pixel_size
+
+            for idx_voxel = 1:n_voxels
+                idx_map_row, idx_map_column = unravel_index(idx_voxel, absorption_map_size)
+                voxel_rect.origin.x = absorption_map.x_sample_loc[idx_map_column]
+                voxel_rect.origin.y = absorption_map.y_sample_loc[idx_map_row]
+                A[idx_src_det_pair, idx_voxel] = compute_area_weight(
+                    voxel_rect,
+                    detector_plane_offset,
+                    left_det_edge_position,
+                    right_det_edge_position,
+                    sub_voxel_calc,
+                )
+            end  # loop over voxels
+            idx_src_det_pair += 1
+
+        end  # loop over detector pixels
+
+        # Reset the absorption map x data to the orginal location
+        set_x!(absorption_map, old_x_sample_loc, old_origin_x)
+
+    end  # loop over x_ray_source_pos
+    
+\end{document}
